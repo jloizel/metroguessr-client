@@ -1,11 +1,13 @@
-"use client"
+    "use client"
 
 import React, { useEffect, useState, useRef } from "react";
 import styles from "./page.module.css";
 import { Result } from "../result/result";
 import { Autocomplete, Box, TextField, createTheme, keyframes, makeStyles, useMediaQuery } from "@mui/material";
+import { AutocompleteChangeReason } from '@mui/material';
 import Skip from "../skip/skip";
-import LyonStyles from "./css/London.module.css"
+import { useForm } from "react-hook-form"
+import LyonStyles from "./css/Lyon.module.css"
 import LondonStyles from "./css/London.module.css"
 import ParisStyles from "./css/Paris.module.css"
 import NewYorkCityStyles from "./css/NYC.module.css"
@@ -33,9 +35,11 @@ interface TimerProps {
   handleGuessSubmit: (guess: string, isCorrect: boolean) => void; // Updated signature
   handleTimeEnded: () => void
   timeEnded: boolean
+  // skipPressed: boolean
+  lineIDs: any[]
 }
 
-export const Timer: React.FC<TimerProps> = ({guessedStation, onChange, onClick, count, resetGame, stations, skipClickCount, numberCorrectGuesses, selectedCity, randomStation, randomStationCleaned, onKeyPress, onSkip, incorrectGuesses, gameStarted, handleModalClose, handleGuessSubmit, handleTimeEnded, timeEnded}) => {
+export const Timer: React.FC<TimerProps> = ({guessedStation, onChange, onClick, count, resetGame, stations, skipClickCount, numberCorrectGuesses, selectedCity, randomStation, randomStationCleaned, onKeyPress, onSkip, incorrectGuesses, gameStarted, handleModalClose, handleGuessSubmit, handleTimeEnded, timeEnded, lineIDs}) => {
   
   const [running, setRunning] = useState(false);
   const [inputVisible, setInputVisible] = useState(false);
@@ -53,13 +57,13 @@ export const Timer: React.FC<TimerProps> = ({guessedStation, onChange, onClick, 
   const [showError, setShowError] = useState(false)
   const [resetHover, setResetHover] = useState(false);
   const [showTryAgainButton, setShowTryAgainButton] = useState(false);
-  const [correctGuess, setCorrectGuess] = useState(false)
-  const [skipped, setSkipped] = useState(false)
-  const [labelVisibility, setLabelVisibility] = useState<{ [key: string]: boolean }>({});
-  const [guessedStations, setGuessedStations] = useState<string[]>([]);
+  const [skipPressed, setSkipPressed] = useState(false);
+  const [skippedStation, setSkippedStation] = useState<string | null>(null);
   const [skippedStations, setSkippedStations] = useState<string[]>([]);
+  const [correctStation, setCorrectStation] = useState<string | null>(null);
   const [correctStations, setCorrectStations] = useState<string[]>([]);
-  
+  const [correctGuess, setCorrectGuess] = useState(false)
+
   const formRef = useRef<HTMLFormElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const fieldRef = useRef<HTMLInputElement>(null);
@@ -72,8 +76,18 @@ export const Timer: React.FC<TimerProps> = ({guessedStation, onChange, onClick, 
   100% { transform: translateX(0) }
 `;
  
-const initialTime = 20 * 1000; // Initial time set in seconds
+const initialTime = 60 * 1000; // Initial time set in seconds
 const [time, setTime] = useState(initialTime);
+
+// function addHiddenClassToLabels() {
+//   const labelElements = document.querySelectorAll(`[id^="label_"]`);
+//     labelElements.forEach((element) => {
+//       element.classList.add(styles.labelHidden); // Add the "Hidden" class from your CSS module
+//     });
+// }
+
+
+
 
 useEffect(() => {
   let interval: NodeJS.Timeout | undefined;
@@ -88,7 +102,11 @@ useEffect(() => {
       const now = Date.now();
       setElapsedTime(now - (startTime || 0));
     }, 10); // Update elapsed time every 10 milliseconds
+    // addHiddenLabelClass()
   } else {
+    // removeSkippedLabelClass()
+    // removeCorrectLabelClass()
+    // addHiddenLabelClass()
     clearInterval(interval);
     setStartTime(null); // Reset start time when game stops
     setElapsedTime(0); // Reset elapsed time
@@ -103,130 +121,217 @@ useEffect(() => {
 
 const remainingTime = Math.max(initialTime - elapsedTime, 0);
 
+let stylesName:any = null; // Initialize with empty string
+if (selectedCity === "Lyon") {
+  stylesName = LyonStyles; // Provide appropriate class name for Lyon
+} else if (selectedCity === "London") {
+  stylesName = LondonStyles; // Provide appropriate class name for London
+} else if (selectedCity === "Paris") {
+  stylesName = ParisStyles; // Provide appropriate class name for London
+} else if (selectedCity === "NewYorkCity") {
+  stylesName = NewYorkCityStyles; // Provide appropriate class name for London
+} else if (selectedCity === "Madrid") {
+  stylesName = MadridStyles; // Provide appropriate class name for London
+}
 
+if (typeof window !== "undefined") { 
+  const markerId = `marker_${randomStation}`
+  const markerElement = document.getElementById(markerId)
+  const stationName = markerElement?.dataset.stationName
+  const labelId = `label_${randomStation}`;
+  const labelElement = document.getElementById(labelId);
+}
+
+
+
+
+function showGuessMarker() {
+  if (typeof document !== "undefined") {
+    const markerId = `marker_${randomStation}`
+    const markerElement = document.getElementById(markerId)
+
+    if (markerElement && stylesName) {
+      const markerLineId = markerElement.dataset.lineProperty
+      const markerStationName = markerElement.dataset.stationName
+      markerElement.className = stylesName[markerLineId + "guess"]
+    }
+  }
+}
+
+// function showCorrectMarker() {
+//   if (typeof document !== "undefined") {
+//     const markerId = `marker_${randomStation}`
+//     const markerElement = document.getElementById(markerId)
+
+//     if (markerElement && stylesName) {
+//       const markerLineId = markerElement.dataset.lineProperty
+//       const markerStationName = markerElement.dataset.stationName
+//       markerElement.classList.remove(stylesName[markerLineId + "guess"]);
+//       markerElement.className = stylesName[markerLineId + "correct"]
+//     }
+//   }
+// }
+
+function showCorrectMarker(station: string): void {
+  if (typeof document !== "undefined") {
+    const markerId = `marker_${station}`;
+    const markerElement = document.getElementById(markerId);
+  if (markerElement && stylesName) {
+    const markerLineId = markerElement.dataset.lineProperty
+    markerElement.classList.add(stylesName[markerLineId + "correct"])
+  }
+}}
+
+
+// function showSkipMarker() {
+//   if (typeof document !== "undefined") {
+//     const markerId = `marker_${randomStation}`
+//     const markerElement = document.getElementById(markerId)
+
+//     if (markerElement && stylesName) {
+//       const markerLineId = markerElement.dataset.lineProperty
+//       const markerStationName = markerElement.dataset.stationName
+//       markerElement.classList.remove(stylesName[markerLineId + "guess"]);
+//       markerElement.className = stylesName[markerLineId + "skip"]
+//     }
+//   }
+// }
+
+function showSkipMarker(station: string): void {
+  if (typeof document !== "undefined") {
+    const markerId = `marker_${station}`;
+    const markerElement = document.getElementById(markerId);
+    if (markerElement && stylesName) {
+      const classList = markerElement.classList;
+    if (classList.length > 0) {
+        const firstClass = classList.item(0);
+        if (firstClass) {
+            classList.remove(firstClass);
+        }
+    }
+    const markerLineId = markerElement.dataset.lineProperty
+    markerElement.classList.remove(stylesName[markerLineId + "guess"]);
+    markerElement.classList.add(stylesName[markerLineId + "skip"])
+    }
+}}
 
 useEffect(() => {
-  const labelID = `label_${randomStation}`;
-  const labelElement = document.getElementById(labelID);
-  const markerId = `marker_${randomStation}`;
-  const markerElement = document.getElementById(markerId);
-   
-
-  // Initialize all stations initially hidden
-  stations.forEach((station) => {
-    if (labelElement) {
-      labelElement.classList.add(styles.labelHidden)
-      labelElement.className = styles.labelHidden
-    } else if (markerElement) {
-      // markerElement.classList.add(styles.markerHidden)
-      // markerElement.className = styles.markerHidden
-    }
-  });
-}, [stations]);
-
-let stylesName = null; // Initialize with empty string
-  if (selectedCity === "Lyon") {
-    stylesName = LyonStyles; // Provide appropriate class name for Lyon
-  } else if (selectedCity === "London") {
-    stylesName = LondonStyles; // Provide appropriate class name for London
-  } else if (selectedCity === "Paris") {
-    stylesName = ParisStyles; // Provide appropriate class name for London
-  } else if (selectedCity === "NewYorkCity") {
-    stylesName = NewYorkCityStyles; // Provide appropriate class name for London
-  } else if (selectedCity === "Madrid") {
-    stylesName = MadridStyles; // Provide appropriate class name for London
+  if (randomStation && gameStarted) {
+    showGuessMarker()
   }
-
-
+})
 
 // useEffect(() => {
-//   // Update label visibility based on skipped stations
-//   stations.forEach((station) => {
-//     const markerId = `marker_${station}`;
-//     const markerElement = document.getElementById(markerId);
+//   if (randomStation === stationName) {
+//     showGuessMarker()
+//   } else if (guessedStation === randomStation && correctGuess) {
+//     showCorrectMarker()
+//   } else if (correctStations.includes(randomStation)) {
+//     showCorrectMarker()
+//   } else if (incorrectGuesses.includes(randomStation)) {
+//     showSkipMarker()
+//   }
+// }, [randomStation, guessedStation, correctGuess, incorrectGuesses])
 
-//     if (stylesName) {
-//       if (markerElement) {
-//         // markerElement.className = styles.markerHidden
-//         const markerLineProperty = markerElement.dataset.lineProperty
-      
-//       if (gameStarted) {
-//           markerElement.className = stylesName[markerLineProperty + "guess"];
-//         }
-//         // Check if this station is in the skipped list
-//         const isSkipped = skippedStations.includes(station);
-//         const isGuessed = correctStations.includes(station)
-        
-//         if (isSkipped) {
-//           markerElement.className = stylesName[markerLineProperty + "skip"];
-//         } else if (isGuessed) {
-//           markerElement.className = stylesName[markerLineProperty + "correct"];
-//         }
-//       }
-//     }
-//   });
-// }, [skippedStations, correctStations, stations]);
-
-useEffect(() => {
-  // Update label visibility based on skipped stations
-  stations.forEach((station) => {
-    const labelID = `label_${station}`;
-    const labelElement = document.getElementById(labelID);
-    
+function addHiddenLabelClass() {
+  if (typeof document !== "undefined") {
+    const labelId = `label_${randomStation}`;
+    const labelElement = document.getElementById(labelId);
     if (labelElement) {
-      // Check if this station is in the skipped list
-      const isSkipped = skippedStations.includes(station);
-      const isGuessed = correctStations.includes(station)
       labelElement.classList.add(styles.labelHidden)
-      
-      if (isSkipped) {
-        labelElement.classList.add(styles.labelRevealed);
-      } else if (isGuessed) {
-        labelElement.classList.add(styles.labelGuessed);
-      }
     }
-  });
-}, [skippedStations, correctStations, stations]);
+  }
+}
 
+function removeHiddenLabelClass() {
+  if (typeof document !== "undefined") {
+    const labelId = `label_${randomStation}`;
+    const labelElement = document.getElementById(labelId);
+  if (labelElement) {
+    labelElement.classList.remove(styles.labelHidden)
+  }
+}
+}
 
+function addRevealedLabelClass() {
+  if (typeof document !== "undefined") {
+    const labelId = `label_${randomStation}`;
+    const labelElement = document.getElementById(labelId);
+  if (labelElement) {
+    const classList = labelElement.classList;
+    if (classList.length > 0) {
+        const firstClass = classList.item(0);
+        if (firstClass) {
+            classList.remove(firstClass);
+        }
+    }
+    labelElement.classList.remove(styles.labelHidden);
+    labelElement.classList.add(styles.labelSkipped)
+  }
+}}
 
-  function addLabelClass() {
-    const labelID = `label_${randomStation}`;
-    const labelElement = document.getElementById(labelID);
-
+function addSkippedLabelClass(station: string): void {
+  if (typeof document !== "undefined") {
+    const labelId = `label_${station}`;
+    const labelElement = document.getElementById(labelId);
     if (labelElement) {
       const classList = labelElement.classList;
-        if (classList.length > 0) {
-            const firstClass = classList.item(0);
-            if (firstClass) {
-                classList.remove(firstClass);
-            }
+    if (classList.length > 0) {
+        const firstClass = classList.item(0);
+        if (firstClass) {
+            classList.remove(firstClass);
         }
-      labelElement.classList.add(styles.labelRevealed)
     }
-  }
-
-  function removeLabelClass() {
-    const labelID = `label_${randomStation}`;
-    const labelElement = document.getElementById(labelID);
-
-    if (labelElement) {
-      labelElement.classList.remove(styles.labelRevealed)
+    labelElement.classList.remove(styles.labelHidden);
+    labelElement.classList.add(styles.labelSkipped)
     }
+}}
+
+function removeSkippedLabelClass() {
+  if (typeof document !== "undefined") {
+    const labelId = `label_${randomStation}`;
+    const labelElement = document.getElementById(labelId);
+  if (labelElement) {
+    const classList = labelElement.classList;
+    if (classList.length > 0) {
+        const firstClass = classList.item(0);
+        if (firstClass) {
+            classList.remove(firstClass);
+        }
+    }
+    labelElement.classList.remove(styles.labelHidden);
+    labelElement.classList.add(styles.labelSkipped)
   }
+}}
 
-  
+function addGuessedLabelClass(station: string): void {
+  if (typeof document !== "undefined") {
+    const labelId = `label_${station}`;
+    const labelElement = document.getElementById(labelId);
+  if (labelElement) {
+    labelElement.classList.remove(styles.labelHidden);
+    labelElement.classList.add(styles.labelGuessed)
+    labelElement.className = styles.labelGuessed
+  }
+}}
 
+function removeCorrectLabelClass() {
+  if (typeof document !== "undefined") {
+    const labelId = `label_${randomStation}`;
+    const labelElement = document.getElementById(labelId);
+  if (labelElement) {
+    labelElement.classList.add(styles.labelSkipped)
+  }
+}}
 
-
-  
-  
 useEffect(() => {
   if (remainingTime === 0) {
-    addLabelClass()
+    addRevealedLabelClass()
     setShowResults(true);
     handleTimeEnded();
     setShowTryAgainButton(true);
+  } else if (remainingTime === 0 && !guessMade) {
+    addRevealedLabelClass()
   }
 }, [remainingTime]);
 
@@ -246,9 +351,12 @@ useEffect(() => {
     focusInputField();
   };
 
+
   const handlePlayAgain = () => {
     setPlayAgain(false);
     reset()
+    setCorrectStations([])
+    setSkippedStations([])
   };
 
   const reset = () => {
@@ -256,7 +364,19 @@ useEffect(() => {
     setTime(initialTime);
     setInputVisible(false);
     setShowResults(false)
-    removeLabelClass()
+    // removeSkippedLabelClass()
+    // Hide all labels
+    const allLabels = document.querySelectorAll("[id^='label_']");
+    allLabels.forEach(label => {
+      label.classList.add(styles.labelHidden);
+    });
+
+    // Hide all markers immediately
+    const allMarkers = document.querySelectorAll("[id^='marker_']");
+    allMarkers.forEach(marker => {
+      marker.className = styles.markerHidden;
+    });
+
   };
 
   useEffect(() => {
@@ -296,16 +416,25 @@ useEffect(() => {
     // const isBackspace = event.nativeEvent instanceof KeyboardEvent && (event.nativeEvent as KeyboardEvent).key === 'Backspace' && inputValue.length === 0;
     if (inputValue !== "") {
       if (inputValue === randomStationCleaned.trim().toLowerCase()) {
-        setCorrectStations((prevStations) => [...prevStations, randomStation]);
+        // showCorrectMarker()
         setCorrectGuess(true)
         setTimeout(() => {
           setCorrectGuess(false);
         }, 500);
         setGuessMade(true)
+        setTimeout(() => {
+          setGuessMade(false);
+        }, 500);
+        setCorrectStation(randomStation);
+        const newCorrectStations = [...correctStations, randomStation];
+        setCorrectStations(newCorrectStations);
+        // Notify the parent component (Game) that the guess is correct
         onKeyPress();
         handleGuessSubmit(inputValue, true);
         setResetInputField((prev) => !prev);
-
+        // inputRef.current?.focus()
+        // formRef.current?.focus()
+        // resetFocus()
       } else {
         // Notify the parent component (Game) that the guess is incorrect
         // handleGuessSubmit(inputValue, false);
@@ -334,6 +463,7 @@ useEffect(() => {
     setPrevInputValue(inputValue);
     setBackspacePressed(false)
   };
+
 
   const handleSkipFont = () => {
     if (isMobile) {
@@ -416,19 +546,31 @@ useEffect(() => {
   };
 
   const handleSkip = () => {
-    setSkippedStations((prevStations) => [...prevStations, randomStation]);
-    setSkipped(true)
-    const timeout = setTimeout(() => {
-      setSkipped(false);
-    }, 500);
+    setSkippedStation(randomStation);
+    const newSkippedStations = [...skippedStations, randomStation];
+    setSkippedStations(newSkippedStations);
     setGuessMade(true)
+    setTimeout(() => {
+      setGuessMade(false);
+    }, 500);
+    setSkipPressed(true)
     onSkip();
     setResetInputField((prev) => !prev)
     setBackspacePressed(false)
     handleSkipFont()
   };
 
-
+  useEffect(() => {
+    skippedStations.forEach((station) => {
+      addSkippedLabelClass(station);
+      showSkipMarker(station)
+    })
+    correctStations.forEach((station) => {
+      addGuessedLabelClass(station);
+      showCorrectMarker(station)
+    })
+  }, [skippedStations, correctStations]);
+  
   const theme = createTheme({
     breakpoints: {
       values: {
@@ -535,132 +677,130 @@ useEffect(() => {
   };
 
   let username = '';
-if (typeof window !== "undefined") {
-  const storedUsername = localStorage.getItem('username');
-  if (storedUsername !== null) {
-    username = storedUsername; // Assign the stored username if it's not null
+  if (typeof window !== "undefined") {
+    const storedUsername = localStorage.getItem('username');
+    if (storedUsername !== null) {
+      username = storedUsername; // Assign the stored username if it's not null
+    }
   }
-}
-
-  // const username = localStorage.getItem('username')
 
   return (
     <Box 
-      className={styles.mainContainer}
-      sx={{marginTop: getFormTopMargin() }}
-    >
-      {showResults ? (
-        <>
-          {showTryAgainButton ? (
-            <button 
-              onClick={handlePlayAgain} 
-              className={styles.startButton}
-              style={{fontSize: getButtonFont(), width: getButtonWidth(), height: getButtonHeight(), marginTop: getTopMargin()}}
-            >
-              TRY AGAIN
-            </button>
-          ) : null}
-          {showResults && (
-            <div>
-              <Result
-                time={remainingTime}
-                count={count}
-                reset={reset}
-                skipClickCount={skipClickCount}
-                numberCorrectGuesses={numberCorrectGuesses}
-                selectedCity={selectedCity}
-                incorrectGuesses={incorrectGuesses}
-                check={check}
-                handleTimeEnded={handleTimeEnded}
-                timeEnded={timeEnded}
-                username={username}
-              />
-            </div>
-          )}
-        </>
-      ) : (
-        <>
-          {!gameStarted && !playAgain && (
-            <button 
-              onClick={handleStartClick} 
-              id="startButton" 
-              className={styles.startButton}
-              style={{fontSize: getButtonFont(), width: getButtonWidth(), height: getButtonHeight(), marginTop: getTopMargin()}}
-            >
-              START
-            </button>
-          )}
-          {gameStarted && !playAgain && (
-            <Box className={styles.container}>
-              <form ref={formRef} className={styles.formContainer}>
-                <Box sx={{ animation: shakeAnimation ? `${shaker} 0.2s` : "none", "& .MuiInputBase-root": { height: getButtonHeight() } }}>
-                  <Autocomplete
-                    sx={{ width: getFormWidth(), backgroundColor: 'rgba(255, 255, 255, 1)', borderRadius: "5px" }} 
-                    size={isMobile ? 'small' : 'medium'}
-                    options={stations}
-                    value={guessedStation}
-                    onChange={handleSubmit}
-                    key={resetInputField.toString()}
-                    autoHighlight={true}
-                    onKeyDown={(event) => {
-                      if (event.key === 'Enter') {
-                        if (!(guessedStation.trim().length > 0)) {
-                          event.preventDefault(); // Prevent the default behavior (form submission)
-                          handleSubmit(event, guessedStation); // Handle submission
-                        }
-                      }
-                    }}
-                    freeSolo
-                    openOnFocus={false}
-                    filterOptions={filterOptions}
-                    renderOption={(props, option, { selected }) => {
-                      return (
-                        <li
-                          {...props}
-                          key={option}
-                          style={{
-                            backgroundColor: selected ? '#E4E5E7' : '',
-                            cursor: 'pointer',
-                          }}
-                        >
-                          {option}
-                        </li>
-                      );
-                    }}
-                    renderInput={(params) => (
-                      <TextField
-                        {...params}
-                        variant="outlined"
-                        autoComplete="new-off"
-                        inputRef={inputRef} // Assign inputRef to the Autocomplete input field
-                        // onKeyDown={handleKeyDown}
-                      />
-                    )}
-                  />
-                </Box>
-                <button type="submit" hidden></button>
-              </form>
-              <div 
-                className={styles.skipContainer}
-                style={{marginLeft: getSkipLeftMargin(), marginBottom: getSkipBotMargin()}}
-              >
-                <Skip onClick={handleSkip} handleSkipFont={handleSkipFont} resetHover={resetHover}/>
-              </div>
-            </Box>
-          )}
-          {gameStarted && !playAgain && (
-            <div 
-              className={styles.timer}
-              style={{marginTop: getTimerTopMargin()}}
-            >
-              <span>{("0" + minutes).slice(-2)}:</span>
-              <span>{("0" + seconds).slice(-2)}:</span>
-              <span>{("0" + milliseconds).slice(-2)}</span>
-            </div>
-          )}
-        </>
+  className={styles.mainContainer}
+  sx={{marginTop: getFormTopMargin() }}
+>
+  {showResults ? (
+    <>
+      {showTryAgainButton ? (
+        <button 
+          onClick={handlePlayAgain} 
+          className={styles.startButton}
+          style={{fontSize: getButtonFont(), width: getButtonWidth(), height: getButtonHeight(), marginTop: getTopMargin()}}
+        >
+          TRY AGAIN
+        </button>
+      ) : null}
+      {showResults && (
+        <div>
+          <Result
+            time={remainingTime}
+            count={count}
+            reset={reset}
+            skipClickCount={skipClickCount}
+            numberCorrectGuesses={numberCorrectGuesses}
+            selectedCity={selectedCity}
+            incorrectGuesses={incorrectGuesses}
+            check={check}
+            handleTimeEnded={handleTimeEnded}
+            timeEnded={timeEnded}
+            username={username}
+          />
+        </div>
       )}
-    </Box>
+    </>
+  ) : (
+    <>
+      {!gameStarted && !playAgain && (
+        <button 
+          onClick={handleStartClick} 
+          id="startButton" 
+          className={styles.startButton}
+          style={{fontSize: getButtonFont(), width: getButtonWidth(), height: getButtonHeight(), marginTop: getTopMargin()}}
+        >
+          START
+        </button>
+      )}
+      {gameStarted && !playAgain && (
+        <Box className={styles.container}>
+          <form ref={formRef} className={styles.formContainer}>
+            <Box sx={{ animation: shakeAnimation ? `${shaker} 0.2s` : "none", "& .MuiInputBase-root": { height: getButtonHeight() } }}>
+              <Autocomplete
+                sx={{ width: getFormWidth(), backgroundColor: 'rgba(255, 255, 255, 1)', borderRadius: "5px" }} 
+                size={isMobile ? 'small' : 'medium'}
+                options={stations}
+                value={guessedStation}
+                onChange={handleSubmit}
+                key={resetInputField.toString()}
+                autoHighlight={true}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter') {
+                    if (!(guessedStation.trim().length > 0)) {
+                      event.preventDefault(); // Prevent the default behavior (form submission)
+                      handleSubmit(event, guessedStation); // Handle submission
+                    }
+                  }
+                }}
+                freeSolo
+                openOnFocus={false}
+                filterOptions={filterOptions}
+                renderOption={(props, option, { selected }) => {
+                  return (
+                    <li
+                      {...props}
+                      key={option}
+                      style={{
+                        backgroundColor: selected ? '#E4E5E7' : '',
+                        cursor: 'pointer',
+                      }}
+                    >
+                      {option}
+                    </li>
+                  );
+                }}
+                renderInput={(params) => (
+                  <TextField
+                    {...params}
+                    variant="outlined"
+                    autoComplete="new-off"
+                    inputRef={inputRef} // Assign inputRef to the Autocomplete input field
+                    // onKeyDown={handleKeyDown}
+                  />
+                )}
+              />
+            </Box>
+            <button type="submit" hidden></button>
+          </form>
+          <div 
+            className={styles.skipContainer}
+            style={{marginLeft: getSkipLeftMargin(), marginBottom: getSkipBotMargin()}}
+          >
+            <Skip onClick={handleSkip} handleSkipFont={handleSkipFont} resetHover={resetHover}/>
+          </div>
+        </Box>
+      )}
+      {gameStarted && !playAgain && (
+        <div 
+          className={styles.timer}
+          style={{marginTop: getTimerTopMargin()}}
+        >
+          <span>{("0" + minutes).slice(-2)}:</span>
+          <span>{("0" + seconds).slice(-2)}:</span>
+          <span>{("0" + milliseconds).slice(-2)}</span>
+        </div>
+      )}
+    </>
+  )}
+</Box>
   );
 }
   

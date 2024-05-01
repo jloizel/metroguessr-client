@@ -4,7 +4,7 @@ import { Box, Button, Modal, createTheme, useMediaQuery, } from "@mui/material";
 import styles from "./page.module.css"
 import { useEffect, useState } from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
-import Game from "../../components/game/game2";
+import Game from "../../components/game/game";
 import ReactGA from 'react-ga4';
 import Username from "../../components/username/username";
 import axios from "axios";

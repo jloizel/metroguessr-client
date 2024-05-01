@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import styles from "./page.module.css";
-import Map from "../map/map2";
+import Map from "../map/map";
 import { Timer } from "../timer/timer";
 import Counter from "../counter/counter";
 import Skip from "../skip/skip";
@@ -37,47 +37,125 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
   const [lastRandomStation, setLastRandomStation] = useState<string>("");
   const [revealStation, setRevealStation] = useState(false)
   const [skipPressed, setSkipPressed] = useState(false);
+  const [lineIDs, setLineIDs] = useState<any[]>([])
+  const [resetMap, setResetMap] = useState(false)
 
 
+  const zoneProbabilities = {
+    "Zone 1": 0.6,
+    "Zone 2": 0.25,
+    "Zone 3": 0.1,
+    "Zone 4": 0.05
+  };
 
-  // useEffect(() => {
-  //   ReactGA.send("pageview");
-  // }, []);
+  interface ZoneJsonFiles {
+    [key: string]: string;
+  }
+  
+  const LondonZoneJsonFiles: ZoneJsonFiles = {
+    "Zone 1": `./zones/LondonStationsZone1.json`,
+    "Zone 2": `./zones/LondonStationsZone2.json`,
+    "Zone 3": `./zones/LondonStationsZone3.json`,
+    "Zone 4": `./zones/LondonStationsZone4.json`
+  };
+
+  const MadridZoneJsonFiles: ZoneJsonFiles = {
+    "Zone 1": `./zones/MadridStationsZoneA.json`,
+    "Zone 2": `./zones/MadridStationsZoneB1.json`,
+    "Zone 3": `./zones/MadridStationsZoneB2.json`,
+    "Zone 4": `./zones/MadridStationsZoneB3.json`
+  };
  
   useEffect(() => {
-    if (selectedCity === 'Lyon') {
-      import('../../data/Lyon/LyonStations.json').then((data) => {
-        const stationNames = data.features.map((feature: any) => feature.properties.name);
-        setStations(stationNames);
-      });
-    } else if (selectedCity === 'London') {
-      import('../../data/London/LondonStations.json').then((data) => {
-        const stationNames = data.features.map((feature: any) => feature.properties.name);
-        setStations(stationNames);
-      });
-    } else if (selectedCity === 'Paris') {
-      import('../../data/Paris/ParisStations.json').then((data) => {
-        const stationNames = data.features.map((feature: any) => feature.properties.name);
-        setStations(stationNames);
-      });
-    } else if (selectedCity === 'NewYorkCity') {
-      import('../../data/NewYorkCity/NewYorkCityStations.json').then((data) => {
-        const stationNames = data.features.map((feature: any) => feature.properties.name);
-        setStations(stationNames);
-      });
-    }
+    const fetchStations = async () => {
+      if (selectedCity) {
+        try {
+          // Dynamically import station data based on the selected city
+          const cityStations = await import(
+            `../../data/${selectedCity}/${selectedCity}Stations.json`
+          );
+          const stationNames = cityStations.features.map(
+            (feature: any) => feature.properties.name
+          );
+          setStations(stationNames);
+        } catch (error) {
+          console.error("Error fetching station data:", error);
+        }
+      }
+    };
+
+    // Fetch stations when selectedCity changes
+    fetchStations();
   }, [selectedCity]);
   
   const startNewRound = () => {
-    // Filter out stations that have already been guessed correctly
-    // setSkipPressed(false)
-    const availableStations = stations.filter((station) => !correctlyGuessedStations.includes(station) && !incorrectlyGuessedStations.includes(station));
-     // Select a random station from the available stations
-     const randomIndex = Math.floor(Math.random() * availableStations.length);
-     const selectedStation = availableStations[randomIndex];
-     setRandomStation(selectedStation);
-    //  setSkipPressed(false)
+    if (selectedCity === 'London' || selectedCity === 'Madrid') { 
+      let zoneJsonFiles: ZoneJsonFiles;
+
+      if (selectedCity === 'London') {
+        zoneJsonFiles = LondonZoneJsonFiles;
+      } else if (selectedCity === 'Madrid') {
+        zoneJsonFiles = MadridZoneJsonFiles;
+      } else {
+        // Handle other cities if needed
+        return;
+      }
+
+      const cumulativeProbabilities: number[] = [];
+      let totalProbability = 0;
+    
+      // Calculate cumulative probabilities for zones
+      Object.values(zoneProbabilities).forEach((probability) => {
+        totalProbability += probability;
+        cumulativeProbabilities.push(totalProbability);
+      });
+    
+      const rand = Math.random();
+      let selectedZone: string | undefined;
+    
+      // Determine selected zone based on random value
+      Object.entries(zoneProbabilities).some(([zone, probability], index) => {
+        if (rand < cumulativeProbabilities[index]) {
+          selectedZone = zone;
+          return true;
+        }
+        return false;
+      });
+    
+      if (selectedZone && zoneJsonFiles[selectedZone]) {
+        const jsonFilePath = zoneJsonFiles[selectedZone];
+        // Dynamically require the JSON file
+        const jsonFile = require(`${jsonFilePath}`);
+        const stationNames = jsonFile.features.map((feature: any) => feature.properties.name);
+    
+        // Filter out stations that have been guessed before
+        const availableStations = stationNames.filter(
+          (station:any) => !correctlyGuessedStations.includes(station) && !incorrectlyGuessedStations.includes(station)
+        );
+    
+        if (availableStations.length > 0) {
+          // Choose a random station from available stations
+          const randomIndex = Math.floor(Math.random() * availableStations.length);
+          const selectedStation = availableStations[randomIndex];
+    
+          // Set the random station
+          setRandomStation(selectedStation);
+        }
+      }
+    } else {
+      import(`../../data/${selectedCity}/${selectedCity}Stations.json`).then((data) => {
+        const stationNames = data.features.map((feature: any) => feature.properties.name);
+        setStations(stationNames);
+      });
+
+      const availableStations = stations.filter((station) => !correctlyGuessedStations.includes(station) && !incorrectlyGuessedStations.includes(station));
+      // Select a random station from the available stations
+      const randomIndex = Math.floor(Math.random() * availableStations.length);
+      const selectedStation = availableStations[randomIndex];
+      setRandomStation(selectedStation);
+    }
   };
+  
 
   const handleStartClick = () => {
     startNewRound();
@@ -175,6 +253,7 @@ useEffect(() => {
 // }, [randomStation, correctGuess]);
 
 
+
   const resetGame = () => {
     setGuessedStation("");
     setRandomStation("");
@@ -186,6 +265,7 @@ useEffect(() => {
     setShowSkip(true)
     setTimeEnded(false)
     setRandomStation(lastRandomStation !== "" ? lastRandomStation : "");
+    setResetMap(true)
   };
 
   const handleModalClose = () => {
@@ -195,8 +275,12 @@ useEffect(() => {
 
   const handleTimeEnded = () => {
     setTimeEnded(true)
-    setGameStarted(false)
+    // setGameStarted(false)
     setRevealStation(true)
+  }
+
+  const handleLineIDs = (lineIDs:any[]) => {
+    setLineIDs(lineIDs)
   }
 
   const theme = createTheme({
@@ -253,7 +337,7 @@ useEffect(() => {
         return '12px';
     }
   };
-
+  
   return (
     <div>
       <div className={styles.mapContainer}>
@@ -264,13 +348,10 @@ useEffect(() => {
           correctlyGuessedStations={correctlyGuessedStations}
           gameStarted={gameStarted}
           selectedCity={selectedCity}
-          skipClickCount={skipClickCount}
           incorrectGuesses={incorrectlyGuessedStations}
           disableZoom={disableZoom}
-          timeEnded={timeEnded}
-          handleTimeEnded={handleTimeEnded}
-          lastRandomStation={lastRandomStation}
-          revealStation={revealStation}
+          handleLineIDs={handleLineIDs}
+          resetMap={resetMap}
         />}
       </div>
       
@@ -321,6 +402,7 @@ useEffect(() => {
             handleGuessSubmit={handleGuessSubmit}
             handleTimeEnded={handleTimeEnded}
             timeEnded={timeEnded}
+            lineIDs={lineIDs}
           />
         </div>
         {/* <div className={styles.box4}>
