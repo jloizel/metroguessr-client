@@ -658,21 +658,21 @@ useEffect(() => {
   
   const getSkipBotMargin= () => {
     if (isMobile) {
-      return "15px";
+      return "2px";
     } else if (isTablet) {
-      return "30px";
+      return "16px";
     } else {
-      return '34px';
+      return '18px';
     }
   };
 
   const getTimerTopMargin= () => {
     if (isMobile) {
-      return "20px";
+      return "25px";
     } else if (isTablet) {
       return "30px";
     } else {
-      return '40px';
+      return '45px';
     }
   };
 
