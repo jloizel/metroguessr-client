@@ -348,13 +348,8 @@ useEffect(() => {
           correctlyGuessedStations={correctlyGuessedStations}
           gameStarted={gameStarted}
           selectedCity={selectedCity}
-          skipClickCount={skipClickCount}
           incorrectGuesses={incorrectlyGuessedStations}
           disableZoom={disableZoom}
-          timeEnded={timeEnded}
-          handleTimeEnded={handleTimeEnded}
-          lastRandomStation={lastRandomStation}
-          revealStation={revealStation}
           handleLineIDs={handleLineIDs}
           resetMap={resetMap}
         />}
