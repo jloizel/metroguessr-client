@@ -271,6 +271,7 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
   })
 
 
+
   return (
     <div className="map-wrap">
       <div ref={mapContainer} className={styles.map} />

@@ -337,6 +337,9 @@ useEffect(() => {
         return '12px';
     }
   };
+
+  console.log(randomStation)
+
   
   return (
     <div>

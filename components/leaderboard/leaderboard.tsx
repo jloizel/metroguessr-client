@@ -58,7 +58,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
     
         // Update topScores with the top 5 sorted scores
         const top5Scores = sortedScores.slice(0, 5);
-        setTopScores(top5Scores);
+        // setTopScores(top5Scores);
         // setScoreLoading(false)
         setScoresFetched(true);
       } catch (error) {
@@ -68,7 +68,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
     };
   
     fetchScores();
-  }, [city, scores]); // Empty dependency array means this effect runs once on component mount
+  }, [scores]); // Empty dependency array means this effect runs once on component mount
 
   // const handleAddScore = async () => {
   //   try {
@@ -124,14 +124,23 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
         timer = null;
       }
     };
-  }, [timeEnded, username, points, city, scoreAdded]);
+  }, [timeEnded]);
 
   const updateHighestScorer = () => {
     const cityScores = scores.filter((score) => score.city === city);
-    const sortedCityScores = cityScores.sort((a, b) => b.points - a.points);
+    const sortedScores = cityScores
+      .filter((score) => score._id) // Filter out entries with empty _id
+      .concat({ _id: '', username, points, city, createdAt: new Date().toISOString() }) // Add the user's score
+      .sort((a, b) => {
+        if (a.points !== b.points) {
+          return b.points - a.points; // Sort by points (higher to lower)
+        } else {
+          return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(); // Sort by time added if points are tied
+        }
+      });
   
-    if (sortedCityScores.length > 0) {
-      const highestScoreObj = sortedCityScores[0];
+    if (sortedScores.length > 0) {
+      const highestScoreObj = sortedScores[0];
       setHighestScorer(highestScoreObj.username);
       setHighestScore(highestScoreObj.points);
     }
@@ -181,7 +190,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
 
     // Include the user's most recent score in the sorted scores array
     const sortedScores = [...cityScores, { _id: '', username, points, city, createdAt: new Date().toISOString() }]
-      .filter((item): item is Score => '_id' in item);
+      .filter((item): item is Score => '_id' in item && item._id !== '');
 
     // Sort the scores
     sortedScores.sort((a, b) => {
@@ -224,6 +233,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
     if (scoreAdded) {
       // Call the function to fetch and display the user's rank
       handleShowTopScoresModal();
+      setScoreAdded(true)
     }
   }, [scoreAdded]);
   
@@ -338,6 +348,8 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
       return "15px"
     }
   }
+
+  console.log(topScores)
 
   return (
     <div>
