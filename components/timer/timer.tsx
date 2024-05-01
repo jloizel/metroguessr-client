@@ -658,7 +658,7 @@ useEffect(() => {
   
   const getSkipBotMargin= () => {
     if (isMobile) {
-      return "2px";
+      return "0px";
     } else if (isTablet) {
       return "16px";
     } else {

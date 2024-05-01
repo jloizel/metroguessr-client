@@ -125,7 +125,7 @@ const Menu: React.FC<MenuProps> = ({ cityChange, resetGame, disableButtons, enab
                     }
                 }}
                 anchor="right"
-                size={isMobile ? "sm" : "lg"}
+                size={isMobile ? "md" : "lg"}
             >
                 <div className={styles.leaderboardContainer}>
                     <div className={styles.header}>

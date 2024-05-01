@@ -230,7 +230,7 @@ const Username: React.FC<UsernameProps> = ({disableButtons, enableButtons}) => {
           className={styles.input}
           spellCheck={false}
           autoComplete='off'
-          style={{ fontSize: getHeader1FontSize(), fontWeight: 600 }}
+          style={{ fontSize: getHeader1FontSize(), fontWeight: 600, boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.4)" }}
           ref={inputRef}
         />
         {errorMessage && <div className={styles.error} style={{ fontSize: getErrorFontSize() }}>{errorMessage}</div>}

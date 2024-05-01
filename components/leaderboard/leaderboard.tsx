@@ -318,6 +318,27 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
       return "26px"
     }
   }
+
+  const getButtonFontSize = () => { // Default width for computer
+    if (isMobile) {
+      return "14px";
+    } else if (isTablet) {
+      return "20px"; // Adjust width for tablet
+    } else {
+      return "25px"
+    }
+  }
+
+  const getButtonLRPadding = () => { // Default width for computer
+    if (isMobile) {
+      return "10px";
+    } else if (isTablet) {
+      return "15px"; // Adjust width for tablet
+    } else {
+      return "15px"
+    }
+  }
+
   return (
     <div>
       <div className={styles.container}>
@@ -332,6 +353,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
             <button 
               className={styles.button}
               onClick={handleClick}
+              style={{fontSize: getButtonFontSize(), paddingTop: "10px", paddingBottom: "10px", paddingLeft: getButtonLRPadding(), paddingRight: getButtonLRPadding()}}
             >HIGH SCORES</button>
       </div>
       
@@ -391,6 +413,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
                 <button 
                   className={styles.button2}
                   onClick={handleTryAgain}
+                  style={{fontSize: getButtonFontSize(), paddingTop: "10px", paddingBottom: "10px", paddingLeft: getButtonLRPadding(), paddingRight: getButtonLRPadding()}}
                 >TRY AGAIN</button>
               </div>
           </div>
