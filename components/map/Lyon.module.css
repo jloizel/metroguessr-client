@@ -1,0 +1,113 @@
+/* marker styling for when the station marker is hidden */
+.markerHidden {
+  visibility: hidden;
+}
+
+/* marker styling for when the station needs to be guessed */
+.MAguess, .MBguess, .MCguess, .MDguess, .F1guess {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .MAguess {
+    border: 5px solid #f052a4;
+    background-color: white;
+  }
+
+  .MBguess {
+    border: 5px solid #0077c0;
+    background-color: white;
+  }
+
+  .MCguess {
+    border: 5px solid #ffad39;
+    background-color: white;
+  }
+
+  .MDguess {
+    border: 5px solid #039303;
+    background-color: white;
+  }
+
+  .F1guess {
+    border: 5px solid #08e708;
+    background-color: white;
+  }
+
+/* marker styling for when the station is guessed correctly */
+  .MAcorrect, .MBcorrect, .MCcorrect, .MDcorrect, .F1correct {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .MAcorrect {
+    border: 5px solid #f052a4;
+    background-color: #f052a4;
+  }
+
+  .MBcorrect  {
+    border: 5px solid #0077c0;
+    background-color: #0077c0;
+  }
+
+  .MCcorrect  {
+    border: 5px solid #ffad39;
+    background-color: #ffad39;
+  }
+
+  .MDcorrect  {
+    border: 5px solid #039303;
+    background-color: #039303;
+  }
+
+  .F1correct  {
+    border: 5px solid #08e708;
+    background-color: #08e708;
+  }
+
+  .MAskip, .MBskip, .MCskip, .MDskip, .F1skip {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .labelHidden {
+    visibility: hidden;
+  }
+
+  .labelGuessed {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 13px;
+    position: absolute;
+    bottom: 180%;
+    transform: translateX(-40%);
+    white-space: nowrap;
+    z-index: 100;
+  }
+
+  .labelSkipped {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 500;
+    font-size: 13px;
+    font-style: italic;
+    position: absolute;
+    bottom: 140%;
+    transform: translateX(-40%);
+    white-space: nowrap;
+    z-index: 100;
+  }
+
+  

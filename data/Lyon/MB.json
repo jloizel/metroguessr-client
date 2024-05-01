@@ -1,0 +1,318 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            4.804319,
+            45.70126
+          ],
+          [
+            4.803619,
+            45.702672
+          ],
+          [
+            4.802759,
+            45.706695
+          ],
+          [
+            4.802167,
+            45.710371
+          ],
+          [
+            4.80205,
+            45.711758
+          ],
+          [
+            4.802323,
+            45.712204
+          ],
+          [
+            4.805031,
+            45.714085
+          ],
+          [
+            4.808492,
+            45.71619
+          ],
+          [
+            4.808868,
+            45.71636
+          ],
+          [
+            4.80922,
+            45.716419
+          ],
+          [
+            4.809871,
+            45.716435
+          ],
+          [
+            4.814369,
+            45.716538
+          ],
+          [
+            4.819572,
+            45.717757
+          ],
+          [
+            4.828729,
+            45.72318
+          ],
+          [
+            4.830374,
+            45.726224
+          ],
+          [
+            4.833087,
+            45.730601
+          ],
+          [
+            4.837051,
+            45.737257
+          ],
+          [
+            4.84261,
+            45.745823
+          ],
+          [
+            4.847021,
+            45.753779
+          ],
+          [
+            4.846222,
+            45.757779
+          ],
+          [
+            4.846239,
+            45.758258
+          ],
+          [
+            4.846452,
+            45.758626
+          ],
+          [
+            4.847155,
+            45.759363
+          ],
+          [
+            4.848916,
+            45.760399
+          ],
+          [
+            4.850154,
+            45.760907
+          ],
+          [
+            4.858272,
+            45.761659
+          ],
+          [
+            4.859021,
+            45.761813
+          ],
+          [
+            4.859377,
+            45.762688
+          ],
+          [
+            4.85929,
+            45.763919
+          ],
+          [
+            4.859291,
+            45.767011
+          ],
+          [
+            4.859227,
+            45.768101
+          ],
+          [
+            4.859275,
+            45.768305
+          ],
+          [
+            4.859447,
+            45.768463
+          ],
+          [
+            4.859872,
+            45.768651
+          ],
+          [
+            4.861094,
+            45.769398
+          ],
+          [
+            4.862414,
+            45.769985
+          ],
+          [
+            4.863649,
+            45.770392
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.80431757,
+            45.70127446
+        ]
+    },
+      "properties": {
+        "name": "St-Genis-Laval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.80502183,
+            45.71409349
+        ]
+    },
+      "properties": {
+        "name": "Oullins Centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.81434465,
+            45.71654147
+        ]
+    },
+      "properties": {
+        "name": "Gare d'Oullins"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.83034909,
+            45.72620643
+        ]
+    },
+      "properties": {
+        "name": "Stade de Gerland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.83304775,
+            45.73056579
+        ]
+    },
+      "properties": {
+        "name": "Debourg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.83702433,
+            45.73724404
+        ]
+    },
+      "properties": {
+        "name": "Place Jean Jaurès"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.84263839,
+            45.74579252
+        ]
+    },
+      "properties": {
+        "name": "Jean Macé"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.84712981,
+            45.75936443
+        ]
+    },
+      "properties": {
+        "name": "Place Guichard"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.84701961,
+            45.75373673
+        ]
+    },
+      "properties": {
+        "name": "Saxe-Gambetta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.85826058,
+            45.76166313
+        ]
+    },
+      "properties": {
+        "name": "Gare Part-Dieu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.85929328,
+            45.76701737
+        ]
+    },
+      "properties": {
+        "name": "Brotteaux"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.86365348,
+            45.770366
+        ]
+    },
+      "properties": {
+        "name": "Charpennes"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

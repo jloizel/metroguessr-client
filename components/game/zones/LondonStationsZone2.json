@@ -1,0 +1,815 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.208731,
+          51.46826
+        ]
+      },
+      "properties": {
+        "name": "Putney Bridge",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.201757,
+          51.474988
+        ]
+      },
+      "properties": {
+        "name": "Parsons Green",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22446,
+          51.512212
+        ]
+      },
+      "properties": {
+        "name": "White City",
+        "line": "Central",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.218829,
+          51.504357
+        ]
+      },
+      "properties": {
+        "name": "Shepherd's Bush",
+        "line": "Central",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.205664,
+          51.50715
+        ]
+      },
+      "properties": {
+        "name": "Holland Park",
+        "line": "Central",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1149,
+          51.46267
+        ]
+      },
+      "properties": {
+        "name": "Brixton",
+        "line": "Victoria",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.103741,
+          51.547425
+        ]
+      },
+      "properties": {
+        "name": "Highbury & Islington",
+        "line": "Victoria",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.118479,
+          51.548526
+        ]
+      },
+      "properties": {
+        "name": "Caledonian Road",
+        "line": "Piccadilly",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11327,
+          51.552758
+        ]
+      },
+      "properties": {
+        "name": "Holloway Road",
+        "line": "Piccadilly",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.107286,
+          51.558615
+        ]
+      },
+      "properties": {
+        "name": "Arsenal",
+        "line": "Piccadilly",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.226297,
+          51.506088
+        ]
+      },
+      "properties": {
+        "name": "Shepherd's Bush Market",
+        "line": "HammersmithCity",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.226644,
+          51.501993
+        ]
+      },
+      "properties": {
+        "name": "Goldhawk Road",
+        "line": "HammersmithCity",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.217854,
+          51.51346
+        ]
+      },
+      "properties": {
+        "name": "Latimer Road",
+        "line": "HammersmithCity",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2109,
+          51.51732
+        ]
+      },
+      "properties": {
+        "name": "Ladbroke Grove",
+        "line": "HammersmithCity",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.187785,
+          51.519051
+        ]
+      },
+      "properties": {
+        "name": "Royal Oak",
+        "line": "HammersmithCity",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.201159,
+          51.520921
+        ]
+      },
+      "properties": {
+        "name": "Westbourne Park",
+        "line": "HammersmithCity",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.205749,
+          51.533976
+        ]
+      },
+      "properties": {
+        "name": "Queen's Park",
+        "line": "Bakerloo",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.033765,
+          51.52523
+        ]
+      },
+      "properties": {
+        "name": "Mile End",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.054684,
+          51.527234
+        ]
+      },
+      "properties": {
+        "name": "Bethnal Green",
+        "line": "Central",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.210126,
+          51.497732
+        ]
+      },
+      "properties": {
+        "name": "Kensington (Olympia)",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.106678,
+          51.564567
+        ]
+      },
+      "properties": {
+        "name": "Finsbury Park",
+        "line": "Piccadilly",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.123047,
+          51.47183
+        ]
+      },
+      "properties": {
+        "name": "Stockwell",
+        "line": "Northern",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.224481,
+          51.530574
+        ]
+      },
+      "properties": {
+        "name": "Kensal Green",
+        "line": "Bakerloo",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.183613,
+          51.523195
+        ]
+      },
+      "properties": {
+        "name": "Warwick Avenue",
+        "line": "Bakerloo",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.185832,
+          51.529731
+        ]
+      },
+      "properties": {
+        "name": "Maida Vale",
+        "line": "Bakerloo",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.194017,
+          51.534947
+        ]
+      },
+      "properties": {
+        "name": "Kilburn Park",
+        "line": "Bakerloo",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.235778,
+          51.494164
+        ]
+      },
+      "properties": {
+        "name": "Ravenscourt Park",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.225082866974178,
+          51.49409630285559
+        ]
+      },
+      "properties": {
+        "name": "Hammersmith",
+        "line": "HammersmithCity",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.204719,
+          51.546954
+        ]
+      },
+      "properties": {
+        "name": "Kilburn",
+        "line": "Jubilee",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.190172,
+          51.546803
+        ]
+      },
+      "properties": {
+        "name": "West Hampstead",
+        "line": "Jubilee",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.174835,
+          51.543706
+        ]
+      },
+      "properties": {
+        "name": "Swiss Cottage",
+        "line": "Jubilee",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.181098,
+          51.547229
+        ]
+      },
+      "properties": {
+        "name": "Finchley Road",
+        "line": "Metropolitan",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13719,
+          51.462208
+        ]
+      },
+      "properties": {
+        "name": "Clapham Common",
+        "line": "Northern",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.129359,
+          51.465726
+        ]
+      },
+      "properties": {
+        "name": "Clapham North",
+        "line": "Northern",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.164618,
+          51.550327
+        ]
+      },
+      "properties": {
+        "name": "Belsize Park",
+        "line": "Northern",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.138745,
+          51.534704
+        ]
+      },
+      "properties": {
+        "name": "Mornington Crescent",
+        "line": "Northern",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.152649,
+          51.543862
+        ]
+      },
+      "properties": {
+        "name": "Chalk Farm",
+        "line": "Northern",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.142626,
+          51.539235
+        ]
+      },
+      "properties": {
+        "name": "Camden Town",
+        "line": "Northern",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.140748,
+          51.550292
+        ]
+      },
+      "properties": {
+        "name": "Kentish Town",
+        "line": "Northern",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.138461,
+          51.556848
+        ]
+      },
+      "properties": {
+        "name": "Tufnell Park",
+        "line": "Northern",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.112411,
+          51.481838
+        ]
+      },
+      "properties": {
+        "name": "Oval",
+        "line": "Northern",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.247162,
+          51.5166
+        ]
+      },
+      "properties": {
+        "name": "East Acton",
+        "line": "Central",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.223589,
+          51.510139
+        ]
+      },
+      "properties": {
+        "name": "Wood Lane",
+        "line": "HammersmithCity",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.205457,
+          51.49079
+        ]
+      },
+      "properties": {
+        "name": "West Kensington",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.21468,
+          51.490301
+        ]
+      },
+      "properties": {
+        "name": "Barons Court",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.194761,
+          51.48077
+        ]
+      },
+      "properties": {
+        "name": "Fulham Broadway",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19557,
+          51.487275
+        ]
+      },
+      "properties": {
+        "name": "West Brompton",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.246006,
+          51.49492
+        ]
+      },
+      "properties": {
+        "name": "Stamford Brook",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.046595,
+          51.521866
+        ]
+      },
+      "properties": {
+        "name": "Stepney Green",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.060763,
+          51.519529
+        ]
+      },
+      "properties": {
+        "name": "Whitechapel",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.025202,
+          51.526903
+        ]
+      },
+      "properties": {
+        "name": "Bow Road",
+        "line": "District",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.049982,
+          51.497921
+        ]
+      },
+      "properties": {
+        "name": "Canada Water",
+        "line": "Jubilee",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.064356,
+          51.4977
+        ]
+      },
+      "properties": {
+        "name": "Bermondsey",
+        "line": "Jubilee",
+        "zone": "Zone 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.017758,
+          51.503433
+        ]
+      },
+      "properties": {
+        "name": "Canary Wharf",
+        "line": "Jubilee",
+        "zone": "Zone 2"
+      }
+    }
+  ]
+}

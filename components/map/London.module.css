@@ -1,0 +1,171 @@
+/* marker styling for when the station marker is hidden */
+.markerHidden {
+  visibility: hidden;
+}
+
+/* marker styling for when the station needs to be guessed */
+.Bakerlooguess, .Centralguess, .Circleguess, .Districtguess, .HammersmithCityguess, .Jubileeguess, .Metropolitanguess, .Northernguess, .Piccadillyguess, .Victoriaguess, .WaterlooCityguess {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.Bakerlooguess {
+  border: 5px solid #B36305;
+  background-color: white;
+}
+
+.Centralguess {
+  border: 5px solid #E32017;
+  background-color: white;
+}
+
+.Circleguess {
+  border: 5px solid #ffad39;
+  background-color: white;
+}
+
+.Districtguess {
+  border: 5px solid #00782A;
+  background-color: white;
+}
+
+.HammersmithCityguess {
+  border: 5px solid #F3A9BB;
+  background-color: white;
+}
+
+.Jubileeguess {
+  border: 5px solid #A0A5A9;
+  background-color: white;
+}
+
+.Metropolitanguess {
+  border: 5px solid #9B0056;
+  background-color: white;
+}
+
+.Northernguess {
+  border: 5px solid #000000;
+  background-color: white;
+}
+
+.Piccadillyguess {
+  border: 5px solid #003688;
+  background-color: white;
+}
+
+.Victoriaguess {
+  border: 5px solid #0098D4;
+  background-color: white;
+}
+
+.WaterlooCityguess {
+  border: 5px solid #95CDBA;
+  background-color: white;
+}
+
+/* marker styling for when the station is guessed correctly */
+.Bakerloocorrect, .Centralcorrect, .Circlecorrect, .Districtcorrect, .HammersmithCitycorrect, .Jubileecorrect, .Metropolitancorrect, .Northerncorrect, .Piccadillycorrect, .Victoriacorrect, .WaterlooCitycorrect {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.Bakerloocorrect {
+  border: 5px solid #B36305;
+  background-color: #B36305;
+}
+
+.Centralcorrect  {
+  border: 5px solid #E32017;
+  background-color: #E32017;
+}
+
+.Circlecorrect  {
+  border: 5px solid #FFD300;
+  background-color: #FFD300;
+}
+
+.Districtcorrect  {
+  border: 5px solid #00782A;
+  background-color: #00782A;
+}
+
+.HammersmithCitycorrect  {
+  border: 5px solid #F3A9BB;
+  background-color: #F3A9BB;
+}
+
+.Jubileecorrect {
+  border: 5px solid #A0A5A9;
+  background-color: #A0A5A9;
+}
+
+.Metropolitancorrect  {
+  border: 5px solid #9B0056;
+  background-color: #9B0056;
+}
+
+.Northerncorrect  {
+  border: 5px solid #000000;
+  background-color: #000000;
+}
+
+.Piccadillycorrect  {
+  border: 5px solid #003688;
+  background-color: #003688;
+}
+
+.Victoriacorrect  {
+  border: 5px solid #0098D4;
+  background-color: #0098D4;
+}
+
+.WaterlooCitycorrect  {
+  border: 5px solid #95CDBA;
+  background-color: #95CDBA;
+}
+
+.Bakerlooskip, .Centralskip, .Circleskip, .Districtskip, .HammersmithCitycorrect, .Jubileeskip, .Metropolitanskip, .Northernskip, .Piccadillyskip, .Victoriaskip, .WaterlooCityskip {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 3px solid black;
+  background-color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.labelHidden {
+  visibility: hidden;
+}
+
+.labelGuessed {
+  color: black;
+  font-family: "Fredoka";
+  font-weight: 600;
+  font-size: 13px;
+  position: absolute;
+  bottom: 180%;
+  transform: translateX(-40%);
+  white-space: nowrap;
+  z-index: 100;
+}
+
+.labelSkipped {
+  color: black;
+  font-family: "Fredoka";
+  font-weight: 500;
+  font-size: 13px;
+  font-style: italic;
+  position: absolute;
+  bottom: 140%;
+  transform: translateX(-40%);
+  white-space: nowrap;
+  z-index: 100;
+}

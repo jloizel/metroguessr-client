@@ -1,0 +1,635 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.82951744,
+            45.7531876
+          ]
+        },
+        "properties": {
+          "name": "Ampère",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.83383626,
+            45.75713754
+          ]
+        },
+        "properties": {
+          "name": "Bellecour",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.85929328,
+            45.76701737
+          ]
+        },
+        "properties": {
+          "name": "Brotteaux",
+          "line": "MB"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.86365348,
+            45.770366
+          ]
+        },
+        "properties": {
+          "name": "Charpennes",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.83569768,
+            45.76308415
+          ]
+        },
+        "properties": {
+          "name": "Cordeliers",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.83630514,
+            45.77084044
+          ]
+        },
+        "properties": {
+          "name": "Croix-Paquet",
+          "line": "MC"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.83205597,
+            45.77429438
+          ]
+        },
+        "properties": {
+          "name": "Croix-Rousse",
+          "line": "MC"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.83266776,
+            45.78522527
+          ]
+        },
+        "properties": {
+          "name": "Cuire",
+          "line": "MC"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.89988064,
+            45.76583553
+          ]
+        },
+        "properties": {
+          "name": "Cusset",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.83304775,
+            45.73056579
+          ]
+        },
+        "properties": {
+          "name": "Debourg",
+          "line": "MB"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.89004757,
+            45.76752348
+          ]
+        },
+        "properties": {
+          "name": "Flachet",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.84409278,
+            45.76880913
+          ]
+        },
+        "properties": {
+          "name": "Foch",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.82147007,
+            45.76238488
+          ]
+        },
+        "properties": {
+          "name": "Fourvière",
+          "line": "F1"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.85826058,
+            45.76166313
+          ]
+        },
+        "properties": {
+          "name": "Gare Part-Dieu",
+          "line": "MB"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.81434465,
+            45.71654147
+          ]
+        },
+        "properties": {
+          "name": "Gare d'Oullins",
+          "line": "MB"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.80417294,
+            45.77978607
+          ]
+        },
+        "properties": {
+          "name": "Gare de Vaise",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.88821113,
+            45.70571994
+          ]
+        },
+        "properties": {
+          "name": "Gare de Vénissieux",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.85300223,
+            45.75175438
+          ]
+        },
+        "properties": {
+          "name": "Garibaldi",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.80518244,
+            45.7661358
+          ]
+        },
+        "properties": {
+          "name": "Gorge de Loup",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8786508,
+            45.74287753
+          ]
+        },
+        "properties": {
+          "name": "Grange Blanche",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.88165451,
+            45.76920602
+          ]
+        },
+        "properties": {
+          "name": "Gratte-Ciel",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.84224216,
+            45.75540995
+          ]
+        },
+        "properties": {
+          "name": "Guillotière",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.82772813,
+            45.77962123
+          ]
+        },
+        "properties": {
+          "name": "Hénon",
+          "line": "MC"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.83594233,
+            45.76733113
+          ]
+        },
+        "properties": {
+          "name": "Hôtel de Ville",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.84263839,
+            45.74579252
+          ]
+        },
+        "properties": {
+          "name": "Jean Macé",
+          "line": "MB"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.90884698,
+            45.76402212
+          ]
+        },
+        "properties": {
+          "name": "Laurent Bonnevay",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8864337,
+            45.73833533
+          ]
+        },
+        "properties": {
+          "name": "Laënnec",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.852909,
+            45.76961383
+          ]
+        },
+        "properties": {
+          "name": "Masséna",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.8875049,
+            45.73101335
+          ]
+        },
+        "properties": {
+          "name": "Mermoz",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.82119648,
+            45.75829174
+          ]
+        },
+        "properties": {
+          "name": "Minimes",
+          "line": "F1"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.87146364,
+            45.74530238
+          ]
+        },
+        "properties": {
+          "name": "Monplaisir Lumière",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.80502183,
+            45.71409349
+          ]
+        },
+        "properties": {
+          "name": "Oullins Centre",
+          "line": "MB"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.88765973,
+            45.71943937
+          ]
+        },
+        "properties": {
+          "name": "Parilly",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.82687993,
+            45.74997054
+          ]
+        },
+        "properties": {
+          "name": "Perrache",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.84712981,
+            45.75936443
+          ]
+        },
+        "properties": {
+          "name": "Place Guichard",
+          "line": "MB"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.83702433,
+            45.73724404
+          ]
+        },
+        "properties": {
+          "name": "Place Jean Jaurès",
+          "line": "MB"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.87322791,
+            45.77074105
+          ]
+        },
+        "properties": {
+          "name": "République",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.86447793,
+            45.74779891
+          ]
+        },
+        "properties": {
+          "name": "Sans Souci",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.84701961,
+            45.75373673
+          ]
+        },
+        "properties": {
+          "name": "Saxe-Gambetta",
+          "line": "MB"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.80431757,
+            45.70127446
+          ]
+        },
+        "properties": {
+          "name": "St-Genis-Laval",
+          "line": "MB"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.81612958,
+            45.75720833
+          ]
+        },
+        "properties": {
+          "name": "St-Just",
+          "line": "F1"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.83034909,
+            45.72620643
+          ]
+        },
+        "properties": {
+          "name": "Stade de Gerland",
+          "line": "MB"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.80587915,
+            45.7745832
+          ]
+        },
+        "properties": {
+          "name": "Valmy",
+          "line": "MD"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.9214775,
+            45.76109131
+          ]
+        },
+        "properties": {
+          "name": "Vaulx-en-Velin",
+          "line": "MA"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.82633834,
+            45.75998372
+          ]
+        },
+        "properties": {
+          "name": "Vieux Lyon",
+          "line": "MD"
+        }
+      }
+    ]
+  }

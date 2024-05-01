@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.79891,
+          40.28268
+        ]
+      },
+      "properties": {
+        "name": "Fuenlabrada Central",
+        "line": "Line12",
+        "zone": "Zone B2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.81642,
+          40.28576
+        ]
+      },
+      "properties": {
+        "name": "Hospital De Fuenlabrada",
+        "line": "Line12",
+        "zone": "Zone B2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.87471,
+          40.31652
+        ]
+      },
+      "properties": {
+        "name": "Hospital De Móstoles",
+        "line": "Line12",
+        "zone": "Zone B2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.83768,
+          40.29681
+        ]
+      },
+      "properties": {
+        "name": "Loranca",
+        "line": "Line12",
+        "zone": "Zone B2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70206,
+          40.42876
+        ]
+      },
+      "properties": {
+        "name": "Manuela Malasaña",
+        "line": "Line12",
+        "zone": "Zone B2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.86354,
+          40.3285
+        ]
+      },
+      "properties": {
+        "name": "Móstoles Central",
+        "line": "Line12",
+        "zone": "Zone B2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.78697,
+          40.28684
+        ]
+      },
+      "properties": {
+        "name": "Parque De Los Estados",
+        "line": "Line12",
+        "zone": "Zone B2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.80632,
+          40.28518
+        ]
+      },
+      "properties": {
+        "name": "Parque Europa",
+        "line": "Line12",
+        "zone": "Zone B2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.86489,
+          40.32168
+        ]
+      },
+      "properties": {
+        "name": "Pradillo",
+        "line": "Line12",
+        "zone": "Zone B2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.87218,
+          40.33512
+        ]
+      },
+      "properties": {
+        "name": "Universidad Rey Juan Carlos",
+        "line": "Line12",
+        "zone": "Zone B2"
+      }
+    }
+  ]
+}

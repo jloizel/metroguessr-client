@@ -1,0 +1,43 @@
+.button {
+  background-color: white;
+  border: none;
+  font-family: "Fredoka";
+  font-weight: 600;
+  color: black;
+  border: 1px solid #C4C4C4 !important;
+  border-radius: 3px !important;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) !important; */
+
+  @media (max-width: 767px) {
+    margin-top: 2px;
+    font-size: 14px;
+    width: 60px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 18px;
+    margin-top: 14px;
+    width: 70px;
+    margin-left: 30px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 20px;
+    margin-top: 18px;
+    width: 90px;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .button:hover {
+    background-color: #242424 !important;
+    border: 1px solid black !important;
+    color: white !important;
+    border: none;
+    font-family: "Fredoka";
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+

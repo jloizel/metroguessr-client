@@ -1,0 +1,172 @@
+.button {
+    color: black;
+    text-decoration: none;
+    background-color: none;
+    visibility: visible;
+
+    @media (max-width: 767px) {
+        padding-top: 2px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        padding-top: 4px;
+        /* margin-right: 5px; */
+    }
+    
+    @media (min-width: 1024px) {
+        padding-top: 9.5px;
+        /* margin-right: 5px; */
+    }
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.menu {
+    z-index: 100;
+    color: black;
+    height: 100px !important;
+    overflow: hidden !important;
+}
+
+.icon {
+    color: black;
+    background-color: none;
+
+    @media (max-width: 767px) {
+        font-size: 30px !important;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        font-size: 40px !important;
+    }
+    
+    @media (min-width: 1024px) {
+        font-size: 50px !important;
+    }
+}
+
+.header {
+    font-family: "Fredoka";
+    font-weight: 600;
+    margin-top: 3rem;
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+
+    @media (max-width: 767px) {
+        font-size: 15px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        font-size: 18px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 20px;
+    }
+}
+
+.cityButtonContainer {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    justify-content: center; /* Center the grid items horizontally */
+    /* column-gap: 25px; */
+    row-gap: 15px;
+    margin-top: 10px;
+}
+
+.cityButton {
+    font-family: "Fredoka" !important;
+    /* font-weight: 400; */
+    color: white !important;
+    background-color: #242424 !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important;
+    width: 100%;
+
+    /* @media (max-width: 767px) {
+        font-size: 12px !important;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        font-size: 23px !important;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 25px !important;
+    } */
+}
+
+.cityButton:hover {
+    cursor: pointer !important;
+    background-color: #333333 !important;
+ }
+
+ .leaderboardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100px;
+
+    /* @media (max-width: 767px) {
+        margin-top: 200px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        margin-top: 100px;
+    }
+
+    @media (min-width: 1024px) {
+        margin-top: 20px;
+    } */
+ }
+ 
+
+.info {
+    margin-top: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.linKedin, .github {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedinIcon, .githubIcon {
+    color: black;
+}
+
+.linkedinIcon:hover, .githubIcon:hover {
+    color: #5a5b5c;
+}
+
+.logo {
+    color: black;
+    @media (max-width: 767px) {
+        font-size: 25px !important;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        font-size: 35px !important;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 45px !important;
+    }
+}

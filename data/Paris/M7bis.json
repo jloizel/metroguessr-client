@@ -1,0 +1,1277 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.37015796173961,
+            48.882465244637686
+          ],
+          [
+            2.370244747086418,
+            48.88245182362683
+          ],
+          [
+            2.370296568275096,
+            48.88244380888588
+          ],
+          [
+            2.370432280397605,
+            48.88241544011888
+          ],
+          [
+            2.370564301094928,
+            48.882380302330546
+          ],
+          [
+            2.370691857404662,
+            48.88233860101323
+          ],
+          [
+            2.37069970671568,
+            48.882335519802886
+          ],
+          [
+            2.370814196314108,
+            48.88229058403534
+          ],
+          [
+            2.370836094707487,
+            48.8822810763007
+          ],
+          [
+            2.370876680266147,
+            48.882263183394265
+          ],
+          [
+            2.374495966260425,
+            48.88066746252183
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3723416479263464,
+          "lat": 48.88161130502937
+        },
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "M7bis",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1911-01-18T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110107:7B",
+        "indice_lig": "M7bis",
+        "shape_leng": 376.987315399,
+        "colourweb_hexa": "6eca97",
+        "colourprint_cmjn": "45 0 25 21",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/e08d6e9d99727bb7d55ffc5c44801f72/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.374495964896929,
+            48.88066746251469
+          ],
+          [
+            2.37808483465849,
+            48.87908493784556
+          ],
+          [
+            2.379650971835944,
+            48.87826383477455
+          ],
+          [
+            2.379692228873053,
+            48.87824365083053
+          ],
+          [
+            2.379771555057287,
+            48.878211980001915
+          ],
+          [
+            2.379856090915886,
+            48.87818684726477
+          ],
+          [
+            2.379944604984288,
+            48.87816861765376
+          ],
+          [
+            2.380035804245096,
+            48.87815755876009
+          ],
+          [
+            2.380128358795466,
+            48.87815383006777
+          ],
+          [
+            2.380220919515003,
+            48.87815748754208
+          ],
+          [
+            2.380312137225901,
+            48.87816847743358
+          ],
+          [
+            2.38040068038188,
+            48.878186639067785
+          ],
+          [
+            2.380413572410477,
+            48.87818994518228
+          ],
+          [
+            2.381161001309403,
+            48.87838680401972
+          ],
+          [
+            2.381614511928965,
+            48.87851411308943
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.378021526609681,
+          "lat": 48.87918290808516
+        },
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "M7bis",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1911-01-18T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110107:7B",
+        "indice_lig": "M7bis",
+        "shape_leng": 617.715638872,
+        "colourweb_hexa": "6eca97",
+        "colourprint_cmjn": "45 0 25 21",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/e08d6e9d99727bb7d55ffc5c44801f72/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.381614511928965,
+            48.87851411308943
+          ],
+          [
+            2.382034705143963,
+            48.87863369405985
+          ],
+          [
+            2.382986854488347,
+            48.878928459399624
+          ],
+          [
+            2.383489296157435,
+            48.8790815346245
+          ],
+          [
+            2.383704425213071,
+            48.87913761114408
+          ],
+          [
+            2.383958117714155,
+            48.879196456903664
+          ],
+          [
+            2.384152943677156,
+            48.879236496500155
+          ],
+          [
+            2.384398978317488,
+            48.879276534707344
+          ],
+          [
+            2.384765123780868,
+            48.8793299116441
+          ],
+          [
+            2.385133469376787,
+            48.8793762408155
+          ],
+          [
+            2.385503701815853,
+            48.879415482822914
+          ],
+          [
+            2.385875509094121,
+            48.87944760457328
+          ],
+          [
+            2.386248576392839,
+            48.87947258015744
+          ],
+          [
+            2.386263411153951,
+            48.87947342333763
+          ],
+          [
+            2.387000996636222,
+            48.87949599292706
+          ],
+          [
+            2.387608417651995,
+            48.879512891036576
+          ],
+          [
+            2.388259716460195,
+            48.87949944747449
+          ],
+          [
+            2.388566870479196,
+            48.87949310699919
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3850572520235787,
+          "lat": 48.87923343835641
+        },
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "M7bis",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1911-01-18T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110107:7B",
+        "indice_lig": "M7bis",
+        "shape_leng": 529.212476713,
+        "colourweb_hexa": "6eca97",
+        "colourprint_cmjn": "45 0 25 21",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/e08d6e9d99727bb7d55ffc5c44801f72/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.392983964817393,
+            48.87694984717581
+          ],
+          [
+            2.392865674363053,
+            48.87695144616914
+          ],
+          [
+            2.392811628170214,
+            48.87695484402117
+          ],
+          [
+            2.392760250042923,
+            48.87696001447404
+          ],
+          [
+            2.392638570555996,
+            48.876976414328084
+          ],
+          [
+            2.392595942488783,
+            48.87698490806479
+          ],
+          [
+            2.392559168733454,
+            48.87699471933437
+          ],
+          [
+            2.392509693383977,
+            48.87701337940627
+          ],
+          [
+            2.392458713739994,
+            48.87703943421597
+          ],
+          [
+            2.392408024927068,
+            48.87707105913656
+          ],
+          [
+            2.392320802628307,
+            48.877131384197234
+          ],
+          [
+            2.389862041288519,
+            48.8792655322028
+          ],
+          [
+            2.389837639392525,
+            48.87928569670493
+          ],
+          [
+            2.389772105573856,
+            48.87933157471528
+          ],
+          [
+            2.389698941082791,
+            48.8793721248332
+          ],
+          [
+            2.389619132720282,
+            48.879406798989066
+          ],
+          [
+            2.389533760458123,
+            48.87943512783128
+          ],
+          [
+            2.389443981003072,
+            48.87945672693867
+          ],
+          [
+            2.389351005864239,
+            48.87947130660187
+          ],
+          [
+            2.389256094575558,
+            48.879478668192014
+          ],
+          [
+            2.388566870479196,
+            48.87949310699919
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3908262321424343,
+          "lat": 48.87835539221453
+        },
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "M7bis",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1911-01-18T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110107:7B",
+        "indice_lig": "M7bis",
+        "shape_leng": 455.614849065,
+        "colourweb_hexa": "6eca97",
+        "colourprint_cmjn": "45 0 25 21",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/e08d6e9d99727bb7d55ffc5c44801f72/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.364378741179748,
+            48.8811921181366
+          ],
+          [
+            2.369133214000685,
+            48.88240531309989
+          ],
+          [
+            2.369175919059682,
+            48.882415806653725
+          ],
+          [
+            2.369311668256744,
+            48.88244409704966
+          ],
+          [
+            2.369450305153814,
+            48.88246545158864
+          ],
+          [
+            2.369591011704378,
+            48.88247974364514
+          ],
+          [
+            2.369732963892358,
+            48.88248688883435
+          ],
+          [
+            2.369875330337295,
+            48.88248684770284
+          ],
+          [
+            2.370017272372531,
+            48.88247961943364
+          ],
+          [
+            2.37015796173961,
+            48.882465244637686
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3672579414757307,
+          "lat": 48.881914827159676
+        },
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "M7bis",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1911-01-18T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110107:7B",
+        "indice_lig": "M7bis",
+        "shape_leng": 450.299314805,
+        "colourweb_hexa": "6eca97",
+        "colourprint_cmjn": "45 0 25 21",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/e08d6e9d99727bb7d55ffc5c44801f72/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.394012398359363,
+            48.881816107252455
+          ],
+          [
+            2.396531901958131,
+            48.88129078954846
+          ],
+          [
+            2.396635284473055,
+            48.8812661375489
+          ],
+          [
+            2.39674641011633,
+            48.88123222813214
+          ],
+          [
+            2.396852399607747,
+            48.881191795097884
+          ],
+          [
+            2.396952373644786,
+            48.88114517217712
+          ],
+          [
+            2.396997977791166,
+            48.881120709054905
+          ],
+          [
+            2.398468172268172,
+            48.88027195609515
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.396304408107445,
+          "lat": 48.88121323207192
+        },
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "M7bis",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1911-01-18T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110107:7B",
+        "indice_lig": "M7bis",
+        "shape_leng": 376.397928548,
+        "colourweb_hexa": "6eca97",
+        "colourprint_cmjn": "45 0 25 21",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/e08d6e9d99727bb7d55ffc5c44801f72/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.388566870479196,
+            48.87949310699919
+          ],
+          [
+            2.389299276930476,
+            48.87948882516972
+          ],
+          [
+            2.389371864640577,
+            48.87950355592003
+          ],
+          [
+            2.389440312811661,
+            48.87952525779841
+          ],
+          [
+            2.389503090460619,
+            48.87955344546046
+          ],
+          [
+            2.389552983597866,
+            48.87958342990082
+          ],
+          [
+            2.389627084148343,
+            48.87963430145087
+          ],
+          [
+            2.392793085478601,
+            48.881807702649965
+          ],
+          [
+            2.392826694931919,
+            48.881829239315024
+          ],
+          [
+            2.392894967610397,
+            48.88186509186692
+          ],
+          [
+            2.392969631151437,
+            48.881894892835476
+          ],
+          [
+            2.393049459941648,
+            48.88191815125869
+          ],
+          [
+            2.393133142521497,
+            48.88193448725853
+          ],
+          [
+            2.393219306140963,
+            48.881943631266495
+          ],
+          [
+            2.393306534393117,
+            48.881945432207765
+          ],
+          [
+            2.39339339852532,
+            48.88193986215649
+          ],
+          [
+            2.394012398359363,
+            48.881816107252455
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.391282690794759,
+          "lat": 48.880744818764875
+        },
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "M7bis",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1911-01-18T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110107:7B",
+        "indice_lig": "M7bis",
+        "shape_leng": 514.04194413,
+        "colourweb_hexa": "6eca97",
+        "colourprint_cmjn": "45 0 25 21",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/e08d6e9d99727bb7d55ffc5c44801f72/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.398468172268172,
+            48.88027195609515
+          ],
+          [
+            2.39991443798042,
+            48.87948780647066
+          ],
+          [
+            2.400364492857791,
+            48.87925539440159
+          ],
+          [
+            2.400413483767131,
+            48.87922723089117
+          ],
+          [
+            2.400468782624612,
+            48.879186834808
+          ],
+          [
+            2.400515425784902,
+            48.87914193918215
+          ],
+          [
+            2.400552579137029,
+            48.87909334294694
+          ],
+          [
+            2.400579582312665,
+            48.879041914253534
+          ],
+          [
+            2.400595950274892,
+            48.878988570692904
+          ],
+          [
+            2.400601391217022,
+            48.87893426409634
+          ],
+          [
+            2.400595810836235,
+            48.87887996436848
+          ],
+          [
+            2.400579307114599,
+            48.878826638776694
+          ],
+          [
+            2.400552173177814,
+            48.87877524027399
+          ],
+          [
+            2.400514896177151,
+            48.87872668591018
+          ],
+          [
+            2.400468138364674,
+            48.87868184234832
+          ],
+          [
+            2.400412737288418,
+            48.878641508779204
+          ],
+          [
+            2.400349680010003,
+            48.87860640600131
+          ],
+          [
+            2.400280089667303,
+            48.87857715926722
+          ],
+          [
+            2.400205211923111,
+            48.87855429102188
+          ],
+          [
+            2.400126381005381,
+            48.87853820994158
+          ],
+          [
+            2.400125478621855,
+            48.878538069621186
+          ],
+          [
+            2.398259540776787,
+            48.87824780592021
+          ],
+          [
+            2.396180252428219,
+            48.87779989517394
+          ],
+          [
+            2.396009495768213,
+            48.877752621152325
+          ],
+          [
+            2.395865363193245,
+            48.877708241289646
+          ],
+          [
+            2.395807512648836,
+            48.87768810471383
+          ],
+          [
+            2.39574858303244,
+            48.87766519992071
+          ],
+          [
+            2.395687948573521,
+            48.87763928722586
+          ],
+          [
+            2.395624397721491,
+            48.8776098478915
+          ],
+          [
+            2.395510910692915,
+            48.8775527160165
+          ],
+          [
+            2.395256106897456,
+            48.87741725712568
+          ],
+          [
+            2.395135035918174,
+            48.87735787691365
+          ],
+          [
+            2.395029704205668,
+            48.877312540019
+          ],
+          [
+            2.394929204505454,
+            48.87727614791107
+          ],
+          [
+            2.394779462510295,
+            48.87723079675905
+          ],
+          [
+            2.394613460467757,
+            48.877187173542495
+          ],
+          [
+            2.394427535942647,
+            48.877144239826116
+          ],
+          [
+            2.394203218833256,
+            48.87709771746518
+          ],
+          [
+            2.393937409518323,
+            48.877047191247364
+          ],
+          [
+            2.39371529930243,
+            48.87701086136019
+          ],
+          [
+            2.39361150934669,
+            48.87699651564788
+          ],
+          [
+            2.393511936231954,
+            48.87698466257001
+          ],
+          [
+            2.393415801125448,
+            48.876975209157145
+          ],
+          [
+            2.393322615082973,
+            48.87696810797322
+          ],
+          [
+            2.393113217803316,
+            48.876954537803684
+          ],
+          [
+            2.392983964817393,
+            48.87694984717581
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3975269119959393,
+          "lat": 48.87828938536528
+        },
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "M7bis",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1911-01-18T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110107:7B",
+        "indice_lig": "M7bis",
+        "shape_leng": 839.259514402,
+        "colourweb_hexa": "6eca97",
+        "colourprint_cmjn": "45 0 25 21",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/e08d6e9d99727bb7d55ffc5c44801f72/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.388566870479196,
+          48.87949310699919
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.388566870479196,
+          "lat": 48.87949310699919
+        },
+        "id_gares": 93,
+        "nom_gares": "Botzaris",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71906,
+        "nom_zdc": "Botzaris",
+        "id_ref_zda": 42369,
+        "nom_zda": "Botzaris",
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "METRO 7bis",
+        "indice_lig": "7b",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 655157.0227,
+        "y": 6864559.5325,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_7bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-97a\"",
+          "mimetype": "image\/svg+xml",
+          "id": "53a6369ab3772b0115d7c675f45329d2",
+          "last_synchronized": "2023-12-12T15:43:49.298051",
+          "height": 300
+        },
+        "name": "Botzaris",
+        "line": "M7bis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.374495966260425,
+          48.88066746252183
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3744959662604246,
+          "lat": 48.88066746252183
+        },
+        "id_gares": 88,
+        "nom_gares": "Bolivar",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71920,
+        "nom_zdc": "Bolivar",
+        "id_ref_zda": 58767,
+        "nom_zda": "Bolivar",
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "METRO 7bis",
+        "indice_lig": "7b",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 654126.1075,
+        "y": 6864698.1965,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_7bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-97a\"",
+          "mimetype": "image\/svg+xml",
+          "id": "53a6369ab3772b0115d7c675f45329d2",
+          "last_synchronized": "2023-12-12T15:43:50.700220",
+          "height": 300
+        },
+        "name": "Bolivar",
+        "line": "M7bis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.392983964817393,
+          48.87694984717581
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3929839648173927,
+          "lat": 48.87694984717581
+        },
+        "id_gares": 651,
+        "nom_gares": "Place des Fêtes",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71885,
+        "nom_zdc": "Place des Fêtes",
+        "id_ref_zda": 44396,
+        "nom_zda": "Place des Fêtes",
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "METRO 7bis",
+        "indice_lig": "7b",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 655478.7954,
+        "y": 6864274.2381,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_7bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-97a\"",
+          "mimetype": "image\/svg+xml",
+          "id": "53a6369ab3772b0115d7c675f45329d2",
+          "last_synchronized": "2023-12-12T15:44:08.482490",
+          "height": 300
+        },
+        "name": "Place des Fêtes",
+        "line": "M7bis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.364378741179748,
+          48.8811921181366
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3643787411797477,
+          "lat": 48.8811921181366
+        },
+        "id_gares": 477,
+        "nom_gares": "Louis Blanc",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71407,
+        "nom_zdc": "Louis Blanc",
+        "id_ref_zda": 43823,
+        "nom_zda": "Louis Blanc",
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "METRO 7bis",
+        "indice_lig": "7b",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "METRO 7bis",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 653384.605,
+        "y": 6864762.4602,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_7bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-97a\"",
+          "mimetype": "image\/svg+xml",
+          "id": "53a6369ab3772b0115d7c675f45329d2",
+          "last_synchronized": "2023-12-12T15:44:25.957459",
+          "height": 300
+        },
+        "name": "Louis Blanc",
+        "line": "M7bis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.394012398359363,
+          48.881816107252455
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3940123983593633,
+          "lat": 48.881816107252455
+        },
+        "id_gares": 232,
+        "nom_gares": "Danube",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71930,
+        "nom_zdc": "Danube",
+        "id_ref_zda": 42822,
+        "nom_zda": "Danube",
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "METRO 7bis",
+        "indice_lig": "7b",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 655558.3764,
+        "y": 6864814.7578,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_7bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-97a\"",
+          "mimetype": "image\/svg+xml",
+          "id": "53a6369ab3772b0115d7c675f45329d2",
+          "last_synchronized": "2023-12-12T15:43:53.569267",
+          "height": 300
+        },
+        "name": "Danube",
+        "line": "M7bis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.37015796173961,
+          48.882465244637686
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3701579617396105,
+          "lat": 48.882465244637686
+        },
+        "id_gares": 375,
+        "nom_gares": "Jaurès",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71940,
+        "nom_zdc": "Jaurès",
+        "id_ref_zda": 43425,
+        "nom_zda": "Jaurès",
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "METRO 7bis",
+        "indice_lig": "7b",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 653809.5635,
+        "y": 6864900.628,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_7bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-97a\"",
+          "mimetype": "image\/svg+xml",
+          "id": "53a6369ab3772b0115d7c675f45329d2",
+          "last_synchronized": "2023-12-12T15:44:00.219904",
+          "height": 300
+        },
+        "name": "Jaurès",
+        "line": "M7bis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.398468172268172,
+          48.88027195609515
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.398468172268172,
+          "lat": 48.88027195609515
+        },
+        "id_gares": 709,
+        "nom_gares": "Pré Saint-Gervais",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71911,
+        "nom_zdc": "Pré Saint-Gervais",
+        "id_ref_zda": 45617,
+        "nom_zda": "Pré Saint-Gervais",
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "METRO 7bis",
+        "indice_lig": "7b",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "METRO 7bis",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 655883.8374,
+        "y": 6864640.5585,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_7bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-97a\"",
+          "mimetype": "image\/svg+xml",
+          "id": "53a6369ab3772b0115d7c675f45329d2",
+          "last_synchronized": "2023-12-12T15:44:27.721259",
+          "height": 300
+        },
+        "name": "Pré Saint-Gervais",
+        "line": "M7bis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.381614511928965,
+          48.87851411308943
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3816145119289653,
+          "lat": 48.87851411308943
+        },
+        "id_gares": 120,
+        "nom_gares": "Buttes-Chaumont",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71900,
+        "nom_zdc": "Buttes Chaumont",
+        "id_ref_zda": 45609,
+        "nom_zda": "Buttes Chaumont",
+        "idrefliga": "A01550",
+        "idrefligc": "C01387",
+        "res_com": "METRO 7bis",
+        "indice_lig": "7b",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 654646.2892,
+        "y": 6864454.6451,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_7bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-97a\"",
+          "mimetype": "image\/svg+xml",
+          "id": "53a6369ab3772b0115d7c675f45329d2",
+          "last_synchronized": "2023-12-12T15:43:54.989201",
+          "height": 300
+        },
+        "name": "Buttes-Chaumont",
+        "line": "M7bis"
+      }
+    }
+  ]
+}

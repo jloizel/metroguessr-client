@@ -1,0 +1,240 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 25px;
+}
+
+.text1 {
+  font-family: "Fredoka" !important;
+  font-weight: 600;
+  color: black;
+}
+
+.text2 {
+  font-family: "Fredoka" !important;
+  font-weight: 400;
+  color: black;
+  /* margin-bottom: 5px; */
+}
+
+.button {
+  background-color: transparent !important;
+  font-family: "Fredoka" !important;
+  font-weight: 700 !important;
+  border: 2px solid black !important;
+  border-radius: 5px !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) !important;
+  width: auto !important;
+  margin: auto !important;
+  color: black !important;
+  margin-top: 5px !important;
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* margin-top: 20px; */
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  @media (min-width: 1024px) {
+    /* margin-top: 25px; */
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.button:hover, .button2:hover {
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  background-color: #242424 !important;
+  color: white !important;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 5px;  
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px !important;
+  text-align: center;
+  width: 80%;
+  height: auto;
+}
+
+.closeButton {
+  position: absolute;
+  right: 0px;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.header {
+  font-family: "Fredoka" !important;
+  font-weight: 700;
+  color: black;
+}
+
+.city {
+  font-family: "Fredoka" !important;
+  font-weight: 500;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.scores {
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: 20px !important;
+  margin-bottom: 30px;
+  gap: 10px !important;
+  width: 100%;
+  justify-content: center;
+  /* justify-content: center; */
+  /* margin-right: 10px;
+  margin-left: 10px; */
+}
+
+.button2 {
+  background-color: transparent !important;
+  font-family: "Fredoka" !important;
+  font-weight: 700 !important;
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) !important;
+  /* width: auto !important; */
+  margin: auto !important;
+  color: black !important;
+  margin-bottom: 10px !important;
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* margin-top: 20px; */
+    font-size: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  @media (min-width: 1024px) {
+    /* margin-top: 25px; */
+    font-size: 25px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.scoreItem {
+  display: flex;
+  align-items: center; /* Align items vertically within each score item */
+  margin-bottom: 10px;
+  justify-content: space-between;
+  width: 100%;
+  
+  
+  @media (max-width: 767px) {
+    gap: 10px;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    gap: 30px;
+  }
+  
+  @media (min-width: 1024px) {
+    gap: 30px;
+  }
+}
+
+.username {
+  font-family: "Fredoka" !important;
+  font-weight: 600;
+  color: black;
+  /* font-size: 18px; */
+  margin-right: 20px;
+  flex: 1;
+  text-align: left;
+}
+
+.points {
+  font-family: "Fredoka" !important;
+  font-weight: 400;
+  color: black;
+  /* font-size: 18px; */
+}
+
+.medals {
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 767px) {
+    gap: 8px;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    gap: 7px;
+  }
+  
+  @media (min-width: 1024px) {
+    gap: 6px;
+  }
+  
+}
+
+
+.medal {
+  @media (max-width: 767px) {
+    margin-right: 10px;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    margin-right: 10px;
+  }
+  
+  @media (min-width: 1024px) {
+    margin-right: 20px;
+  }
+}
+
+.medalHidden {
+  margin-right: 20px;
+  visibility: hidden;
+}

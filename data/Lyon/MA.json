@@ -1,0 +1,304 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            4.826895,
+            45.749973
+          ],
+          [
+            4.829534,
+            45.753196
+          ],
+          [
+            4.831601,
+            45.756578
+          ],
+          [
+            4.831762,
+            45.756774
+          ],
+          [
+            4.832017,
+            45.756895
+          ],
+          [
+            4.833853,
+            45.757158
+          ],
+          [
+            4.835777,
+            45.760481
+          ],
+          [
+            4.8357,
+            45.763107
+          ],
+          [
+            4.83594,
+            45.767333
+          ],
+          [
+            4.836083,
+            45.768014
+          ],
+          [
+            4.836569,
+            45.768386
+          ],
+          [
+            4.83735,
+            45.768572
+          ],
+          [
+            4.84408,
+            45.768801
+          ],
+          [
+            4.852918,
+            45.769624
+          ],
+          [
+            4.863666,
+            45.770363
+          ],
+          [
+            4.867942,
+            45.770963
+          ],
+          [
+            4.870583,
+            45.771016
+          ],
+          [
+            4.873224,
+            45.770739
+          ],
+          [
+            4.881667,
+            45.769201
+          ],
+          [
+            4.890045,
+            45.767527
+          ],
+          [
+            4.899883,
+            45.765838
+          ],
+          [
+            4.908841,
+            45.764024
+          ],
+          [
+            4.913533,
+            45.763219
+          ],
+          [
+            4.917653,
+            45.761805
+          ],
+          [
+            4.919506,
+            45.76114
+          ],
+          [
+            4.920344,
+            45.760817
+          ],
+          [
+            4.921507,
+            45.761093
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.82687993,
+            45.74997054
+        ]
+    },
+      "properties": {
+        "name": "Perrache"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.82951744,
+            45.7531876
+        ]
+    },
+      "properties": {
+        "name": "Ampère"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.83383626,
+            45.75713754
+        ]
+    },
+      "properties": {
+        "name": "Bellecour"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.83569768,
+            45.76308415
+        ]
+    },
+      "properties": {
+        "name": "Cordeliers"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.83594233,
+            45.76733113
+        ]
+    },
+      "properties": {
+        "name": "Hôtel de Ville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.84409278,
+            45.76880913
+        ]
+    },
+      "properties": {
+        "name": "Foch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.852909,
+            45.76961383
+        ]
+    },
+      "properties": {
+        "name": "Masséna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.86365348,
+            45.770366
+        ]
+    },
+      "properties": {
+        "name": "Charpennes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.87322791,
+            45.77074105
+        ]
+    },
+      "properties": {
+        "name": "République"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.88165451,
+            45.76920602
+        ]
+    },
+      "properties": {
+        "name": "Gratte-Ciel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.89004757,
+            45.76752348
+        ]
+    },
+      "properties": {
+        "name": "Flachet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.89988064,
+            45.76583553
+        ]
+    },
+      "properties": {
+        "name": "Cusset"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.90884698,
+            45.76402212
+        ]
+    },
+      "properties": {
+        "name": "Laurent Bonnevay"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.9214775,
+            45.76109131
+        ]
+    },
+      "properties": {
+        "name": "Vaulx-en-Velin"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

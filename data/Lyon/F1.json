@@ -1,0 +1,82 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            4.82149,
+            45.762386
+          ],
+          [
+            4.826358,
+            45.759984
+          ],
+          [
+            4.821208,
+            45.758286
+          ],
+          [
+            4.816132,
+            45.757198
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.81612958,
+            45.75720833
+        ]
+    },
+      "properties": {
+        "name": "St-Just"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.82119648,
+            45.75829174
+        ]
+    },
+      "properties": {
+        "name": "Minimes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.82147007,
+            45.76238488
+        ]
+    },
+      "properties": {
+        "name": "Fourvière"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.82633834,
+            45.75998372
+        ]
+    },
+      "properties": {
+        "name": "Vieux Lyon"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

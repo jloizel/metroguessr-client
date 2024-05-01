@@ -1,0 +1,545 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.83178,
+          40.35008
+        ]
+      },
+      "properties": {
+        "name": "Alcorcón Central",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.73664,
+          40.30081
+        ]
+      },
+      "properties": {
+        "name": "Alonso De Mendoza",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.75682,
+          40.28874
+        ]
+      },
+      "properties": {
+        "name": "Arroyo Culebro",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.56919,
+          40.4225
+        ]
+      },
+      "properties": {
+        "name": "Barrio Del Puerto",
+        "line": "Line7",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.63513,
+          40.55442
+        ]
+      },
+      "properties": {
+        "name": "Baunatal",
+        "line": "Line10",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.75942,
+          40.3266
+        ]
+      },
+      "properties": {
+        "name": "Casa Del Reloj",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.74576,
+          40.29324
+        ]
+      },
+      "properties": {
+        "name": "Conservatorio",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.56119,
+          40.42374
+        ]
+      },
+      "properties": {
+        "name": "Coslada Central",
+        "line": "Line7",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.72963,
+          40.32907
+        ]
+      },
+      "properties": {
+        "name": "El Bercial",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.74018,
+          40.33664
+        ]
+      },
+      "properties": {
+        "name": "El Carrascal",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70985,
+          40.31862
+        ]
+      },
+      "properties": {
+        "name": "El Casar",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.73403,
+          40.30993
+        ]
+      },
+      "properties": {
+        "name": "Getafe Central",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.52718,
+          40.41777
+        ]
+      },
+      "properties": {
+        "name": "Henares",
+        "line": "Line7",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.53453,
+          40.41761
+        ]
+      },
+      "properties": {
+        "name": "Hospital Del Henares",
+        "line": "Line7",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.61145,
+          40.55977
+        ]
+      },
+      "properties": {
+        "name": "Hospital Infanta Sofía",
+        "line": "Line10",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.76797,
+          40.32177
+        ]
+      },
+      "properties": {
+        "name": "Hospital Severo Ochoa",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.52549,
+          40.42295
+        ]
+      },
+      "properties": {
+        "name": "Jarama",
+        "line": "Line7",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8072,
+          40.34985
+        ]
+      },
+      "properties": {
+        "name": "Joaquín Vilumbrales",
+        "line": "Line10",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.72224,
+          40.3118
+        ]
+      },
+      "properties": {
+        "name": "Juan De La Cierva",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.75266,
+          40.33475
+        ]
+      },
+      "properties": {
+        "name": "Julián Besteiro",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.65859,
+          40.5276
+        ]
+      },
+      "properties": {
+        "name": "La Granja",
+        "line": "Line10",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.63556,
+          40.53196
+        ]
+      },
+      "properties": {
+        "name": "La Moraleja",
+        "line": "Line10",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.54792,
+          40.42514
+        ]
+      },
+      "properties": {
+        "name": "La Rambla",
+        "line": "Line7",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.77154,
+          40.32899
+        ]
+      },
+      "properties": {
+        "name": "Leganés Central",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7182,
+          40.32423
+        ]
+      },
+      "properties": {
+        "name": "Los Espartales",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.64688,
+          40.55048
+        ]
+      },
+      "properties": {
+        "name": "Manuel De Falla",
+        "line": "Line10",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.63738,
+          40.54102
+        ]
+      },
+      "properties": {
+        "name": "Marqués De La Valdavia",
+        "line": "Line10",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8212,
+          40.34969
+        ]
+      },
+      "properties": {
+        "name": "Parque Lisboa",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.84934,
+          40.34589
+        ]
+      },
+      "properties": {
+        "name": "Parque Oeste",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.81211,
+          40.34524
+        ]
+      },
+      "properties": {
+        "name": "Puerta Del Sur",
+        "line": "Line10",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6234,
+          40.55037
+        ]
+      },
+      "properties": {
+        "name": "Reyes Católicos",
+        "line": "Line10",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.52479,
+          40.34134
+        ]
+      },
+      "properties": {
+        "name": "Rivas Futura",
+        "line": "Line9",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.54728,
+          40.36677
+        ]
+      },
+      "properties": {
+        "name": "Rivas Urbanizaciones",
+        "line": "Line9",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5206,
+          40.32837
+        ]
+      },
+      "properties": {
+        "name": "Rivas Vaciamadrid",
+        "line": "Line9",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.53541,
+          40.42441
+        ]
+      },
+      "properties": {
+        "name": "San Fernando",
+        "line": "Line7",
+        "zone": "Zone B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.77587,
+          40.33616
+        ]
+      },
+      "properties": {
+        "name": "San Nicasio",
+        "line": "Line12",
+        "zone": "Zone B1"
+      }
+    }
+  ]
+}

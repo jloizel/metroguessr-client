@@ -1,0 +1,191 @@
+/* marker styling for when the station marker is hidden */
+.markerHidden {
+  visibility: hidden;
+}
+
+/* marker styling for when the station needs to be guessed */
+.Line1guess, .Line2guess, .Line3guess, .Line4guess,.Line5guess, .Line6guess, .Line7guess, .Line8guess, .Line9guess, .Line10guess, .Line11guess, .Line12guess, .LineRguess {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .Line1guess {
+    border: 5px solid #38B2E2;
+    background-color: white;
+  }
+
+  .Line2guess {
+    border: 5px solid #FF0000;
+    background-color: white;
+  }
+
+  .Line3guess {
+    border: 5px solid #FDF235;
+    background-color: white;
+  }
+
+  .Line4guess {
+    border: 5px solid #9A6908;
+    background-color: white;
+  }
+
+  .Line5guess {
+    border: 5px solid #51D532;
+    background-color: white;
+  }
+
+  .Line6guess {
+    border: 5px solid #999999;
+    background-color: white;
+  }
+
+  .Line7guess {
+    border: 5px solid #F89B11;
+    background-color: white;
+  }
+
+  .Line8guess {
+    border: 5px solid #F89B11;
+    background-color: white;
+  }
+
+  .Line9guess {
+    border: 5px solid #9F1F99;
+    background-color: white;
+  }
+
+  .Line10guess {
+    border: 5px solid #015396;
+    background-color: white;
+  }
+
+  .Line11guess {
+    border: 5px solid #378B48;
+    background-color: white;
+  }
+
+  .Line12guess {
+    border: 5px solid #A49000;
+    background-color: white;
+  }
+
+  .LineRguess {
+    border: 5px solid #0E4A97;
+    background-color: white;
+  }
+
+/* marker styling for when the station is guessed correctly */
+  .Line1correct, .Line2correct, .Line3correct, .Line4correct, .Line5correct, .Line6correct, .Line7correct, .Line8correct, .Line9correct, .Line10correct, .Line11correct, .Line12correct, .LineRcorrect {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .Line1correct {
+    border: 5px solid #38B2E2;
+    background-color: #38B2E2;
+  }
+
+  .Line2correct  {
+    border: 5px solid #FF0000;
+    background-color: #FF0000;
+  }
+
+  .Line3correct  {
+    border: 5px solid #FDF235;
+    background-color: #FDF235;
+  }
+
+  .Line4correct  {
+    border: 5px solid #9A6908;
+    background-color: #9A6908;
+  }
+
+  .Line5correct  {
+    border: 5px solid #51D532;
+    background-color: #51D532;
+  }
+
+  .Line6correct  {
+    border: 5px solid #999999;
+    background-color: #999999;
+  }
+
+  .Line7correct  {
+    border: 5px solid #F89B11;
+    background-color: #F89B11;
+  }
+
+  .Line8correct  {
+    border: 5px solid #FB57A1;
+    background-color: #FB57A1;
+  }
+
+  .Line9correct  {
+    border: 5px solid #9F1F99;
+    background-color: #9F1F99;
+  }
+
+  .Line10correct  {
+    border: 5px solid #015396;
+    background-color: #015396;
+  }
+
+  .Line11correct  {
+    border: 5px solid #378B48;
+    background-color: #378B48;
+  }
+
+  .Line12correct  {
+    border: 5px solid #A49000;
+    background-color: #A49000;
+  }
+
+  .LineRcorrect  {
+    border: 5px solid #0E4A97;
+    background-color: #0E4A97;
+  }
+
+  .Line1skip,  .Line2skip, .Line3skip, .Line4skip, .Line5skip, .Line6skip, .Line7skip, .Line8skip, .Line9skip, .Line10skip, .Line11skip, .Line12skip, .LineRskip {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  } 
+
+  .labelHidden {
+    visibility: hidden;
+  }
+
+  .labelGuessed {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 13px;
+    position: absolute;
+    bottom: 180%;
+    transform: translateX(-40%);
+    white-space: nowrap;
+    z-index: 100;
+  }
+
+  .labelSkipped {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 500;
+    font-size: 13px;
+    font-style: italic;
+    position: absolute;
+    bottom: 140%;
+    transform: translateX(-40%);
+    white-space: nowrap;
+    z-index: 100;
+  }

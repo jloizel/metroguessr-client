@@ -1,0 +1,1853 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.353495741491145,
+            48.861204989395915
+          ],
+          [
+            2.353951246423372,
+            48.86203319816342
+          ],
+          [
+            2.355651559539433,
+            48.86513165165965
+          ],
+          [
+            2.355681916076442,
+            48.8651780143863
+          ],
+          [
+            2.355725118090813,
+            48.86522610824086
+          ],
+          [
+            2.355777647405688,
+            48.86526997320639
+          ],
+          [
+            2.355838571781982,
+            48.86530882542187
+          ],
+          [
+            2.3559068037637,
+            48.865341975521424
+          ],
+          [
+            2.355981122476643,
+            48.86536882965212
+          ],
+          [
+            2.356060203393973,
+            48.86538890762192
+          ],
+          [
+            2.356142635924732,
+            48.865401853787375
+          ],
+          [
+            2.356226949347833,
+            48.865407434495786
+          ],
+          [
+            2.356311638524229,
+            48.8654055535127
+          ],
+          [
+            2.356395187216719,
+            48.865396240456285
+          ],
+          [
+            2.356453303725954,
+            48.86538513490141
+          ],
+          [
+            2.356727701162054,
+            48.865323200025415
+          ],
+          [
+            2.3567298691737,
+            48.8653227107436
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.354903942688336,
+          "lat": 48.863620297017576
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1935-04-28T01:00:00+01:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 558.051977733,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.376593684096822,
+            48.87184879372683
+          ],
+          [
+            2.377029776704533,
+            48.87199369082578
+          ],
+          [
+            2.377667996892693,
+            48.872192221548474
+          ],
+          [
+            2.378662097400257,
+            48.87246790342699
+          ],
+          [
+            2.379991043796696,
+            48.8728124642614
+          ],
+          [
+            2.381393182685952,
+            48.873087966043904
+          ],
+          [
+            2.382690709834244,
+            48.87335659398994
+          ],
+          [
+            2.383559195582596,
+            48.87350806409719
+          ],
+          [
+            2.384385794879732,
+            48.87361123762901
+          ],
+          [
+            2.384560217040379,
+            48.873649730302965
+          ],
+          [
+            2.384769585212633,
+            48.873702902302
+          ],
+          [
+            2.384974747612022,
+            48.873762786536076
+          ],
+          [
+            2.38517520426707,
+            48.87382924016132
+          ],
+          [
+            2.385316215101792,
+            48.87388185322374
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3809378322681556,
+          "lat": 48.87294380224885
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1935-04-28T01:00:00+01:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 680.820954198,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.351008461406026,
+            48.85745183080862
+          ],
+          [
+            2.351107935501582,
+            48.85747851078419
+          ],
+          [
+            2.351202723360607,
+            48.85751179797809
+          ],
+          [
+            2.351292209334572,
+            48.85755155236203
+          ],
+          [
+            2.351374289934534,
+            48.85759671660081
+          ],
+          [
+            2.351449248058449,
+            48.85764744872921
+          ],
+          [
+            2.351515904555908,
+            48.85770299770768
+          ],
+          [
+            2.351573551198283,
+            48.857762774234764
+          ],
+          [
+            2.351621578432566,
+            48.85782614457557
+          ],
+          [
+            2.351685280781978,
+            48.85793730944395
+          ],
+          [
+            2.351766499609593,
+            48.85808391271128
+          ],
+          [
+            2.353495741491145,
+            48.861204989395915
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.352364364165372,
+          "lat": 48.85920940811547
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1935-04-28T01:00:00+01:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 463.112828702,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.3567298691737,
+            48.8653227107436
+          ],
+          [
+            2.357846194669268,
+            48.86507073691553
+          ],
+          [
+            2.359468058190322,
+            48.86470463099891
+          ],
+          [
+            2.359525493277145,
+            48.86469550245999
+          ],
+          [
+            2.359585714402995,
+            48.86469359794254
+          ],
+          [
+            2.359645394215221,
+            48.86469924588669
+          ],
+          [
+            2.359702371906782,
+            48.86471224497112
+          ],
+          [
+            2.359754593618367,
+            48.86473212104995
+          ],
+          [
+            2.359800169283975,
+            48.86475815983238
+          ],
+          [
+            2.35983674878057,
+            48.864788702955806
+          ],
+          [
+            2.360722811429663,
+            48.86568960601048
+          ],
+          [
+            2.361337698168159,
+            48.866273359636324
+          ],
+          [
+            2.361989420355609,
+            48.866751679269164
+          ],
+          [
+            2.362152480743598,
+            48.866818222830496
+          ],
+          [
+            2.363022188828014,
+            48.86717313833292
+          ],
+          [
+            2.363296597099437,
+            48.86728587304937
+          ],
+          [
+            2.363534714622872,
+            48.86738369731879
+          ],
+          [
+            2.36403105972391,
+            48.86758203056393
+          ],
+          [
+            2.365074861082764,
+            48.86799910798849
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3609370614195484,
+          "lat": 48.866079586186046
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1935-04-28T01:00:00+01:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 778.537851934,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.385316215101792,
+            48.87388185322374
+          ],
+          [
+            2.385370479970393,
+            48.87390210067839
+          ],
+          [
+            2.385560102381248,
+            48.873981193014444
+          ],
+          [
+            2.385743611588691,
+            48.87406632777338
+          ],
+          [
+            2.385920571049807,
+            48.87415729859351
+          ],
+          [
+            2.385955659533789,
+            48.87417646352821
+          ],
+          [
+            2.386301077486566,
+            48.87434193972825
+          ],
+          [
+            2.386363562499586,
+            48.87437948077917
+          ],
+          [
+            2.386469784208578,
+            48.87443528120513
+          ],
+          [
+            2.386582546263036,
+            48.874485184843216
+          ],
+          [
+            2.386701102696687,
+            48.87452885869796
+          ],
+          [
+            2.38682465930951,
+            48.87456601269687
+          ],
+          [
+            2.386952396812668,
+            48.87459640250732
+          ],
+          [
+            2.387083465482963,
+            48.874619820516735
+          ],
+          [
+            2.387216990405727,
+            48.87463611384603
+          ],
+          [
+            2.387352085225884,
+            48.874645174528005
+          ],
+          [
+            2.387487852128541,
+            48.874646941305734
+          ],
+          [
+            2.387556847502657,
+            48.87464503609717
+          ],
+          [
+            2.387933512269205,
+            48.87466556981997
+          ],
+          [
+            2.387952065928689,
+            48.87466784556835
+          ],
+          [
+            2.388139021233736,
+            48.87469483880957
+          ],
+          [
+            2.388323306112194,
+            48.87472888956833
+          ],
+          [
+            2.388504312486073,
+            48.8747698877291
+          ],
+          [
+            2.388681438052141,
+            48.87481769532987
+          ],
+          [
+            2.388854094354816,
+            48.87487215559638
+          ],
+          [
+            2.389021708233121,
+            48.874933085754755
+          ],
+          [
+            2.389126534326161,
+            48.874975578216464
+          ],
+          [
+            2.389389486798256,
+            48.87509975337385
+          ],
+          [
+            2.389415032035527,
+            48.87511181602157
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.387346389345012,
+          "lat": 48.87455493878123
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1935-04-28T01:00:00+01:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 337.879852514,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.406480156998485,
+            48.87717481837107
+          ],
+          [
+            2.406528497611208,
+            48.8771884220671
+          ],
+          [
+            2.406658006923228,
+            48.87722880271422
+          ],
+          [
+            2.407438929664648,
+            48.87747228716001
+          ],
+          [
+            2.409930462523421,
+            48.87824907287019
+          ],
+          [
+            2.411207485813836,
+            48.87860710750576
+          ],
+          [
+            2.412159991767255,
+            48.87884802293816
+          ],
+          [
+            2.413363668528156,
+            48.87911636905157
+          ],
+          [
+            2.414483584395983,
+            48.87934335053931
+          ],
+          [
+            2.41538216511015,
+            48.87952137054197
+          ],
+          [
+            2.416479643681515,
+            48.87976125216355
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.411450502731718,
+          "lat": 48.87858153895331
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1937-02-17T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 789.151114085,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.348036565400401,
+            48.85763140976555
+          ],
+          [
+            2.34893600902336,
+            48.85738338688731
+          ],
+          [
+            2.349022286753301,
+            48.85735959538627
+          ],
+          [
+            2.349074886884621,
+            48.85734576081505
+          ],
+          [
+            2.349204898269474,
+            48.85731710505162
+          ],
+          [
+            2.349337980103432,
+            48.8572954448051
+          ],
+          [
+            2.349473274754338,
+            48.857280920198676
+          ],
+          [
+            2.34960989925033,
+            48.85727362715292
+          ],
+          [
+            2.349746969888123,
+            48.85727361122473
+          ],
+          [
+            2.349845981089346,
+            48.85727887350226
+          ],
+          [
+            2.349883599437835,
+            48.85728087298819
+          ],
+          [
+            2.350018899889665,
+            48.85729536625079
+          ],
+          [
+            2.350067341689887,
+            48.85730237179727
+          ],
+          [
+            2.3509041023079,
+            48.857431846897306
+          ],
+          [
+            2.350905356513153,
+            48.85743204256416
+          ],
+          [
+            2.351008461406026,
+            48.85745183080862
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.349513884634867,
+          "lat": 48.857387987918486
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1935-04-28T01:00:00+01:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 227.614786194,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.398867596625601,
+            48.87547445574476
+          ],
+          [
+            2.399945452476498,
+            48.87565329240824
+          ],
+          [
+            2.401975577705545,
+            48.87596270391758
+          ],
+          [
+            2.402980284862133,
+            48.87618986437021
+          ],
+          [
+            2.406322842229573,
+            48.877130548534005
+          ],
+          [
+            2.406480156998485,
+            48.87717481837107
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.4026977229169098,
+          "lat": 48.87621616095587
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1935-04-28T01:00:00+01:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 591.335208927,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.365074861082764,
+            48.86799910798849
+          ],
+          [
+            2.365634688650187,
+            48.86820706313918
+          ],
+          [
+            2.370558945305434,
+            48.86978732700281
+          ],
+          [
+            2.3710948397312,
+            48.86995751176857
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3680806234361227,
+          "lat": 48.86899058410291
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1935-04-28T01:00:00+01:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 492.456163269,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.3710948397312,
+            48.86995751176857
+          ],
+          [
+            2.37301133461033,
+            48.870558232624134
+          ],
+          [
+            2.374350782277543,
+            48.87107538256853
+          ],
+          [
+            2.375543723017723,
+            48.8714959510545
+          ],
+          [
+            2.376593684096822,
+            48.87184879372683
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3738489583480877,
+          "lat": 48.870888694504394
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1935-04-28T01:00:00+01:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 455.14436136,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.389415032035527,
+            48.87511181602157
+          ],
+          [
+            2.38959917634133,
+            48.87519877451426
+          ],
+          [
+            2.38959930243557,
+            48.875198834513185
+          ],
+          [
+            2.389671022580826,
+            48.875223105362934
+          ],
+          [
+            2.389830532275631,
+            48.875271065133425
+          ],
+          [
+            2.389994333133891,
+            48.8753122556949
+          ],
+          [
+            2.390161763084789,
+            48.875346509080046
+          ],
+          [
+            2.390332151480616,
+            48.87537369055648
+          ],
+          [
+            2.390504811045136,
+            48.87539368779394
+          ],
+          [
+            2.390569555648628,
+            48.87539928211837
+          ],
+          [
+            2.390648925489886,
+            48.875406987843874
+          ],
+          [
+            2.390772355286603,
+            48.875424975892656
+          ],
+          [
+            2.390892936609155,
+            48.875449991091855
+          ],
+          [
+            2.391009756868057,
+            48.87548184354426
+          ],
+          [
+            2.39112192182113,
+            48.875520289489344
+          ],
+          [
+            2.391228580028365,
+            48.87556503862164
+          ],
+          [
+            2.391328921560709,
+            48.8756157477886
+          ],
+          [
+            2.391422180589777,
+            48.87567203269431
+          ],
+          [
+            2.391507646324979,
+            48.87573346525672
+          ],
+          [
+            2.391518302173143,
+            48.8757419272767
+          ],
+          [
+            2.392606654806673,
+            48.87661643182549
+          ],
+          [
+            2.392638395776645,
+            48.87664052857117
+          ],
+          [
+            2.392709295049649,
+            48.87668590968306
+          ],
+          [
+            2.392787574977286,
+            48.87672566330109
+          ],
+          [
+            2.392872213532804,
+            48.87675927250864
+          ],
+          [
+            2.3929621114182,
+            48.876786298240965
+          ],
+          [
+            2.393056091960662,
+            48.876806388278496
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3912985048168873,
+          "lat": 48.875823641775646
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1935-04-28T01:00:00+01:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 338.483209832,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.393056091960662,
+            48.876806388278496
+          ],
+          [
+            2.39314627538175,
+            48.876818635712084
+          ],
+          [
+            2.393351167537196,
+            48.8768434201388
+          ],
+          [
+            2.39432085769874,
+            48.87696071331182
+          ],
+          [
+            2.394379178684613,
+            48.876966070706025
+          ],
+          [
+            2.394466946613937,
+            48.87696788257548
+          ],
+          [
+            2.394554344020682,
+            48.87696227662497
+          ],
+          [
+            2.394639938160781,
+            48.876949345435904
+          ],
+          [
+            2.394722320828331,
+            48.87692929953009
+          ],
+          [
+            2.394800142411608,
+            48.876902470239315
+          ],
+          [
+            2.394872122948305,
+            48.876869297170096
+          ],
+          [
+            2.394937082153725,
+            48.876830325656734
+          ],
+          [
+            2.394993951837692,
+            48.87678619423241
+          ],
+          [
+            2.395020567402431,
+            48.876760875878716
+          ],
+          [
+            2.395809393864411,
+            48.87595559210656
+          ],
+          [
+            2.395863827430859,
+            48.875903174996225
+          ],
+          [
+            2.39595062168676,
+            48.875830436181
+          ],
+          [
+            2.396045799249072,
+            48.87576241432098
+          ],
+          [
+            2.396148774456741,
+            48.875699526430786
+          ],
+          [
+            2.396258914255033,
+            48.875642162306264
+          ],
+          [
+            2.396375535583678,
+            48.875590674619524
+          ],
+          [
+            2.39649792170497,
+            48.8755453816997
+          ],
+          [
+            2.396625318186337,
+            48.875506561217975
+          ],
+          [
+            2.396756938321092,
+            48.875474452913345
+          ],
+          [
+            2.396891972702594,
+            48.87544925594321
+          ],
+          [
+            2.397029586557819,
+            48.875431123474584
+          ],
+          [
+            2.397168934659911,
+            48.87542016995406
+          ],
+          [
+            2.397309154613738,
+            48.87541646208075
+          ],
+          [
+            2.397424384813723,
+            48.87541885252944
+          ],
+          [
+            2.398438859280129,
+            48.87546153699811
+          ],
+          [
+            2.398867596625601,
+            48.87547445574476
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.395924218569376,
+          "lat": 48.87610762276017
+        },
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "M11",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1935-04-28T01:00:00+01:00",
+        "idf": 1,
+        "extcode": "100110011:11",
+        "indice_lig": "M11",
+        "shape_leng": 505.295765625,
+        "colourweb_hexa": "704b1c",
+        "colourprint_cmjn": "0 33 75 56",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/091275f9a999a893de5eb4703e1a74af/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.376593684096822,
+          48.87184879372683
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.376593684096822,
+          "lat": 48.87184879372683
+        },
+        "id_gares": 60,
+        "nom_gares": "Belleville",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71853,
+        "nom_zdc": "Belleville",
+        "id_ref_zda": 42311,
+        "nom_zda": "Belleville",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 654272.2072,
+        "y": 6863716.401,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:43:52.568102",
+          "height": 300
+        },
+        "name": "Belleville",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.348036565400401,
+          48.85763140976555
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3480365654004007,
+          "lat": 48.85763140976555
+        },
+        "id_gares": 165,
+        "nom_gares": "Châtelet",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71264,
+        "nom_zdc": "Châtelet",
+        "id_ref_zda": 42587,
+        "nom_zda": "Châtelet",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "METRO 11",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 652164.4932,
+        "y": 6862152.4575,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:43:56.136541",
+          "height": 300
+        },
+        "name": "Châtelet",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.393056091960662,
+          48.876806388278496
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.393056091960662,
+          "lat": 48.876806388278496
+        },
+        "id_gares": 650,
+        "nom_gares": "Place des Fêtes",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71885,
+        "nom_zdc": "Place des Fêtes",
+        "id_ref_zda": 44396,
+        "nom_zda": "Place des Fêtes",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 655483.9628,
+        "y": 6864258.2457,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:44:08.294897",
+          "height": 300
+        },
+        "name": "Place des Fêtes",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.365074861082764,
+          48.86799910798849
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3650748610827637,
+          "lat": 48.86799910798849
+        },
+        "id_gares": 729,
+        "nom_gares": "République",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71311,
+        "nom_zdc": "République",
+        "id_ref_zda": 44617,
+        "nom_zda": "République",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 653423.8602,
+        "y": 6863295.0761,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:44:16.990455",
+          "height": 300
+        },
+        "name": "République",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.351008461406026,
+          48.85745183080862
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3510084614060256,
+          "lat": 48.85745183080862
+        },
+        "id_gares": 353,
+        "nom_gares": "Hôtel de Ville",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 415852,
+        "nom_zdc": "Hôtel de Ville de Paris - 4ème Arrondissement",
+        "id_ref_zda": 470524,
+        "nom_zda": "Hôtel de Ville",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 652382.3765,
+        "y": 6862130.6936,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:44:24.964628",
+          "height": 300
+        },
+        "name": "Hôtel de Ville",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.3710948397312,
+          48.86995751176857
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3710948397312004,
+          "lat": 48.86995751176857
+        },
+        "id_gares": 332,
+        "nom_gares": "Goncourt",
+        "nom_so_gar": "Hôpital Saint-Louis",
+        "nom_su_gar": null,
+        "id_ref_zdc": 71840,
+        "nom_zdc": "Goncourt",
+        "id_ref_zda": 43298,
+        "nom_zda": "Goncourt",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 653867.1922,
+        "y": 6863509.3023,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:43:57.831728",
+          "height": 300
+        },
+        "name": "Goncourt",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.389415032035527,
+          48.87511181602157
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.389415032035527,
+          "lat": 48.87511181602157
+        },
+        "id_gares": 379,
+        "nom_gares": "Jourdain",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71868,
+        "nom_zdc": "Jourdain",
+        "id_ref_zda": 43483,
+        "nom_zda": "Jourdain",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 655215.4591,
+        "y": 6864071.8789,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:44:00.344313",
+          "height": 300
+        },
+        "name": "Jourdain",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.398867596625601,
+          48.87547445574476
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3988675966256006,
+          "lat": 48.87547445574476
+        },
+        "id_gares": 848,
+        "nom_gares": "Télégraphe",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71870,
+        "nom_zdc": "Télégraphe",
+        "id_ref_zda": 44923,
+        "nom_zda": "Télégraphe",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 655909.0693,
+        "y": 6864106.8825,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:44:13.371305",
+          "height": 300
+        },
+        "name": "Télégraphe",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.3567298691737,
+          48.8653227107436
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3567298691737,
+          "lat": 48.8653227107436
+        },
+        "id_gares": 27,
+        "nom_gares": "Arts et Métiers",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71293,
+        "nom_zdc": "Arts et Métiers",
+        "id_ref_zda": 42230,
+        "nom_zda": "Arts et Métiers",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 652809.2865,
+        "y": 6863002.4359,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:43:51.352651",
+          "height": 300
+        },
+        "name": "Arts et Métiers",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.416479643681515,
+          48.87976125216355
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.4164796436815146,
+          "lat": 48.87976125216355
+        },
+        "id_gares": 494,
+        "nom_gares": "Mairie des Lilas",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71909,
+        "nom_zdc": "Mairie des Lilas",
+        "id_ref_zda": 44055,
+        "nom_zda": "Mairie des Lilas",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "METRO 11",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 657204.3492,
+        "y": 6864573.8588,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:44:05.880190",
+          "height": 300
+        },
+        "name": "Mairie des Lilas",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.385316215101792,
+          48.87388185322374
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.385316215101792,
+          "lat": 48.87388185322374
+        },
+        "id_gares": 716,
+        "nom_gares": "Pyrénées",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71864,
+        "nom_zdc": "Pyrenées",
+        "id_ref_zda": 44580,
+        "nom_zda": "Pyrénées",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 654913.7648,
+        "y": 6863937.4476,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:44:15.444569",
+          "height": 300
+        },
+        "name": "Pyrénées",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.353495741491145,
+          48.861204989395915
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.3534957414911455,
+          "lat": 48.861204989395915
+        },
+        "id_gares": 721,
+        "nom_gares": "Rambuteau",
+        "nom_so_gar": "Centre Georges Pompidou",
+        "nom_su_gar": null,
+        "id_ref_zdc": 71273,
+        "nom_zdc": "Rambuteau",
+        "id_ref_zda": 44593,
+        "nom_zda": "Rambuteau",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 652568.2853,
+        "y": 6862546.5161,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:44:15.872236",
+          "height": 300
+        },
+        "name": "Rambuteau",
+        "line": "M11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.406480156998485,
+          48.87717481837107
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.4064801569984855,
+          "lat": 48.87717481837107
+        },
+        "id_gares": 697,
+        "nom_gares": "Porte des Lilas",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71889,
+        "nom_zdc": "Porte des Lilas",
+        "id_ref_zda": 44529,
+        "nom_zda": "Porte des Lilas",
+        "idrefliga": "A01544",
+        "idrefligc": "C01381",
+        "res_com": "METRO 11",
+        "indice_lig": "11",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 656468.8342,
+        "y": 6864291.7286,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_11.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d4-527\"",
+          "mimetype": "image\/svg+xml",
+          "id": "964a06dc4dd9a4041b09c37567bd5b94",
+          "last_synchronized": "2023-12-12T15:44:14.370587",
+          "height": 300
+        },
+        "name": "Porte des Lilas",
+        "line": "M11"
+      }
+    }
+  ]
+}

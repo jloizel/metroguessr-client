@@ -1,0 +1,36 @@
+.map {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.markerHidden {
+  visibility: hidden;
+}
+
+.markerVisible {
+  /* visibility: visible; */
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  border: 5px solid #f052a4;
+  background-color: white;
+}
+
+.labelHidden {
+  visibility: hidden;
+}
+
+.labelGuessed {
+  color: black;
+  font-family: "Fredoka";
+  font-weight: 600;
+  font-size: 12px;
+  position: absolute;
+  bottom: 100%;
+  transform: translateX(-40%);
+  white-space: nowrap;
+  z-index: 100;
+}

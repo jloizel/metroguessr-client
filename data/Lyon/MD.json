@@ -1,0 +1,406 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            4.888192,
+            45.705745
+          ],
+          [
+            4.887672,
+            45.70722
+          ],
+          [
+            4.886994,
+            45.708257
+          ],
+          [
+            4.888203,
+            45.713107
+          ],
+          [
+            4.887682,
+            45.71944
+          ],
+          [
+            4.887063,
+            45.726469
+          ],
+          [
+            4.887015,
+            45.729186
+          ],
+          [
+            4.887543,
+            45.731028
+          ],
+          [
+            4.888587,
+            45.732629
+          ],
+          [
+            4.88937,
+            45.734321
+          ],
+          [
+            4.889489,
+            45.735021
+          ],
+          [
+            4.889304,
+            45.735508
+          ],
+          [
+            4.888129,
+            45.736696
+          ],
+          [
+            4.88643,
+            45.738342
+          ],
+          [
+            4.884678,
+            45.740665
+          ],
+          [
+            4.883798,
+            45.741567
+          ],
+          [
+            4.882666,
+            45.741987
+          ],
+          [
+            4.878641,
+            45.742873
+          ],
+          [
+            4.871454,
+            45.7453
+          ],
+          [
+            4.864489,
+            45.747791
+          ],
+          [
+            4.85299,
+            45.751771
+          ],
+          [
+            4.847009,
+            45.753744
+          ],
+          [
+            4.842187,
+            45.755426
+          ],
+          [
+            4.840456,
+            45.755989
+          ],
+          [
+            4.839765,
+            45.756037
+          ],
+          [
+            4.839147,
+            45.755856
+          ],
+          [
+            4.83862,
+            45.755515
+          ],
+          [
+            4.837874,
+            45.755455
+          ],
+          [
+            4.835877,
+            45.755813
+          ],
+          [
+            4.834548,
+            45.756414
+          ],
+          [
+            4.83384,
+            45.757142
+          ],
+          [
+            4.826375,
+            45.759988
+          ],
+          [
+            4.80767,
+            45.764774
+          ],
+          [
+            4.806617,
+            45.765027
+          ],
+          [
+            4.805975,
+            45.765436
+          ],
+          [
+            4.805172,
+            45.766145
+          ],
+          [
+            4.805338,
+            45.768036
+          ],
+          [
+            4.805527,
+            45.768367
+          ],
+          [
+            4.805574,
+            45.768748
+          ],
+          [
+            4.805445,
+            45.771936
+          ],
+          [
+            4.805418,
+            45.773569
+          ],
+          [
+            4.805567,
+            45.77418
+          ],
+          [
+            4.805884,
+            45.774582
+          ],
+          [
+            4.803856,
+            45.777244
+          ],
+          [
+            4.803349,
+            45.778017
+          ],
+          [
+            4.80328,
+            45.778638
+          ],
+          [
+            4.803355,
+            45.779018
+          ],
+          [
+            4.803559,
+            45.779308
+          ],
+          [
+            4.804173,
+            45.779798
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.80417294,
+            45.77978607
+        ]
+    },
+      "properties": {
+        "name": "Gare de Vaise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.80518244,
+            45.7661358
+        ]
+    },
+      "properties": {
+        "name": "Gorge de Loup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.80587915,
+            45.7745832
+        ]
+    },
+      "properties": {
+        "name": "Valmy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.82633834,
+            45.75998372
+        ]
+    },
+      "properties": {
+        "name": "Vieux Lyon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.83383626,
+            45.75713754
+        ]
+    },
+      "properties": {
+        "name": "Bellecour"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.84224216,
+            45.75540995
+        ]
+    },
+      "properties": {
+        "name": "Guillotière"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.84701961,
+            45.75373673
+        ]
+    },
+      "properties": {
+        "name": "Saxe-Gambetta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.85300223,
+            45.75175438
+        ]
+    },
+      "properties": {
+        "name": "Garibaldi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.86447793,
+            45.74779891
+        ]
+    },
+      "properties": {
+        "name": "Sans Souci"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.87146364,
+            45.74530238
+        ]
+    },
+      "properties": {
+        "name": "Monplaisir Lumière"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.8786508,
+            45.74287753
+        ]
+    },
+      "properties": {
+        "name": "Grange Blanche"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.8864337,
+            45.73833533
+        ]
+    },
+      "properties": {
+        "name": "Laënnec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.8875049,
+            45.73101335
+        ]
+    },
+      "properties": {
+        "name": "Mermoz",
+        "desserte": "30185,30186"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.88765973,
+            45.71943937
+        ]
+    },
+      "properties": {
+        "name": "Parilly"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            4.88821113,
+            45.70571994
+        ]
+    },
+      "properties": {
+        "name": "Gare de Vénissieux"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

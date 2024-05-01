@@ -1,0 +1,2915 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7279,
+          40.38083
+        ]
+      },
+      "properties": {
+        "name": "Abrantes",
+        "line": "Line11",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70664,
+          40.40387
+        ]
+      },
+      "properties": {
+        "name": "Acacias",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.56954,
+          40.46864
+        ]
+      },
+      "properties": {
+        "name": "Aeropuerto T1-T2-T3",
+        "line": "Line8",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.59356,
+          40.49176
+        ]
+      },
+      "properties": {
+        "name": "Aeropuerto T4",
+        "line": "Line8",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.58752,
+          40.45779
+        ]
+      },
+      "properties": {
+        "name": "Alameda De Osuna",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68916,
+          40.40754
+        ]
+      },
+      "properties": {
+        "name": "Alfonso XIII",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69788,
+          40.38409
+        ]
+      },
+      "properties": {
+        "name": "Almendrales",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69925,
+          40.43838
+        ]
+      },
+      "properties": {
+        "name": "Alonso Cano",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69594,
+          40.42772
+        ]
+      },
+      "properties": {
+        "name": "Alonso Martínez",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.62351,
+          40.41829
+        ]
+      },
+      "properties": {
+        "name": "Alsacia",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.73894,
+          40.40993
+        ]
+      },
+      "properties": {
+        "name": "Alto De Extremadura",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.64522,
+          40.38977
+        ]
+      },
+      "properties": {
+        "name": "Alto Del Arenal",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7608,
+          40.38563
+        ]
+      },
+      "properties": {
+        "name": "Aluche",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70331,
+          40.45033
+        ]
+      },
+      "properties": {
+        "name": "Alvarado",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71769,
+          40.47022
+        ]
+      },
+      "properties": {
+        "name": "Antonio Machado",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69937,
+          40.41246
+        ]
+      },
+      "properties": {
+        "name": "Antón Martín",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68864,
+          40.3931
+        ]
+      },
+      "properties": {
+        "name": "Arganzuela-Planetario",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71596,
+          40.43066
+        ]
+      },
+      "properties": {
+        "name": "Argüelles",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.72604,
+          40.4909
+        ]
+      },
+      "properties": {
+        "name": "Arroyofresno",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.64181,
+          40.40522
+        ]
+      },
+      "properties": {
+        "name": "Artilleros",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66682,
+          40.4802
+        ]
+      },
+      "properties": {
+        "name": "Arturo Soria",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.64106,
+          40.43021
+        ]
+      },
+      "properties": {
+        "name": "Ascao",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68938,
+          40.40659
+        ]
+      },
+      "properties": {
+        "name": "Atocha",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67661,
+          40.43804
+        ]
+      },
+      "properties": {
+        "name": "Avenida De América",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.61206,
+          40.42239
+        ]
+      },
+      "properties": {
+        "name": "Avenida De Guadalajara",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7184,
+          40.4801
+        ]
+      },
+      "properties": {
+        "name": "Avenida De La Ilustración",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66118,
+          40.45354
+        ]
+      },
+      "properties": {
+        "name": "Avenida De La Paz",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.78392,
+          40.38364
+        ]
+      },
+      "properties": {
+        "name": "Aviación Española",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67637,
+          40.47682
+        ]
+      },
+      "properties": {
+        "name": "Bambú",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69497,
+          40.41922
+        ]
+      },
+      "properties": {
+        "name": "Banco De España",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.58253,
+          40.47577
+        ]
+      },
+      "properties": {
+        "name": "Barajas",
+        "line": "Line8",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.652,
+          40.4391
+        ]
+      },
+      "properties": {
+        "name": "Barrio De La Concepción",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70316,
+          40.47689
+        ]
+      },
+      "properties": {
+        "name": "Barrio Del Pilar",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.75311,
+          40.40786
+        ]
+      },
+      "properties": {
+        "name": "Batán",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68585,
+          40.48041
+        ]
+      },
+      "properties": {
+        "name": "Begoña",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70218,
+          40.42906
+        ]
+      },
+      "properties": {
+        "name": "Bilbao",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.65391,
+          40.39156
+        ]
+      },
+      "properties": {
+        "name": "Buenos Aires",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70566,
+          40.42014
+        ]
+      },
+      "properties": {
+        "name": "Callao",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.76813,
+          40.39481
+        ]
+      },
+      "properties": {
+        "name": "Campamento",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70489,
+          40.4387
+        ]
+      },
+      "properties": {
+        "name": "Canal",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6356,
+          40.46381
+        ]
+      },
+      "properties": {
+        "name": "Canillas",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.60816,
+          40.44942
+        ]
+      },
+      "properties": {
+        "name": "Canillejas",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.74487,
+          40.38783
+        ]
+      },
+      "properties": {
+        "name": "Carabanchel",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.75191,
+          40.372
+        ]
+      },
+      "properties": {
+        "name": "Carabanchel Alto",
+        "line": "Line11",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.74099,
+          40.3927
+        ]
+      },
+      "properties": {
+        "name": "Carpetana",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67215,
+          40.43934
+        ]
+      },
+      "properties": {
+        "name": "Cartagena",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.76101,
+          40.40321
+        ]
+      },
+      "properties": {
+        "name": "Casa De Campo",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68269,
+          40.4721
+        ]
+      },
+      "properties": {
+        "name": "Chamartín",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69762,
+          40.42293
+        ]
+      },
+      "properties": {
+        "name": "Chueca",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69363,
+          40.35959
+        ]
+      },
+      "properties": {
+        "name": "Ciudad De Los Ángeles",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.63816,
+          40.43805
+        ]
+      },
+      "properties": {
+        "name": "Ciudad Lineal",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.72678,
+          40.44356
+        ]
+      },
+      "properties": {
+        "name": "Ciudad Universitaria",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67694,
+          40.45749
+        ]
+      },
+      "properties": {
+        "name": "Colombia",
+        "line": "Line8",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.77462,
+          40.39698
+        ]
+      },
+      "properties": {
+        "name": "Colonia Jardín",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69101,
+          40.42542
+        ]
+      },
+      "properties": {
+        "name": "Colón",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67738,
+          40.45145
+        ]
+      },
+      "properties": {
+        "name": "Concha Espina",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67041,
+          40.40697
+        ]
+      },
+      "properties": {
+        "name": "Conde De Casal",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.61884,
+          40.37238
+        ]
+      },
+      "properties": {
+        "name": "Congosto",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67821,
+          40.44427
+        ]
+      },
+      "properties": {
+        "name": "Cruz Del Rayo",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70392,
+          40.44697
+        ]
+      },
+      "properties": {
+        "name": "Cuatro Caminos",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.79152,
+          40.37771
+        ]
+      },
+      "properties": {
+        "name": "Cuatro Vientos",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68985,
+          40.45842
+        ]
+      },
+      "properties": {
+        "name": "Cuzco",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6942,
+          40.3999
+        ]
+      },
+      "properties": {
+        "name": "Delicias",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67495,
+          40.43468
+        ]
+      },
+      "properties": {
+        "name": "Diego De León",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67917,
+          40.46763
+        ]
+      },
+      "properties": {
+        "name": "Duque De Pastrana",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.59401,
+          40.45347
+        ]
+      },
+      "properties": {
+        "name": "El Capricho",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.65757,
+          40.43189
+        ]
+      },
+      "properties": {
+        "name": "El Carmen",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70268,
+          40.40513
+        ]
+      },
+      "properties": {
+        "name": "Embajadores",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.76535,
+          40.39057
+        ]
+      },
+      "properties": {
+        "name": "Empalme",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.64582,
+          40.45945
+        ]
+      },
+      "properties": {
+        "name": "Esperanza",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69249,
+          40.40885
+        ]
+      },
+      "properties": {
+        "name": "Estación Del Arte",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.60015,
+          40.43339
+        ]
+      },
+      "properties": {
+        "name": "Estadio Metropolitano",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70302,
+          40.45429
+        ]
+      },
+      "properties": {
+        "name": "Estrecho",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66179,
+          40.41147
+        ]
+      },
+      "properties": {
+        "name": "Estrella",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.75121,
+          40.38439
+        ]
+      },
+      "properties": {
+        "name": "Eugenia De Montijo",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6162,
+          40.46389
+        ]
+      },
+      "properties": {
+        "name": "Feria De Madrid",
+        "line": "Line8",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71239,
+          40.45648
+        ]
+      },
+      "properties": {
+        "name": "Francos Rodríguez",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69283,
+          40.49509
+        ]
+      },
+      "properties": {
+        "name": "Fuencarral",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6333,
+          40.42842
+        ]
+      },
+      "properties": {
+        "name": "García Noblejas",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67591,
+          40.42455
+        ]
+      },
+      "properties": {
+        "name": "Goya",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7018,
+          40.42001
+        ]
+      },
+      "properties": {
+        "name": "Gran Vía",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69148,
+          40.43825
+        ]
+      },
+      "properties": {
+        "name": "Gregorio Marañón",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71229,
+          40.44633
+        ]
+      },
+      "properties": {
+        "name": "Guzmán El Bueno",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70751,
+          40.48466
+        ]
+      },
+      "properties": {
+        "name": "Herrera Oria",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.65257,
+          40.47537
+        ]
+      },
+      "properties": {
+        "name": "Hortaleza",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69585,
+          40.37503
+        ]
+      },
+      "properties": {
+        "name": "Hospital 12 De Octubre",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67858,
+          40.41839
+        ]
+      },
+      "properties": {
+        "name": "Ibiza",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69898,
+          40.43492
+        ]
+      },
+      "properties": {
+        "name": "Iglesia",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71373,
+          40.43907
+        ]
+      },
+      "properties": {
+        "name": "Islas Filipinas",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.63914,
+          40.42361
+        ]
+      },
+      "properties": {
+        "name": "La Almudena",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.65052,
+          40.42662
+        ]
+      },
+      "properties": {
+        "name": "La Elipa",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.77783,
+          40.35795
+        ]
+      },
+      "properties": {
+        "name": "La Fortuna",
+        "line": "Line11",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.61346,
+          40.37019
+        ]
+      },
+      "properties": {
+        "name": "La Gavia",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70816,
+          40.41128
+        ]
+      },
+      "properties": {
+        "name": "La Latina",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7569,
+          40.36422
+        ]
+      },
+      "properties": {
+        "name": "La Peseta",
+        "line": "Line11",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.72305,
+          40.48502
+        ]
+      },
+      "properties": {
+        "name": "Lacoma",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.73563,
+          40.41641
+        ]
+      },
+      "properties": {
+        "name": "Lago",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.74429,
+          40.39923
+        ]
+      },
+      "properties": {
+        "name": "Laguna",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.60788,
+          40.43299
+        ]
+      },
+      "properties": {
+        "name": "Las Musas",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.60331,
+          40.42375
+        ]
+      },
+      "properties": {
+        "name": "Las Rosas",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.59953,
+          40.36323
+        ]
+      },
+      "properties": {
+        "name": "Las Suertes",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66944,
+          40.50833
+        ]
+      },
+      "properties": {
+        "name": "Las Tablas",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7009,
+          40.40851
+        ]
+      },
+      "properties": {
+        "name": "Lavapiés",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69511,
+          40.39116
+        ]
+      },
+      "properties": {
+        "name": "Legazpi",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67541,
+          40.42917
+        ]
+      },
+      "properties": {
+        "name": "Lista",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.74534,
+          40.4051
+        ]
+      },
+      "properties": {
+        "name": "Lucero",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6629,
+          40.47687
+        ]
+      },
+      "properties": {
+        "name": "Manoteras",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66926,
+          40.4279
+        ]
+      },
+      "properties": {
+        "name": "Manuel Becerra",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.63832,
+          40.46943
+        ]
+      },
+      "properties": {
+        "name": "Mar De Cristal",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71596,
+          40.39736
+        ]
+      },
+      "properties": {
+        "name": "Marqués De Vadillo",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68098,
+          40.40445
+        ]
+      },
+      "properties": {
+        "name": "Menéndez Pelayo",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.63951,
+          40.38732
+        ]
+      },
+      "properties": {
+        "name": "Miguel Hernández",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71634,
+          40.4911
+        ]
+      },
+      "properties": {
+        "name": "Mirasierra",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71945,
+          40.43502
+        ]
+      },
+      "properties": {
+        "name": "Moncloa",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69575,
+          40.50525
+        ]
+      },
+      "properties": {
+        "name": "Montecarmelo",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67814,
+          40.39538
+        ]
+      },
+      "properties": {
+        "name": "Méndez Álvaro",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70742,
+          40.4255
+        ]
+      },
+      "properties": {
+        "name": "Noviciado",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66414,
+          40.39554
+        ]
+      },
+      "properties": {
+        "name": "Nueva Numancia",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69241,
+          40.44662
+        ]
+      },
+      "properties": {
+        "name": "Nuevos Ministerios",
+        "line": "Line8",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68258,
+          40.43278
+        ]
+      },
+      "properties": {
+        "name": "Núñez De Balboa",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6686,
+          40.42289
+        ]
+      },
+      "properties": {
+        "name": "O'Donnell",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.72313,
+          40.3869
+        ]
+      },
+      "properties": {
+        "name": "Opañel",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.73126,
+          40.38847
+        ]
+      },
+      "properties": {
+        "name": "Oporto",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70908,
+          40.49965
+        ]
+      },
+      "properties": {
+        "name": "Paco De Lucía",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67514,
+          40.40126
+        ]
+      },
+      "properties": {
+        "name": "Pacífico",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69423,
+          40.40307
+        ]
+      },
+      "properties": {
+        "name": "Palos De La Frontera",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.73417,
+          40.37587
+        ]
+      },
+      "properties": {
+        "name": "Pan Bendito",
+        "line": "Line11",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66297,
+          40.43945
+        ]
+      },
+      "properties": {
+        "name": "Parque De Las Avenidas",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.64524,
+          40.47711
+        ]
+      },
+      "properties": {
+        "name": "Parque De Santa María",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.63512,
+          40.40051
+        ]
+      },
+      "properties": {
+        "name": "Pavones",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71582,
+          40.47592
+        ]
+      },
+      "properties": {
+        "name": "Peñagrande",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66676,
+          40.48014
+        ]
+      },
+      "properties": {
+        "name": "Pinar De Chamartín",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.64867,
+          40.468
+        ]
+      },
+      "properties": {
+        "name": "Pinar Del Rey",
+        "line": "Line8",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71138,
+          40.4026
+        ]
+      },
+      "properties": {
+        "name": "Pirámides",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.72589,
+          40.49511
+        ]
+      },
+      "properties": {
+        "name": "Pitis",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68909,
+          40.4669
+        ]
+      },
+      "properties": {
+        "name": "Plaza De Castilla",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7097,
+          40.42409
+        ]
+      },
+      "properties": {
+        "name": "Plaza De España",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71825,
+          40.3846
+        ]
+      },
+      "properties": {
+        "name": "Plaza Elíptica",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.65868,
+          40.39266
+        ]
+      },
+      "properties": {
+        "name": "Portazgo",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67482,
+          40.44419
+        ]
+      },
+      "properties": {
+        "name": "Prosperidad",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68024,
+          40.42418
+        ]
+      },
+      "properties": {
+        "name": "Príncipe De Vergara",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.72032,
+          40.42107
+        ]
+      },
+      "properties": {
+        "name": "Príncipe Pío",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.64282,
+          40.43569
+        ]
+      },
+      "properties": {
+        "name": "Pueblo Nuevo",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66906,
+          40.39819
+        ]
+      },
+      "properties": {
+        "name": "Puente De Vallecas",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.59598,
+          40.40132
+        ]
+      },
+      "properties": {
+        "name": "Puerta De Arganda",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71105,
+          40.40704
+        ]
+      },
+      "properties": {
+        "name": "Puerta De Toledo",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.72724,
+          40.4139
+        ]
+      },
+      "properties": {
+        "name": "Puerta Del Ángel",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.67579,
+          40.463
+        ]
+      },
+      "properties": {
+        "name": "Pío XII",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70433,
+          40.43322
+        ]
+      },
+      "properties": {
+        "name": "Quevedo",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.64736,
+          40.43358
+        ]
+      },
+      "properties": {
+        "name": "Quintana",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68406,
+          40.44379
+        ]
+      },
+      "properties": {
+        "name": "República Argentina",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68624,
+          40.42031
+        ]
+      },
+      "properties": {
+        "name": "Retiro",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66277,
+          40.51553
+        ]
+      },
+      "properties": {
+        "name": "Ronda De La Comunicación",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68954,
+          40.43316
+        ]
+      },
+      "properties": {
+        "name": "Rubén Darío",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70133,
+          40.44198
+        ]
+      },
+      "properties": {
+        "name": "Ríos Rosas",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66966,
+          40.41548
+        ]
+      },
+      "properties": {
+        "name": "Sainz de Baranda",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70557,
+          40.43001
+        ]
+      },
+      "properties": {
+        "name": "San Bernardo",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.61547,
+          40.42799
+        ]
+      },
+      "properties": {
+        "name": "San Blas",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.60239,
+          40.40381
+        ]
+      },
+      "properties": {
+        "name": "San Cipriano",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69318,
+          40.34154
+        ]
+      },
+      "properties": {
+        "name": "San Cristóbal",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69418,
+          40.36999
+        ]
+      },
+      "properties": {
+        "name": "San Fermín-Orcasur",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7391,
+          40.3736
+        ]
+      },
+      "properties": {
+        "name": "San Francisco",
+        "line": "Line11",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.63958,
+          40.47447
+        ]
+      },
+      "properties": {
+        "name": "San Lorenzo",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69038,
+          40.45159
+        ]
+      },
+      "properties": {
+        "name": "Santiago Bernabéu",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70796,
+          40.42132
+        ]
+      },
+      "properties": {
+        "name": "Santo Domingo",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68663,
+          40.42543
+        ]
+      },
+      "properties": {
+        "name": "Serrano",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69925,
+          40.41805
+        ]
+      },
+      "properties": {
+        "name": "Sevilla",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.62472,
+          40.38216
+        ]
+      },
+      "properties": {
+        "name": "Sierra De Guadalupe",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.62572,
+          40.42799
+        ]
+      },
+      "properties": {
+        "name": "Simancas",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70326,
+          40.41685
+        ]
+      },
+      "properties": {
+        "name": "Sol",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.62684,
+          40.44085
+        ]
+      },
+      "properties": {
+        "name": "Suanzes",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69825,
+          40.46055
+        ]
+      },
+      "properties": {
+        "name": "Tetuán",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70466,
+          40.41235
+        ]
+      },
+      "properties": {
+        "name": "Tirso De Molina",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.61699,
+          40.44374
+        ]
+      },
+      "properties": {
+        "name": "Torre Arias",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6952,
+          40.5012
+        ]
+      },
+      "properties": {
+        "name": "Tres Olivos",
+        "line": "Line10",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70208,
+          40.426
+        ]
+      },
+      "properties": {
+        "name": "Tribunal",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7236,
+          40.39335
+        ]
+      },
+      "properties": {
+        "name": "Urgel",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7069,
+          40.3871
+        ]
+      },
+      "properties": {
+        "name": "Usera",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69506,
+          40.46442
+        ]
+      },
+      "properties": {
+        "name": "Valdeacederas",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.62156,
+          40.40005
+        ]
+      },
+      "properties": {
+        "name": "Valdebernardo",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.59316,
+          40.36007
+        ]
+      },
+      "properties": {
+        "name": "Valdecarros",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71597,
+          40.46482
+        ]
+      },
+      "properties": {
+        "name": "Valdezarza",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68292,
+          40.42503
+        ]
+      },
+      "properties": {
+        "name": "Velázquez",
+        "line": "Line4",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66361,
+          40.43088
+        ]
+      },
+      "properties": {
+        "name": "Ventas",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69588,
+          40.46944
+        ]
+      },
+      "properties": {
+        "name": "Ventilla",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71341,
+          40.42709
+        ]
+      },
+      "properties": {
+        "name": "Ventura Rodríguez",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71943,
+          40.44644
+        ]
+      },
+      "properties": {
+        "name": "Vicente Aleixandre",
+        "line": "Line6",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.60886,
+          40.40422
+        ]
+      },
+      "properties": {
+        "name": "Vicálvaro",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6213,
+          40.3796
+        ]
+      },
+      "properties": {
+        "name": "Villa De Vallecas",
+        "line": "Line1",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71199,
+          40.34123
+        ]
+      },
+      "properties": {
+        "name": "Villaverde Alto",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69265,
+          40.35089
+        ]
+      },
+      "properties": {
+        "name": "Villaverde Bajo-Cruce",
+        "line": "Line3",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.65273,
+          40.41024
+        ]
+      },
+      "properties": {
+        "name": "Vinateros",
+        "line": "Line9",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.73982,
+          40.38885
+        ]
+      },
+      "properties": {
+        "name": "Vista Alegre",
+        "line": "Line5",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70935,
+          40.41809
+        ]
+      },
+      "properties": {
+        "name": "Ópera",
+        "line": "Line2",
+        "zone": "Zone A"
+      }
+    }
+  ]
+}

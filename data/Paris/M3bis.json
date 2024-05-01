@@ -1,0 +1,371 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.398746593442591,
+            48.86516343394703
+          ],
+          [
+            2.39990182773254,
+            48.866480527239005
+          ],
+          [
+            2.401561712742541,
+            48.868440162341024
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.400160957477075,
+          "lat": 48.866795933026054
+        },
+        "idrefliga": "A01549",
+        "idrefligc": "C01386",
+        "res_com": "M3bis",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1921-11-27T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110103:3B",
+        "indice_lig": "M3bis",
+        "shape_leng": 418.826665151,
+        "colourweb_hexa": "6ec4e8",
+        "colourprint_cmjn": "53 16 0 9",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/157da4ee0a222feb976fc9acc40c568b/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.404514942379104,
+            48.87210144119713
+          ],
+          [
+            2.405652434678519,
+            48.87492298065898
+          ],
+          [
+            2.406452130961275,
+            48.87675740120233
+          ],
+          [
+            2.406593408251267,
+            48.87694798430071
+          ],
+          [
+            2.406727835852428,
+            48.87710882389504
+          ],
+          [
+            2.40672924554309,
+            48.87711051082896
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.4055595964325915,
+          "lat": 48.87464033190748
+        },
+        "idrefliga": "A01549",
+        "idrefligc": "C01386",
+        "res_com": "M3bis",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1921-11-27T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110103:3B",
+        "indice_lig": "M3bis",
+        "shape_leng": 581.124702892,
+        "colourweb_hexa": "6ec4e8",
+        "colourprint_cmjn": "53 16 0 9",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/157da4ee0a222feb976fc9acc40c568b/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            2.401561712742541,
+            48.868440162341024
+          ],
+          [
+            2.402876369713207,
+            48.869992101098006
+          ],
+          [
+            2.40412458619085,
+            48.87138337405815
+          ],
+          [
+            2.404324724161915,
+            48.871690958690955
+          ],
+          [
+            2.404514942379104,
+            48.87210144119713
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.4030929209197005,
+          "lat": 48.87023570568842
+        },
+        "idrefliga": "A01549",
+        "idrefligc": "C01386",
+        "res_com": "M3bis",
+        "reseau": "METRO",
+        "mode": "METRO",
+        "train": 0,
+        "rer": 0,
+        "metro": 1,
+        "tramway": 0,
+        "val": 0,
+        "exploitant": "RATP",
+        "date_mes": "1921-11-27T00:00:00+00:00",
+        "idf": 1,
+        "extcode": "100110103:3B",
+        "indice_lig": "M3bis",
+        "shape_leng": 462.406708778,
+        "colourweb_hexa": "6ec4e8",
+        "colourprint_cmjn": "53 16 0 9",
+        "picto": null,
+        "picto_final": "https://data.iledefrance-mobilites.fr/explore/dataset/referentiel-des-lignes/files/157da4ee0a222feb976fc9acc40c568b/300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.404514942379104,
+          48.87210144119713
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.404514942379104,
+          "lat": 48.87210144119713
+        },
+        "id_gares": 764,
+        "nom_gares": "Saint-Fargeau",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71860,
+        "nom_zdc": "Saint-Fargeau",
+        "id_ref_zda": 44864,
+        "nom_zda": "Saint-Fargeau",
+        "idrefliga": "A01549",
+        "idrefligc": "C01386",
+        "res_com": "METRO 3bis",
+        "indice_lig": "3bis",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 656320.4457,
+        "y": 6863728.6864,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_3bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d5-af5\"",
+          "mimetype": "image\/svg+xml",
+          "id": "84385f6415d8d60e0a135171e93312a5",
+          "last_synchronized": "2023-12-12T15:44:18.504782",
+          "height": 300
+        },
+        "name": "Saint-Fargeau",
+        "line": "M3bis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.398746593442591,
+          48.86516343394703
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.398746593442591,
+          "lat": 48.86516343394703
+        },
+        "id_gares": 302,
+        "nom_gares": "Gambetta",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71808,
+        "nom_zdc": "Gambetta",
+        "id_ref_zda": 43055,
+        "nom_zda": "Gambetta",
+        "idrefliga": "A01549",
+        "idrefligc": "C01386",
+        "res_com": "METRO 3bis",
+        "indice_lig": "3bis",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "METRO 3bis",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 655891.4641,
+        "y": 6862960.4349,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_3bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d5-af5\"",
+          "mimetype": "image\/svg+xml",
+          "id": "84385f6415d8d60e0a135171e93312a5",
+          "last_synchronized": "2023-12-12T15:43:58.502387",
+          "height": 300
+        },
+        "name": "Gambetta",
+        "line": "M3bis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.40672924554309,
+          48.87711051082896
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.4067292455430898,
+          "lat": 48.87711051082896
+        },
+        "id_gares": 698,
+        "nom_gares": "Porte des Lilas",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71889,
+        "nom_zdc": "Porte des Lilas",
+        "id_ref_zda": 44529,
+        "nom_zda": "Porte des Lilas",
+        "idrefliga": "A01549",
+        "idrefligc": "C01386",
+        "res_com": "METRO 3bis",
+        "indice_lig": "3bis",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "METRO 3bis",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 656487.0493,
+        "y": 6864284.4407,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_3bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d5-af5\"",
+          "mimetype": "image\/svg+xml",
+          "id": "84385f6415d8d60e0a135171e93312a5",
+          "last_synchronized": "2023-12-12T15:44:14.484304",
+          "height": 300
+        },
+        "name": "Porte des Lilas",
+        "line": "M3bis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          2.401561712742541,
+          48.868440162341024
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "geo_point_2d": {
+          "lon": 2.4015617127425415,
+          "lat": 48.868440162341024
+        },
+        "id_gares": 630,
+        "nom_gares": "Pelleport",
+        "nom_so_gar": null,
+        "nom_su_gar": null,
+        "id_ref_zdc": 71828,
+        "nom_zdc": "Pelleport",
+        "id_ref_zda": 45630,
+        "nom_zda": "Pelleport",
+        "idrefliga": "A01549",
+        "idrefligc": "C01386",
+        "res_com": "METRO 3bis",
+        "indice_lig": "3bis",
+        "mode": "METRO",
+        "tertrain": "0",
+        "terrer": "0",
+        "termetro": "0",
+        "tertram": "0",
+        "terval": "0",
+        "exploitant": "RATP",
+        "idf": 1,
+        "principal": 0,
+        "x": 656100.7414,
+        "y": 6863323.2148,
+        "picto": {
+          "thumbnail": true,
+          "filename": "metro_3bis.svg",
+          "width": 300,
+          "format": "svg",
+          "etag": "W\/\"5eea18d5-af5\"",
+          "mimetype": "image\/svg+xml",
+          "id": "84385f6415d8d60e0a135171e93312a5",
+          "last_synchronized": "2023-12-12T15:44:07.105921",
+          "height": 300
+        },
+        "name": "Pelleport",
+        "line": "M3bis"
+      }
+    }
+  ]
+}

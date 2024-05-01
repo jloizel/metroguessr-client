@@ -1,0 +1,48 @@
+.button {
+  background-color: transparent !important;
+  font-family: "Fredoka" !important;
+  font-weight: 500 !important;
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+  width: 100% !important;
+  /* margin: auto !important; */
+  color: black !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+    @media (max-width: 767px) {
+      /* margin-top: 15px; */
+      font-size: 12px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    
+    @media (min-width: 768px) and (max-width: 1023px) {
+      /* margin-top: 20px; */
+      font-size: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    
+    @media (min-width: 1024px) {
+      /* margin-top: 25px; */
+      font-size: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  .button:hover {
+    font-weight: 500 !important;
+    cursor: pointer !important;
+    background-color: #242424 !important;
+    color: white !important;
+  }
+  
+  
