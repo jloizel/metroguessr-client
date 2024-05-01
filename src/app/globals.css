@@ -96,7 +96,7 @@ body {
 /* menu drawer width */
 .MuiDrawer-content, .css-ain6vo-JoyDrawer-content {
   @media (max-width: 767px) {
-    width: 80% !important;
+    width: 90% !important;
   }
 }
 
