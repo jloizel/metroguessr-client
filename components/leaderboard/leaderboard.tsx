@@ -349,11 +349,11 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
 
   const getMedalsGap = () => { // Default width for computer
     if (isMobile) {
-      return "8px";
+      return "2px";
     } else if (isTablet) {
-      return "7px"; // Adjust width for tablet
+      return "2px"; // Adjust width for tablet
     } else {
-      return "6px"
+      return "2px"
     }
   }
 
