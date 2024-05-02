@@ -207,17 +207,15 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
     const userScore = points
 
     if (userScore !== undefined && userScore >= 0) {
-      // Calculate user's rank within all sorted scores
       const userRank = sortedScores.findIndex((score) => score.username === username && score.points === userScore) + 1;
-
+    
       if (userScore === 0) {
-        // If user got 0 points, adjust the user rank considering other players with 0 points
-        const zeroPointsPlayersCount = sortedScores.filter((score) => score.points === 0).length;
-        setUserRank(zeroPointsPlayersCount + 1); // Adding 1 to get the correct rank including the current user
-        setTopScores(sortedScores.slice(0, 5)); // Set top 5 scores
+        const totalPlayersCount = sortedScores.length;
+        setUserRank(totalPlayersCount);
+        setTopScores(sortedScores.slice(0, 5));
       } else {
-        setTopScores(sortedScores.slice(0, 5)); // Set top 5 scores
-        setUserRank(userRank); // Assign user's rank based on sorted scores
+        setTopScores(sortedScores.slice(0, 5));
+        setUserRank(userRank);
       }
     }
     setScoreLoading(false)
