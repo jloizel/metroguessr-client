@@ -349,11 +349,21 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
 
   const getMedalsGap = () => { // Default width for computer
     if (isMobile) {
-      return "-2px";
+      return "4px";
     } else if (isTablet) {
       return "5px"; // Adjust width for tablet
     } else {
       return "6px"
+    }
+  }
+
+  const getMedalsMargin = () => { // Default width for computer
+    if (isMobile) {
+      return "-2px";
+    } else if (isTablet) {
+      return "0px"; // Adjust width for tablet
+    } else {
+      return "0px"
     }
   }
 
@@ -406,7 +416,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
               <div className={styles.city} style={{fontSize: getCitySize()}}>🗺️ {city}</div>
               <div className={styles.header} style={{fontSize: getHeaderSize()}}>YOU RANKED #{userRank}</div>
               <div className={styles.scores} style={{fontSize: getScoresSize()}}>
-                <div className={styles.medals} style={{gap: getMedalsGap()}}>
+                <div className={styles.medals} style={{gap: getMedalsGap(), marginTop: getMedalsMargin()}}>
                   <span className={styles.medal}>🥇</span>
                   <span className={styles.medal}>🥈</span>
                   <span className={styles.medal}>🥉</span>
