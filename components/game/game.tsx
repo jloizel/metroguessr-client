@@ -338,8 +338,6 @@ useEffect(() => {
     }
   };
 
-  console.log(randomStation)
-
   
   return (
     <div>

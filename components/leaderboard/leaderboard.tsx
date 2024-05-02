@@ -349,8 +349,6 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
     }
   }
 
-  console.log(topScores)
-
   return (
     <div>
       <div className={styles.container}>
