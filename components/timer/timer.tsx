@@ -76,7 +76,7 @@ export const Timer: React.FC<TimerProps> = ({guessedStation, onChange, onClick, 
   100% { transform: translateX(0) }
 `;
  
-const initialTime = 1 * 1000; // Initial time set in seconds
+const initialTime = 60 * 1000; // Initial time set in seconds
 const [time, setTime] = useState(initialTime);
 
 // function addHiddenClassToLabels() {
