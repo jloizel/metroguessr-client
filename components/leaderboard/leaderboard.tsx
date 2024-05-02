@@ -353,7 +353,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
     } else if (isTablet) {
       return "0px"; // Adjust width for tablet
     } else {
-      return "0px"
+      return "6px"
     }
   }
 
