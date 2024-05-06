@@ -365,6 +365,8 @@ useEffect(() => {
     setInputVisible(false);
     setShowResults(false)
     // removeSkippedLabelClass()
+    setCorrectStations([])
+    setSkippedStations([])
     // Hide all labels
     const allLabels = document.querySelectorAll("[id^='label_']");
     allLabels.forEach(label => {
