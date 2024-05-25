@@ -1,0 +1,222 @@
+/* marker styling for when the station marker is hidden */
+.markerHidden {
+  visibility: hidden;
+}
+
+/* marker styling for when the station needs to be guessed */
+.M1guess, .M2guess, .M3guess, .M3bisguess, .M4guess, .M5guess, .M6guess, .M7guess, .M7bisguess, .M8guess, .M9guess, .M10guess, .M11guess, .M12guess, .M13guess, .M14guess {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .M1guess {
+    border: 5px solid #ffbe00;
+    background-color: white;
+  }
+
+  .M2guess {
+    border: 5px solid #0055c8;
+    background-color: white;
+  }
+
+  .M3guess {
+    border: 5px solid #6e6e00;
+    background-color: white;
+  }
+
+  .M3bisguess {
+    border: 5px solid #6ec4e8;
+    background-color: white;
+  }
+
+  .M4guess {
+    border: 5px solid #a0006e;
+    background-color: white;
+  }
+
+  .M5guess {
+    border: 5px solid #ff7e2e;
+    background-color: white;
+  }
+
+  .M6guess {
+    border: 5px solid #6eca97;
+    background-color: white;
+  }
+
+  .M7guess {
+    border: 5px solid #fa9aba;
+    background-color: white;
+  }
+
+  .M7bisguess {
+    border: 5px solid #6eca97;
+    background-color: white;
+  }
+
+  .M8guess {
+    border: 5px solid #d282be;
+    background-color: white;
+  }
+
+  .M9guess {
+    border: 5px solid #b6bd00;
+    background-color: white;
+  }
+
+  .M10guess {
+    border: 5px solid #c9910d;
+    background-color: white;
+  }
+
+  .M11guess {
+    border: 5px solid #704b1c;
+    background-color: white;
+  }
+
+  .M12guess {
+    border: 5px solid #007852;
+    background-color: white;
+  }
+
+  .M13guess {
+    border: 5px solid #6ec4e8;
+    background-color: white;
+  }
+
+  .M14guess {
+    border: 5px solid #62259d;
+    background-color: white;
+  }
+
+/* marker styling for when the station is guessed correctly */
+  .M1correct, .M2correct, .M3correct, .M3biscorrect, .M4correct, .M5correct, .M6correct, .M7correct, .M8correct, .M9correct, .M10correct, .M11correct, .M12correct, .M13correct, .M14correct {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .M1correct {
+    border: 5px solid #ffbe00;
+    background-color: #ffbe00;
+  }
+
+  .M2correct  {
+    border: 5px solid #0055c8;
+    background-color: #0055c8;
+  }
+
+  .M3correct  {
+    border: 5px solid #6e6e00;
+    background-color: #6e6e00;
+  }
+
+  .M3biscorrect  {
+    border: 5px solid #6ec4e8;
+    background-color: #6ec4e8;
+  }
+
+  .M4correct  {
+    border: 5px solid #a0006e;
+    background-color: #a0006e;
+  }
+
+  .M5correct  {
+    border: 5px solid #ff7e2e;
+    background-color: #ff7e2e;
+  }
+
+  .M6correct  {
+    border: 5px solid #6eca97;
+    background-color: #6eca97;
+  }
+
+  .M7correct  {
+    border: 5px solid #fa9aba;
+    background-color: #fa9aba;
+  }
+
+  .M7biscorrect  {
+    border: 5px solid #6eca97;
+    background-color: #6eca97;
+  }
+
+  .M8correct  {
+    border: 5px solid #d282be;
+    background-color: #d282be;
+  }
+
+  .M9correct  {
+    border: 5px solid #b6bd00;
+    background-color: #b6bd00;
+  }
+
+  .M10correct  {
+    border: 5px solid #c9910d;
+    background-color: #c9910d;
+  }
+
+  .M11correct  {
+    border: 5px solid #704b1c;
+    background-color: #704b1c;
+  }
+
+  .M12correct  {
+    border: 5px solid #007852;
+    background-color: #007852;
+  }
+
+  .M13correct  {
+    border: 5px solid #6ec4e8;
+    background-color: #6ec4e8;
+  }
+
+  .M14correct  {
+    border: 5px solid #62259d;
+    background-color: #62259d;
+  }
+
+  .M1skip,  .M2skip,  .M3skip,  .M3bisskip,  .M4skip,  .M5skip,  .M6skip,  .M7skip,  .M7bisskip, .M8skip,  .M9skip,  .M10skip,  .M11skip,  .M12skip,  .M13skip,  .M14skip {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  } 
+
+  .labelHidden {
+    visibility: hidden;
+  }
+
+  .labelGuessed {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 13px;
+    position: absolute;
+    bottom: 180%;
+    transform: translateX(-40%);
+    transform: translateY(-20%);
+    white-space: nowrap;
+    z-index: 100;
+  }
+
+  .labelSkipped {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 500;
+    font-size: 13px;
+    font-style: italic;
+    position: absolute;
+    bottom: 140%;
+    transform: translateX(-40%);
+    white-space: nowrap;
+    z-index: 100;
+  }
