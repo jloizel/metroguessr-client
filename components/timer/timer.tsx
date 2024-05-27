@@ -12,6 +12,7 @@ import LondonStyles from "./css/London.module.css"
 import ParisStyles from "./css/Paris.module.css"
 import NewYorkCityStyles from "./css/NYC.module.css"
 import MadridStyles from "./css/Madrid.module.css"
+import BerlinStyles from "./css/Berlin.module.css"
 
 interface TimerProps {
   guessedStation: string;
@@ -132,6 +133,8 @@ if (selectedCity === "Lyon") {
   stylesName = NewYorkCityStyles; // Provide appropriate class name for London
 } else if (selectedCity === "Madrid") {
   stylesName = MadridStyles; // Provide appropriate class name for London
+} else if (selectedCity === "Berlin") {
+  stylesName = BerlinStyles; // Provide appropriate class name for London
 }
 
 if (typeof window !== "undefined") { 
@@ -364,6 +367,8 @@ useEffect(() => {
     setTime(initialTime);
     setInputVisible(false);
     setShowResults(false)
+    setCorrectStations([])
+    setSkippedStations([])
     // removeSkippedLabelClass()
     setCorrectStations([])
     setSkippedStations([])
