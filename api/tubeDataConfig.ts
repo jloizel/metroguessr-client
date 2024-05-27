@@ -283,7 +283,44 @@ export const tubeDataConfig: TubeDataConfig = {
         color: "#0E4A97",
         data: require("../data/Madrid/LineR.json"),
       }
-    },   
+    }, Berlin: {
+      U1: {
+        color: "#7EAF4B",
+        data: require("../data/Berlin/U1.json"),
+      },
+      U2: {
+        color: "#DA421E",
+        data: require("../data/Berlin/U2.json"),
+      },
+      U3: {
+        color: "#2E937D",
+        data: require("../data/Berlin/U3.json"),
+      },
+      U4: {
+        color: "#F0D722",
+        data: require("../data/Berlin/U4.json"),
+      },
+      U5: {
+        color: "#7E5330",
+        data: require("../data/Berlin/U5.json"),
+      },
+      U6: {
+        color: "#8C6DAB",
+        data: require("../data/Berlin/U6.json"),
+      },
+      U7: {
+        color: "#528DBA",
+        data: require("../data/Berlin/U7.json"),
+      },
+      U8: {
+        color: "#224F86",
+        data: require("../data/Berlin/U8.json"),
+      },
+      U9: {
+        color: "#F3791D",
+        data: require("../data/Berlin/U9.json"),
+      },
+    }
   };
 
   

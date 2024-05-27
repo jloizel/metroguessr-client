@@ -1,0 +1,441 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "line": "U2", "name": "S+U Pankow" },
+      "geometry": { "type": "Point", "coordinates": [13.412285, 52.567285] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U2", "name": "U Vinetastr." },
+      "geometry": { "type": "Point", "coordinates": [13.413775, 52.55952] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U2",
+        "name": "U Theodor-Heuss-Platz"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.272983, 52.509802] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U2", "name": "U Neu-Westend" },
+      "geometry": { "type": "Point", "coordinates": [13.259916, 52.516413] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U2", "name": "U Olympia-Stadion" },
+      "geometry": { "type": "Point", "coordinates": [13.250505, 52.517052] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U2", "name": "U Ruhleben" },
+      "geometry": { "type": "Point", "coordinates": [13.241907, 52.52559] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U3",
+        "name": "U Rüdesheimer Platz"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.314393, 52.472465] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U3", "name": "U Breitenbachplatz" },
+      "geometry": { "type": "Point", "coordinates": [13.309281, 52.467345] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U3", "name": "U Podbielskiallee" },
+      "geometry": { "type": "Point", "coordinates": [13.295208, 52.464175] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U3", "name": "U Dahlem-Dorf" },
+      "geometry": { "type": "Point", "coordinates": [13.290016, 52.457698] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U3", "name": "U Thielplatz" },
+      "geometry": { "type": "Point", "coordinates": [13.281656, 52.451004] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U3", "name": "U Oskar-Helene-Heim" },
+      "geometry": { "type": "Point", "coordinates": [13.268916, 52.450422] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U3",
+        "name": "U Onkel Toms Hütte"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.254022, 52.45015] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U3", "name": "U Krumme Lanke" },
+      "geometry": { "type": "Point", "coordinates": [13.240365, 52.442619] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U5", "name": "U Hönow" },
+      "geometry": { "type": "Point", "coordinates": [13.634547, 52.538108] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U5", "name": "U Louis-Lewin-Str." },
+      "geometry": { "type": "Point", "coordinates": [13.619713, 52.539139] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U5", "name": "U Hellersdorf" },
+      "geometry": { "type": "Point", "coordinates": [13.6058, 52.535949] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U5", "name": "U Cottbusser Platz" },
+      "geometry": { "type": "Point", "coordinates": [13.596899, 52.533967] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U5",
+        "name": "U Neue Grottkauer Str."
+      },
+      "geometry": { "type": "Point", "coordinates": [13.590782, 52.528243] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U5", "name": "U Kaulsdorf-Nord" },
+      "geometry": { "type": "Point", "coordinates": [13.588768, 52.52144] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U5", "name": "S+U Wuhletal" },
+      "geometry": { "type": "Point", "coordinates": [13.575484, 52.51254] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U5",
+        "name": "U Elsterwerdaer Platz"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.560768, 52.504647] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U5",
+        "name": "U Biesdorf-Süd"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.547332, 52.499521] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U5", "name": "U Tierpark" },
+      "geometry": { "type": "Point", "coordinates": [13.523632, 52.49724] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U5", "name": "U Friedrichsfelde" },
+      "geometry": { "type": "Point", "coordinates": [13.512796, 52.505899] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U5",
+        "name": "S+U Lichtenberg"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.497374, 52.511488] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U5", "name": "U Magdalenenstr." },
+      "geometry": { "type": "Point", "coordinates": [13.489444, 52.512217] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Alt-Tegel" },
+      "geometry": { "type": "Point", "coordinates": [13.283826, 52.589652] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Borsigwerke" },
+      "geometry": { "type": "Point", "coordinates": [13.290128, 52.582142] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Holzhauser Str." },
+      "geometry": { "type": "Point", "coordinates": [13.295089, 52.576255] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Otisstr." },
+      "geometry": { "type": "Point", "coordinates": [13.303079, 52.571126] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Scharnweberstr." },
+      "geometry": { "type": "Point", "coordinates": [13.311529, 52.567114] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U6",
+        "name": "U Kurt-Schumacher-Platz"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.327334, 52.563487] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Afrikanische Str." },
+      "geometry": { "type": "Point", "coordinates": [13.333507, 52.560865] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Rehberge" },
+      "geometry": { "type": "Point", "coordinates": [13.341018, 52.556673] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Seestr." },
+      "geometry": { "type": "Point", "coordinates": [13.351975, 52.550473] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Leopoldplatz" },
+      "geometry": { "type": "Point", "coordinates": [13.359401, 52.546497] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Alt-Tempelhof" },
+      "geometry": { "type": "Point", "coordinates": [13.385802, 52.465934] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U6",
+        "name": "U Kaiserin-Augusta-Str."
+      },
+      "geometry": { "type": "Point", "coordinates": [13.38491, 52.460516] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Ullsteinstr." },
+      "geometry": { "type": "Point", "coordinates": [13.384777, 52.453454] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Westphalweg" },
+      "geometry": { "type": "Point", "coordinates": [13.385567, 52.445805] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U6", "name": "U Alt-Mariendorf" },
+      "geometry": { "type": "Point", "coordinates": [13.387461, 52.439644] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "S+U Rathaus Spandau" },
+      "geometry": { "type": "Point", "coordinates": [13.199897, 52.535802] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Altstadt Spandau" },
+      "geometry": { "type": "Point", "coordinates": [13.206769, 52.539165] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Zitadelle" },
+      "geometry": { "type": "Point", "coordinates": [13.21763, 52.537526] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Haselhorst" },
+      "geometry": { "type": "Point", "coordinates": [13.232314, 52.538722] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Paulsternstr." },
+      "geometry": { "type": "Point", "coordinates": [13.248598, 52.538102] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Rohrdamm" },
+      "geometry": { "type": "Point", "coordinates": [13.262875, 52.536908] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Siemensdamm" },
+      "geometry": { "type": "Point", "coordinates": [13.273329, 52.537029] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Halemweg" },
+      "geometry": { "type": "Point", "coordinates": [13.286584, 52.536706] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U7",
+        "name": "U Jakob-Kaiser-Platz"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.293667, 52.536988] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Grenzallee" },
+      "geometry": { "type": "Point", "coordinates": [13.444833, 52.46352] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Blaschkoallee" },
+      "geometry": { "type": "Point", "coordinates": [13.448982, 52.452747] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Parchimer Allee" },
+      "geometry": { "type": "Point", "coordinates": [13.44993, 52.445348] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Britz-Süd" },
+      "geometry": { "type": "Point", "coordinates": [13.447673, 52.43708] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U7",
+        "name": "U Johannisthaler Chaussee"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.453857, 52.429257] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Lipschitzallee" },
+      "geometry": { "type": "Point", "coordinates": [13.463114, 52.424649] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "Wutzkyallee" },
+      "geometry": { "type": "Point", "coordinates": [13.474028, 52.425682] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Zwickauer Damm" },
+      "geometry": { "type": "Point", "coordinates": [13.484377, 52.423035] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U7", "name": "U Rudow" },
+      "geometry": { "type": "Point", "coordinates": [13.496739, 52.415618] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U8", "name": "U Pankstr." },
+      "geometry": { "type": "Point", "coordinates": [13.381842, 52.552258] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U8", "name": "U Osloer Str." },
+      "geometry": { "type": "Point", "coordinates": [13.37329, 52.556941] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U8",
+        "name": "U Franz-Neumann-Platz"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.364288, 52.563858] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U8", "name": "U Residenzstr." },
+      "geometry": { "type": "Point", "coordinates": [13.360641, 52.570847] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U8", "name": "U Paracelsus-Bad" },
+      "geometry": { "type": "Point", "coordinates": [13.347538, 52.574537] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U8", "name": "U Lindauer Allee" },
+      "geometry": { "type": "Point", "coordinates": [13.339053, 52.575398] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U8",
+        "name": "S+U Karl-Bonhoeffer-Nervenklinik"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.332926, 52.578172] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U8",
+        "name": "U Rathaus Reinickendorf"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.325573, 52.588221] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U8", "name": "S+U Wittenau" },
+      "geometry": { "type": "Point", "coordinates": [13.334254, 52.597111] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U9",
+        "name": "S+U Rathaus Steglitz"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.322157, 52.455069] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U9", "name": "U Schloßstr." },
+      "geometry": { "type": "Point", "coordinates": [13.324842, 52.461186] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U9",
+        "name": "U Walther-Schreiber-Platz"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.328414, 52.465002] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "U9",
+        "name": "U Friedrich-Wilhelm-Platz"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.328682, 52.471443] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U9", "name": "U Amrumer Str." },
+      "geometry": { "type": "Point", "coordinates": [13.349539, 52.542206] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U9", "name": "U Leopoldplatz" },
+      "geometry": { "type": "Point", "coordinates": [13.359401, 52.546497] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U9", "name": "U Nauener Platz" },
+      "geometry": { "type": "Point", "coordinates": [13.36737, 52.551527] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "line": "U9", "name": "U Osloer Str." },
+      "geometry": { "type": "Point", "coordinates": [13.37329, 52.556941] }
+    }
+  ]
+}

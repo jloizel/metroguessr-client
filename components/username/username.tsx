@@ -55,6 +55,13 @@ const Username: React.FC<UsernameProps> = ({disableButtons, enableButtons}) => {
       // resetUsername()
       return;
     }
+
+    if (newUsername.length > 15) {
+      setErrorMessage('Username cannot exceed 15 characters');
+      disableButtons();
+      return;
+    }
+    
     setUsername(newUsername); // Update username state
 
     // Validate input using regex to allow only alphabetic characters and hyphens

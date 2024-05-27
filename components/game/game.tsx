@@ -65,6 +65,11 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
     "Zone 3": `./zones/MadridStationsZoneB2.json`,
     "Zone 4": `./zones/MadridStationsZoneB3.json`
   };
+
+  const BerlinZoneJsonFiles: ZoneJsonFiles = {
+    "Zone 1": `./zones/BerlinStationsZoneA.json`,
+    "Zone 2": `./zones/BerlinStationsZoneB.json`,
+  };
  
   useEffect(() => {
     const fetchStations = async () => {
@@ -89,16 +94,17 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
   }, [selectedCity]);
   
   const startNewRound = () => {
-    if (selectedCity === 'London' || selectedCity === 'Madrid') { 
+    if (selectedCity === 'London' || selectedCity === 'Madrid' || selectedCity === 'Berlin') { 
       let zoneJsonFiles: ZoneJsonFiles;
 
       if (selectedCity === 'London') {
         zoneJsonFiles = LondonZoneJsonFiles;
       } else if (selectedCity === 'Madrid') {
         zoneJsonFiles = MadridZoneJsonFiles;
+      } else if (selectedCity === 'Berlin') {
+        zoneJsonFiles = BerlinZoneJsonFiles;
       } else {
-        // Handle other cities if needed
-        return;
+        return
       }
 
       const cumulativeProbabilities: number[] = [];

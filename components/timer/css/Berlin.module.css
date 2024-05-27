@@ -4,7 +4,7 @@
 }
 
 /* marker styling for when the station needs to be guessed */
-.M1guess, .M2guess, .M3guess, .M3bisguess, .M4guess, .M5guess, .M6guess, .M7guess, .M7bisguess, .M8guess, .M9guess, .M10guess, .M11guess, .M12guess, .M13guess, .M14guess {
+.U1guess, .U2guess, .U3guess, .U4guess, .U5guess, .U6guess, .U7guess, .U8guess, .U9guess {
     width: 27px;
     height: 27px;
     border-radius: 50%;
@@ -12,88 +12,53 @@
     transform: translate(-50%, -50%);
   }
 
-  .M1guess {
-    border: 5px solid #ffbe00;
+  .U1guess {
+    border: 5px solid #7EAF4B;
     background-color: white;
   }
 
-  .M2guess {
-    border: 5px solid #0055c8;
+  .U2guess {
+    border: 5px solid #DA421E;
     background-color: white;
   }
 
-  .M3guess {
-    border: 5px solid #6e6e00;
+  .U3guess {
+    border: 5px solid #2E937D;
     background-color: white;
   }
 
-  .M3bisguess {
-    border: 5px solid #6ec4e8;
+  .U4guess {
+    border: 5px solid #F0D722;
     background-color: white;
   }
 
-  .M4guess {
-    border: 5px solid #a0006e;
+  .U5guess {
+    border: 5px solid #7E5330;
     background-color: white;
   }
 
-  .M5guess {
-    border: 5px solid #ff7e2e;
+  .U6guess {
+    border: 5px solid #8C6DAB;
     background-color: white;
   }
 
-  .M6guess {
-    border: 5px solid #6eca97;
+  .U7guess {
+    border: 5px solid #528DBA;
     background-color: white;
   }
 
-  .M7guess {
-    border: 5px solid #fa9aba;
+  .U8guess {
+    border: 5px solid #224F86;
     background-color: white;
   }
 
-  .M7bisguess {
-    border: 5px solid #6eca97;
-    background-color: white;
-  }
-
-  .M8guess {
-    border: 5px solid #d282be;
-    background-color: white;
-  }
-
-  .M9guess {
-    border: 5px solid #b6bd00;
-    background-color: white;
-  }
-
-  .M10guess {
-    border: 5px solid #c9910d;
-    background-color: white;
-  }
-
-  .M11guess {
-    border: 5px solid #704b1c;
-    background-color: white;
-  }
-
-  .M12guess {
-    border: 5px solid #007852;
-    background-color: white;
-  }
-
-  .M13guess {
-    border: 5px solid #6ec4e8;
-    background-color: white;
-  }
-
-  .M14guess {
-    border: 5px solid #62259d;
+  .U9guess {
+    border: 5px solid #F3791D;
     background-color: white;
   }
 
 /* marker styling for when the station is guessed correctly */
-  .M1correct, .M2correct, .M3correct, .M3biscorrect, .M4correct, .M5correct, .M6correct, .M7correct, .M8correct, .M9correct, .M10correct, .M11correct, .M12correct, .M13correct, .M14correct {
+  .U1correct, .U2correct, .U3correct, .U4correct, .U5correct, .U6correct, .U7correct, .U8correct, .U9correct {
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -101,87 +66,52 @@
     transform: translate(-50%, -50%);
   }
 
-  .M1correct {
-    border: 5px solid #ffbe00;
-    background-color: #ffbe00;
+  .U1correct {
+    border: 5px solid #7EAF4B;
+    background-color: #7EAF4B;
   }
 
-  .M2correct  {
-    border: 5px solid #0055c8;
-    background-color: #0055c8;
+  .U2correct  {
+    border: 5px solid #DA421E;
+    background-color: #DA421E;
   }
 
-  .M3correct  {
-    border: 5px solid #6e6e00;
-    background-color: #6e6e00;
+  .U3correct  {
+    border: 5px solid #2E937D;
+    background-color: #2E937D;
   }
 
-  .M3biscorrect  {
-    border: 5px solid #6ec4e8;
-    background-color: #6ec4e8;
+  .U4correct  {
+    border: 5px solid #F0D722;
+    background-color: #F0D722;
   }
 
-  .M4correct  {
-    border: 5px solid #a0006e;
-    background-color: #a0006e;
+  .U5correct  {
+    border: 5px solid #7E5330;
+    background-color: #7E5330;
   }
 
-  .M5correct  {
-    border: 5px solid #ff7e2e;
-    background-color: #ff7e2e;
+  .U6correct  {
+    border: 5px solid #8C6DAB;
+    background-color: #8C6DAB;
   }
 
-  .M6correct  {
-    border: 5px solid #6eca97;
-    background-color: #6eca97;
+  .U7correct  {
+    border: 5px solid #528DBA;
+    background-color: #528DBA;
   }
 
-  .M7correct  {
-    border: 5px solid #fa9aba;
-    background-color: #fa9aba;
+  .U8correct  {
+    border: 5px solid #224F86;
+    background-color: #224F86;
   }
 
-  .M7biscorrect  {
-    border: 5px solid #6eca97;
-    background-color: #6eca97;
+  .U9correct  {
+    border: 5px solid #F3791D;
+    background-color: #F3791D;
   }
 
-  .M8correct  {
-    border: 5px solid #d282be;
-    background-color: #d282be;
-  }
-
-  .M9correct  {
-    border: 5px solid #b6bd00;
-    background-color: #b6bd00;
-  }
-
-  .M10correct  {
-    border: 5px solid #c9910d;
-    background-color: #c9910d;
-  }
-
-  .M11correct  {
-    border: 5px solid #704b1c;
-    background-color: #704b1c;
-  }
-
-  .M12correct  {
-    border: 5px solid #007852;
-    background-color: #007852;
-  }
-
-  .M13correct  {
-    border: 5px solid #6ec4e8;
-    background-color: #6ec4e8;
-  }
-
-  .M14correct  {
-    border: 5px solid #62259d;
-    background-color: #62259d;
-  }
-
-  .M1skip,  .M2skip,  .M3skip,  .M3bisskip,  .M4skip,  .M5skip,  .M6skip,  .M7skip,  .M7bisskip, .M8skip,  .M9skip,  .M10skip,  .M11skip,  .M12skip,  .M13skip,  .M14skip {
+  .U1skip,  .U2skip,  .U3skip, .U4skip,  .U5skip,  .U6skip,  .U7skip, .U8skip,  .U9skip {
     width: 15px;
     height: 15px;
     border-radius: 50%;
