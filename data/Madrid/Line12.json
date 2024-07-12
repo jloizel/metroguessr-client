@@ -28,6 +28,20 @@
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.87471,
+          40.31652
+        ]
+      },
+      "properties": {
+        "name": "Hospital De Móstoles",
+        "line": "Line12"
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "name": "Line 12",
         "colour": "#A49000"

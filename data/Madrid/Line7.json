@@ -1508,6 +1508,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -3.53453,
+          40.41761
+        ]
+      },
+      "properties": {
+        "name": "Hospital Del Henares",
+        "line": "Line7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -3.52549,
           40.42295
         ]

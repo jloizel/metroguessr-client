@@ -145,6 +145,12 @@ const Menu: React.FC<MenuProps> = ({ cityChange, resetGame, disableButtons, enab
                 >
                     <Button className={styles.cityButton}
                         variant="plain"
+                        onClick={() => handleCityClick('Barcelona')}
+                        sx={{ color: "black", '&:hover': { backgroundColor: '#E4E5E7' } }}
+                        disabled={!isUsernameAllowed}
+                    >BARCELONA</Button>
+                    <Button className={styles.cityButton}
+                        variant="plain"
                         onClick={() => handleCityClick('Berlin')}
                         sx={{ color: "black", '&:hover': { backgroundColor: '#E4E5E7' } }}
                         disabled={!isUsernameAllowed}
@@ -179,6 +185,12 @@ const Menu: React.FC<MenuProps> = ({ cityChange, resetGame, disableButtons, enab
                         sx={{ color: "black", '&:hover': { backgroundColor: '#E4E5E7' } }}
                         disabled={!isUsernameAllowed}
                     >PARIS</Button>
+                    <Button className={styles.cityButton}
+                        variant="plain" 
+                        onClick={() => handleCityClick('Rome')}
+                        sx={{ color: "black", '&:hover': { backgroundColor: '#E4E5E7' } }}
+                        disabled={!isUsernameAllowed}
+                    >ROME</Button>
                 </div>
                 <Box className={styles.info}>
                     <Stripe />

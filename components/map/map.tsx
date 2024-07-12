@@ -10,6 +10,7 @@ import LondonStyles from "./London.module.css"
 import ParisStyles from "./Paris.module.css"
 import NewYorkCityStyles from "./NYC.module.css"
 import MadridStyles from "./Madrid.module.css"
+import BarcelonaStyles from "./Madrid.module.css"
 import { tubeDataConfig } from '../../api/tubeDataConfig';
 
 interface Feature {
@@ -102,7 +103,16 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
     mapCoords = [-3.7038, 40.4168]
   } else if (selectedCity === 'Berlin') {
     mapCoords = [13.4050, 52.5200]
+  } else if (selectedCity === 'Barcelona') {
+    mapCoords = [2.1494, 41.3763]
+  } else if (selectedCity === 'Rome') {
+    mapCoords = [12.496366, 41.902782]
   }
+
+  const mapBounds: [[number, number], [number, number]] = [
+    [mapCoords[0] - 0.5, mapCoords[1] - 0.5],
+    [mapCoords[0] + 0.5, mapCoords[1] + 0.5]
+  ];
 
   useEffect(() => {
     if (!map.current) {
@@ -112,7 +122,8 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
         center: mapCoords,
         minZoom: 11,
         maxZoom: 18,
-        dragRotate: false
+        dragRotate: false,
+        maxBounds: mapBounds,
       });
     }
     setMapInstance(map.current);
@@ -140,13 +151,14 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
       stations = require('../../data/NewYorkCity/NewYorkCityStations.json');
     } else if (selectedCity === 'Berlin') {
       stations = require('../../data/Berlin/BerlinStations.json');
+    } else if (selectedCity === 'Barcelona') {
+      stations = require('../../data/Barcelona/BarcelonaStations.json');
+    } else if (selectedCity === 'Rome') {
+      stations = require('../../data/Rome/RomeStations.json');
     }
   } catch (error) {
     console.error('Error loading station data:', error);
   }
-
-
-  
 
   useEffect(() => {
     if (mapInstance) {

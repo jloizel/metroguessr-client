@@ -182,6 +182,8 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
   const guessedStationCleaned = guessedStation ? guessedStation.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").replace(/-/gi," ") : '';
   const randomStationCleaned = randomStation ? randomStation.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").replace(/-/gi," ") : '';
 
+  
+
   const handleGuessSubmit = (guess: string, isCorrect: boolean) => {
     if (isCorrect) {
       // setGuessedStation(""); // Clear guessed station

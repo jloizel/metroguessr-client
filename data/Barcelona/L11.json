@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L11",
+        "name": "L11",
+        "stroke": "#F7BE20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.1726199, 41.4628273],
+          [2.1748582, 41.4610632],
+          [2.1771126, 41.4600415],
+          [2.1784727, 41.4598358],
+          [2.1798905, 41.4592457],
+          [2.1826732, 41.4573749],
+          [2.1850197, 41.4546823],
+          [2.1852197, 41.4512305],
+          [2.1836327, 41.45011],
+          [
+            2.183293755503708,
+            41.449872350016086
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L11",
+        "name": "Trinitat Nova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1833237259670257,
+          41.449947910021265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L11",
+        "name": "Casa de l'Aigua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1851617266666024,
+          41.45141794666264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L11",
+        "name": "Torre Baró | Vallbona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.180580693647686,
+          41.45886244515954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L11",
+        "name": "Ciutat Meridiana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1749064723281935,
+          41.46097822971026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L11",
+        "name": "Can Cuiàs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17293278874895,
+          41.462638754172104
+        ]
+      }
+    }
+  ]
+}

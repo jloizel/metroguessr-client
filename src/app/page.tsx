@@ -165,6 +165,13 @@ export default function App() {
                 <div style={{ fontSize: getHeader2FontSize(), fontWeight: 600 }}>Select Your City 📍</div>
                 <div className={styles.buttonContainer} style={{width: getContainerWidth()}}>
                   <Button
+                    onClick={() => handleCitySelection("Barcelona")}
+                    className={styles.button}
+                    disabled={!isUsernameAllowed} // Disable button if username is not allowed
+                  >
+                    Barcelona
+                  </Button>
+                  <Button
                     onClick={() => handleCitySelection("Berlin")}
                     className={styles.button}
                     disabled={!isUsernameAllowed} // Disable button if username is not allowed
@@ -205,6 +212,13 @@ export default function App() {
                     disabled={!isUsernameAllowed} // Disable button if username is not allowed
                   >
                     Paris
+                  </Button>
+                  <Button
+                    onClick={() => handleCitySelection("Rome")}
+                    className={styles.button}
+                    disabled={!isUsernameAllowed} // Disable button if username is not allowed
+                  >
+                    Rome
                   </Button>
                 </div>
                 {/* <div style={{ fontSize: '1.25rem', fontWeight: 400 }}>More coming soon ⏳</div> */}

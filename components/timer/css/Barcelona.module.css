@@ -1,0 +1,193 @@
+/* marker styling for when the station marker is hidden */
+.markerHidden {
+  visibility: hidden;
+}
+
+/* marker styling for when the station needs to be guessed */
+.L1guess, .L2guess, .L3guess, .L4guess, .L5guess, .L6guess, .L7guess, .L8guess, .L9Nguess, .L9Sguess, .L10Nguess, .L10Sguess, .L11guess {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .L1guess {
+    border: 5px solid #E02434;
+    background-color: white;
+  }
+
+  .L2guess {
+    border: 5px solid #9A398D;
+    background-color: white;
+  }
+
+  .L3guess {
+    border: 5px solid #37A93C;
+    background-color: white;
+  }
+
+  .L4guess {
+    border: 5px solid #FCBF00;
+    background-color: white;
+  }
+
+  .L5guess {
+    border: 5px solid #0078BD;
+    background-color: white;
+  }
+
+  .L6guess {
+    border: 5px solid #7487BD;
+    background-color: white;
+  }
+
+  .L7guess {
+    border: 5px solid #B2660A;
+    background-color: white;
+  }
+
+  .L8guess {
+    border: 5px solid #E67AAF;
+    background-color: white;
+  }
+
+  .L9Nguess {
+    border: 5px solid #F88E00;
+    background-color: white;
+  }
+  
+  .L9Sguess {
+    border: 5px solid #F88E00;
+    background-color: white;
+  }
+
+  .L10Nguess {
+    border: 5px solid #01A1E6;
+    background-color: white;
+  }
+
+  .L10Sguess {
+    border: 5px solid #01A1E6;
+    background-color: white;
+  }
+
+  .L11guess {
+    border: 5px solid #B5CE55;
+    background-color: white;
+  }
+
+
+/* marker styling for when the station is guessed correctly */
+  .L1correct, .L2correct, .L3correct, .L4correct, .L5correct, .L6correct, .L7correct, .L8correct, .L9Ncorrect, .L9Scorrect, .L10Ncorrect, .L10Scorrect, .L11correct {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .L1correct {
+    border: 5px solid #E02434;
+    background-color: #E02434;
+  }
+
+  .L2correct  {
+    border: 5px solid #9A398D;
+    background-color: #9A398D;
+  }
+
+  .L3correct  {
+    border: 5px solid #37A93C;
+    background-color: #37A93C;
+  }
+
+  .L4correct  {
+    border: 5px solid #FCBF00;
+    background-color: #FCBF00;
+  }
+
+  .L5correct  {
+    border: 5px solid #0078BD;
+    background-color: #0078BD;
+  }
+
+  .L6correct  {
+    border: 5px solid #7487BD;
+    background-color: #7487BD;
+  }
+
+  .L7correct  {
+    border: 5px solid #B2660A;
+    background-color: #B2660A;
+  }
+
+  .L8correct  {
+    border: 5px solid #E67AAF;
+    background-color: #E67AAF;
+  }
+
+  .L9Ncorrect  {
+    border: 5px solid #F88E00;
+    background-color: #F88E00;
+  }
+  
+  .L9Scorrect  {
+    border: 5px solid #F88E00;
+    background-color: #F88E00;
+  }
+
+  .L10Ncorrect  {
+    border: 5px solid #01A1E6;
+    background-color: #01A1E6;
+  }
+
+  .L10Scorrect  {
+    border: 5px solid #01A1E6;
+    background-color: #01A1E6;
+  }
+
+  .L11Scorrect  {
+    border: 5px solid #B5CE55;
+    background-color: #B5CE55;
+  }
+
+  .L1skip,  .L2skip,  .L3skip, .L4skip,  .L5skip,  .L6skip,  .L7skip, .L8skip,  .L9Nskip,  .L9Sskip,  .L10Nskip,  .L10Sskip,  .L11skip {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  } 
+
+  .labelHidden {
+    visibility: hidden;
+  }
+
+  .labelGuessed {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 13px;
+    position: absolute;
+    bottom: 180%;
+    transform: translateX(-40%);
+    transform: translateY(-20%);
+    white-space: nowrap;
+    z-index: 100;
+  }
+
+  .labelSkipped {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 500;
+    font-size: 13px;
+    font-style: italic;
+    position: absolute;
+    bottom: 140%;
+    transform: translateX(-40%);
+    white-space: nowrap;
+    z-index: 100;
+  }
