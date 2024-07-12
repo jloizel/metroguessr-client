@@ -171,8 +171,6 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
         markerElement.id = markerId;
         // markerElement.className = styles.markerHidden
 
-        console.log(markerId)
-
         const lineProperty = feature.properties.line;
         markerElement.dataset.lineProperty = lineProperty
         const stationName = feature.properties.name
