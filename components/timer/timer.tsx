@@ -13,6 +13,7 @@ import ParisStyles from "./css/Paris.module.css"
 import NewYorkCityStyles from "./css/NYC.module.css"
 import MadridStyles from "./css/Madrid.module.css"
 import BerlinStyles from "./css/Berlin.module.css"
+import BarcelonaStyles from "./css/Barcelona.module.css"
 
 interface TimerProps {
   guessedStation: string;
@@ -135,6 +136,8 @@ if (selectedCity === "Lyon") {
   stylesName = MadridStyles; // Provide appropriate class name for London
 } else if (selectedCity === "Berlin") {
   stylesName = BerlinStyles; // Provide appropriate class name for London
+} else if (selectedCity === "Barcelona") {
+  stylesName = BarcelonaStyles; // Provide appropriate class name for London
 }
 
 if (typeof window !== "undefined") { 
@@ -417,7 +420,7 @@ useEffect(() => {
   
   const handleSubmit = (event: React.SyntheticEvent<Element, Event>, value: string | null) => {
     event.preventDefault();
-    const inputValue = value?.trim().toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").replace(/-/gi," ") || ''; // Provide a default value
+    const inputValue = (value?.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/-/gi," ") || '');
     // const isBackspace = event.nativeEvent instanceof KeyboardEvent && (event.nativeEvent as KeyboardEvent).key === 'Backspace' && inputValue.length === 0;
     if (inputValue !== "") {
       if (inputValue === randomStationCleaned.trim().toLowerCase()) {

@@ -102,6 +102,8 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
     mapCoords = [-3.7038, 40.4168]
   } else if (selectedCity === 'Berlin') {
     mapCoords = [13.4050, 52.5200]
+  } else if (selectedCity === 'Barcelona') {
+    mapCoords = [2.1494, 41.3763]
   }
 
   useEffect(() => {

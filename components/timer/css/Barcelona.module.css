@@ -1,0 +1,152 @@
+/* marker styling for when the station marker is hidden */
+.markerHidden {
+  visibility: hidden;
+}
+
+/* marker styling for when the station needs to be guessed */
+.U1guess, .U2guess, .U3guess, .U4guess, .U5guess, .U6guess, .U7guess, .U8guess, .U9guess {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .U1guess {
+    border: 5px solid #7EAF4B;
+    background-color: white;
+  }
+
+  .U2guess {
+    border: 5px solid #DA421E;
+    background-color: white;
+  }
+
+  .U3guess {
+    border: 5px solid #2E937D;
+    background-color: white;
+  }
+
+  .U4guess {
+    border: 5px solid #F0D722;
+    background-color: white;
+  }
+
+  .U5guess {
+    border: 5px solid #7E5330;
+    background-color: white;
+  }
+
+  .U6guess {
+    border: 5px solid #8C6DAB;
+    background-color: white;
+  }
+
+  .U7guess {
+    border: 5px solid #528DBA;
+    background-color: white;
+  }
+
+  .U8guess {
+    border: 5px solid #224F86;
+    background-color: white;
+  }
+
+  .U9guess {
+    border: 5px solid #F3791D;
+    background-color: white;
+  }
+
+/* marker styling for when the station is guessed correctly */
+  .U1correct, .U2correct, .U3correct, .U4correct, .U5correct, .U6correct, .U7correct, .U8correct, .U9correct {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .U1correct {
+    border: 5px solid #7EAF4B;
+    background-color: #7EAF4B;
+  }
+
+  .U2correct  {
+    border: 5px solid #DA421E;
+    background-color: #DA421E;
+  }
+
+  .U3correct  {
+    border: 5px solid #2E937D;
+    background-color: #2E937D;
+  }
+
+  .U4correct  {
+    border: 5px solid #F0D722;
+    background-color: #F0D722;
+  }
+
+  .U5correct  {
+    border: 5px solid #7E5330;
+    background-color: #7E5330;
+  }
+
+  .U6correct  {
+    border: 5px solid #8C6DAB;
+    background-color: #8C6DAB;
+  }
+
+  .U7correct  {
+    border: 5px solid #528DBA;
+    background-color: #528DBA;
+  }
+
+  .U8correct  {
+    border: 5px solid #224F86;
+    background-color: #224F86;
+  }
+
+  .U9correct  {
+    border: 5px solid #F3791D;
+    background-color: #F3791D;
+  }
+
+  .U1skip,  .U2skip,  .U3skip, .U4skip,  .U5skip,  .U6skip,  .U7skip, .U8skip,  .U9skip {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  } 
+
+  .labelHidden {
+    visibility: hidden;
+  }
+
+  .labelGuessed {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 13px;
+    position: absolute;
+    bottom: 180%;
+    transform: translateX(-40%);
+    transform: translateY(-20%);
+    white-space: nowrap;
+    z-index: 100;
+  }
+
+  .labelSkipped {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 500;
+    font-size: 13px;
+    font-style: italic;
+    position: absolute;
+    bottom: 140%;
+    transform: translateX(-40%);
+    white-space: nowrap;
+    z-index: 100;
+  }

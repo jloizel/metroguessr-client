@@ -320,6 +320,59 @@ export const tubeDataConfig: TubeDataConfig = {
         color: "#F3791D",
         data: require("../data/Berlin/U9.json"),
       },
+    }, Barcelona: {
+      L1: {
+        color: "#E02434",
+        data: require("../data/Barcelona/L1.json"),
+      },
+      L2: {
+        color: "#9A398D",
+        data: require("../data/Barcelona/L2.json"),
+      },
+      L3: {
+        color: "#37A93C",
+        data: require("../data/Barcelona/L3.json"),
+      },
+      L4: {
+        color: "#FCBF00",
+        data: require("../data/Barcelona/L4.json"),
+      },
+      L5: {
+        color: "#0078BD",
+        data: require("../data/Barcelona/L5.json"),
+      },
+      L6: {
+        color: "#7487BD",
+        data: require("../data/Barcelona/L6.json"),
+      },
+      L7: {
+        color: "#B2660A",
+        data: require("../data/Barcelona/L7.json"),
+      },
+      L8: {
+        color: "#E67AAF",
+        data: require("../data/Barcelona/L8.json"),
+      },
+      L9N: {
+        color: "#F88E00",
+        data: require("../data/Barcelona/L9N.json"),
+      },
+      L9S: {
+        color: "#F88E00",
+        data: require("../data/Barcelona/L9S.json"),
+      },
+      L10N: {
+        color: "#01A1E6",
+        data: require("../data/Barcelona/L10N.json"),
+      },
+      L10S: {
+        color: "#01A1E6",
+        data: require("../data/Barcelona/L10S.json"),
+      },
+      L11: {
+        color: "#B5CE55",
+        data: require("../data/Barcelona/L11.json"),
+      },
     }
   };
 
