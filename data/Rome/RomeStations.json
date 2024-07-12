@@ -327,7 +327,7 @@
       "type": "Feature",
       "properties": {
         "line": "A",
-        "name": " Giulio Agricola"
+        "name": "Giulio Agricola"
       },
       "geometry": {
         "coordinates": [
@@ -816,20 +816,6 @@
     {
       "geometry": {
         "coordinates": [
-          12.566317049633824,
-          41.881415825374944
-        ],
-        "type": "Point"
-      },
-      "type": "Feature",
-      "properties": {
-        "line": "C",
-        "name": "Mirti"
-      }
-    },
-    {
-      "geometry": {
-        "coordinates": [
           12.567972128272999,
           41.87457391183523
         ],
@@ -894,7 +880,7 @@
       "type": "Feature",
       "properties": {
         "line": "C",
-        "naem": "Giardinetti"
+        "name": "Giardinetti"
       }
     },
     {

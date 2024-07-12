@@ -2350,31 +2350,17 @@
       }
     },
     {
-      "geometry": {
-        "coordinates": [
-          12.566317049633824,
-          41.881415825374944
-        ],
-        "type": "Point"
-      },
       "type": "Feature",
       "properties": {
         "line": "C",
         "name": "Mirti"
-      }
-    },
-    {
+      },
       "geometry": {
         "coordinates": [
-          12.566317049633824,
-          41.881415825374944
+          12.566317,
+          41.881415
         ],
         "type": "Point"
-      },
-      "type": "Feature",
-      "properties": {
-        "line": "C",
-        "name": "Mirti"
       }
     },
     {
@@ -2444,7 +2430,7 @@
       "type": "Feature",
       "properties": {
         "line": "C",
-        "naem": "Giardinetti"
+        "name": "Giardinetti"
       }
     },
     {

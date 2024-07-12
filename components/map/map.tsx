@@ -109,7 +109,10 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
     mapCoords = [12.496366, 41.902782]
   }
 
-  console.log(randomStation)
+  const mapBounds: [[number, number], [number, number]] = [
+    [mapCoords[0] - 0.5, mapCoords[1] - 0.5],
+    [mapCoords[0] + 0.5, mapCoords[1] + 0.5]
+  ];
 
   useEffect(() => {
     if (!map.current) {
@@ -119,7 +122,8 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
         center: mapCoords,
         minZoom: 11,
         maxZoom: 18,
-        dragRotate: false
+        dragRotate: false,
+        maxBounds: mapBounds,
       });
     }
     setMapInstance(map.current);
@@ -166,6 +170,8 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
         const markerId = `marker_${feature.properties.name}`;
         markerElement.id = markerId;
         // markerElement.className = styles.markerHidden
+
+        console.log(markerId)
 
         const lineProperty = feature.properties.line;
         markerElement.dataset.lineProperty = lineProperty
