@@ -373,6 +373,19 @@ export const tubeDataConfig: TubeDataConfig = {
         color: "#B5CE55",
         data: require("../data/Barcelona/L11.json"),
       },
+    }, Rome: {
+      A: {
+        color: "#F36C1B",
+        data: require("../data/Rome/A.json"),
+      },
+      B: {
+        color: "#0072BC",
+        data: require("../data/Rome/B.json"),
+      },
+      C: {
+        color: "#008850",
+        data: require("../data/Rome/C.json"),
+      }
     }
   };
 

@@ -213,6 +213,13 @@ export default function App() {
                   >
                     Paris
                   </Button>
+                  <Button
+                    onClick={() => handleCitySelection("Rome")}
+                    className={styles.button}
+                    disabled={!isUsernameAllowed} // Disable button if username is not allowed
+                  >
+                    Rome
+                  </Button>
                 </div>
                 {/* <div style={{ fontSize: '1.25rem', fontWeight: 400 }}>More coming soon ⏳</div> */}
                 <Poll />

@@ -105,7 +105,11 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
     mapCoords = [13.4050, 52.5200]
   } else if (selectedCity === 'Barcelona') {
     mapCoords = [2.1494, 41.3763]
+  } else if (selectedCity === 'Rome') {
+    mapCoords = [12.496366, 41.902782]
   }
+
+  console.log(randomStation)
 
   useEffect(() => {
     if (!map.current) {
@@ -145,13 +149,12 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
       stations = require('../../data/Berlin/BerlinStations.json');
     } else if (selectedCity === 'Barcelona') {
       stations = require('../../data/Barcelona/BarcelonaStations.json');
+    } else if (selectedCity === 'Rome') {
+      stations = require('../../data/Rome/RomeStations.json');
     }
   } catch (error) {
     console.error('Error loading station data:', error);
   }
-
-
-  
 
   useEffect(() => {
     if (mapInstance) {

@@ -538,6 +538,36 @@
     },
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.66297,
+          40.43945
+        ]
+      },
+      "properties": {
+        "name": "Parque De Las Avenidas",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.652,
+          40.4391
+        ]
+      },
+      "properties": {
+        "name": "Barrio De La Concepción",
+        "line": "Line7",
+        "zone": "Zone A"
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "line": "L7",
         "name": "El Putxet"

@@ -14,6 +14,7 @@ import NewYorkCityStyles from "./css/NYC.module.css"
 import MadridStyles from "./css/Madrid.module.css"
 import BerlinStyles from "./css/Berlin.module.css"
 import BarcelonaStyles from "./css/Barcelona.module.css"
+import RomeStyles from "./css/Rome.module.css"
 
 interface TimerProps {
   guessedStation: string;
@@ -138,6 +139,8 @@ if (selectedCity === "Lyon") {
   stylesName = BerlinStyles; // Provide appropriate class name for London
 } else if (selectedCity === "Barcelona") {
   stylesName = BarcelonaStyles; // Provide appropriate class name for London
+} else if (selectedCity === "Rome") {
+  stylesName = RomeStyles; // Provide appropriate class name for London
 }
 
 if (typeof window !== "undefined") { 

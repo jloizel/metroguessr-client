@@ -1,0 +1,92 @@
+/* marker styling for when the station marker is hidden */
+.markerHidden {
+  visibility: hidden;
+}
+
+/* marker styling for when the station needs to be guessed */
+.Aguess, .Bguess, .Cguess {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .Aguess {
+    border: 5px solid #F36C1B;
+    background-color: white;
+  }
+
+  .Bguess {
+    border: 5px solid #0072BC;
+    background-color: white;
+  }
+
+  .Cguess {
+    border: 5px solid #008850;
+    background-color: white;
+  }
+
+/* marker styling for when the station is guessed correctly */
+  .Acorrect, .Bcorrect, .Ccorrect {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .Acorrect {
+    border: 5px solid #F36C1B;
+    background-color: #F36C1B;
+  }
+
+  .Bcorrect  {
+    border: 5px solid #0072BC;
+    background-color: #0072BC;
+  }
+
+  .Ccorrect  {
+    border: 5px solid #008850;
+    background-color: #008850;
+  }
+
+  .Askip,  .Bskip,  .Cskip {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  } 
+
+  .labelHidden {
+    visibility: hidden;
+  }
+
+  .labelGuessed {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 13px;
+    position: absolute;
+    bottom: 180%;
+    transform: translateX(-40%);
+    transform: translateY(-20%);
+    white-space: nowrap;
+    z-index: 100;
+  }
+
+  .labelSkipped {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 500;
+    font-size: 13px;
+    font-style: italic;
+    position: absolute;
+    bottom: 140%;
+    transform: translateX(-40%);
+    white-space: nowrap;
+    z-index: 100;
+  }
