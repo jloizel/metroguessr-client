@@ -2,14 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
-      "properties": {
-        "line": "L4",
-        "name": "L4",
-        "stroke": "#F7BE20"
-      },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [2.2059039, 41.4233317],
           [2.2099534, 41.4201497],
@@ -100,7 +93,325 @@
           [2.1796082, 41.4460852],
           [2.1802021, 41.4469659],
           [2.1809098, 41.4477973],
-          [2.1850013, 41.4492746]
+          [
+            2.18327622823988,
+            41.44990724333358
+          ]
+        ],
+        "type": "LineString"
+      },
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "L4",
+        "stroke": "#F7BE20"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "La Pau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.205926525094832,
+          41.42338576562045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Besòs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.209628187756026,
+          41.42029912442437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Besòs Mar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2163548538090985,
+          41.41500865310147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "El Maresme | Fòrum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.217388438317981,
+          41.412293477070605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Selva de Mar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.209026898412614,
+          41.4080586490967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Poblenou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.203270996335447,
+          41.403745046743786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Llacuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1971989178981306,
+          41.39919848782376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Bogatell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.192111704429138,
+          41.39546174890425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Ciutadella | Vila Olímpica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1933424228775595,
+          41.38800885267507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Barceloneta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1854102568918874,
+          41.38239758615891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Jaume I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.178711332369205,
+          41.38395882702407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Urquinaona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1724209324693753,
+          41.38877649731762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Passeig de Gràcia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1682529369700494,
+          41.38940444555052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Girona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1709515869049025,
+          41.394905238515705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Verdaguer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686296284613333,
+          41.40020948170899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Joanic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163157621964816,
+          41.40610973963328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Alfons X"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1663398054079708,
+          41.41221904407982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Guinardó | Hospital de Sant Pau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17466639274606,
+          41.415945489222466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Maragall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1774047401589582,
+          41.42420216375123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Llucmajor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1740929355360574,
+          41.437633229204806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Via Júlia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1787313812426135,
+          41.4437987657294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L4",
+        "name": "Trinitat Nova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.183102971753109,
+          41.44969022158185
         ]
       }
     }

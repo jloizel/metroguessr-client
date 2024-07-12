@@ -4,7 +4,7 @@
 }
 
 /* marker styling for when the station needs to be guessed */
-.L1guess, .L2guess, .L3guess, .L4guess, .L5guess, .L6guess, .L7guess, .L8guess, .L9Nguess, .L9Sguess, .L10Nguess, .L10Sguess, .L11guess {
+.L1guess, .L2guess, .L3guess, .L4guess, .L5guess, .L6guess, .L7guess, .L8guess, .L9Nguess, .L9Sguess, .L10Nguess, .L10Nguess, .L11guess {
     width: 27px;
     height: 27px;
     border-radius: 50%;

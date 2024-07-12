@@ -465,6 +465,104 @@
       },
       "type": "Feature",
       "properties": {"name": "L7"}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L7",
+        "name": "Catalunya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686306891088125,
+          41.38584648014988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L7",
+        "name": "Provença"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1575982600785086,
+          41.393332926471544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L7",
+        "name": "Gràcia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.152127969471468,
+          41.399755365585236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L7",
+        "name": "Plaça Molina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1474258355718066,
+          41.40142952921338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L7",
+        "name": "Pàdua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1427782696634825,
+          41.40338536335694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L7",
+        "name": "El Putxet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1391170390312806,
+          41.405761586389104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L7",
+        "name": "Avinguda Del Tibidabo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.137507659958432,
+          41.40886355925018
+        ]
+      }
     }
   ]
 }

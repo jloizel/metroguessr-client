@@ -1103,6 +1103,216 @@
       "properties": {
         "name": "L9S"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Aeroport T1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0715776210245,
+          41.28813496881679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Aeroport T2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.073459748895332,
+          41.30428223983439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Mas Blau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0731974644991,
+          41.31139619521142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Parc Nou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0875458445680195,
+          41.31662182020757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Cèntric"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0934598868089864,
+          41.322055566600405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "El Prat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0890189706436177,
+          41.33335913640968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Les Moreres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.102996205968141,
+          41.32892585197782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Mercabarna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1114328051386493,
+          41.333833082238876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Parc Logístic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1276926229565434,
+          41.34154828541826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Fira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.130440377899399,
+          41.35173834118097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Europa | Fira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1259386383154295,
+          41.3576375698949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Can Tries | Gornal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.118055313284617,
+          41.36078609021217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Torrassa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.115990048729355,
+          41.368410477221204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Collblanc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.118295161051097,
+          41.37589110283392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9S",
+        "name": "Zona Universitària"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1114864642926263,
+          41.38395880925733
+        ]
+      }
     }
   ]
 }

@@ -20,7 +20,80 @@
           [2.1850197, 41.4546823],
           [2.1852197, 41.4512305],
           [2.1836327, 41.45011],
-          [2.1849978, 41.4493171]
+          [
+            2.183293755503708,
+            41.449872350016086
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L11",
+        "name": "Trinitat Nova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1833237259670257,
+          41.449947910021265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L11",
+        "name": "Casa de l'Aigua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1851617266666024,
+          41.45141794666264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L11",
+        "name": "Torre Baró | Vallbona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.180580693647686,
+          41.45886244515954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L11",
+        "name": "Ciutat Meridiana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1749064723281935,
+          41.46097822971026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L11",
+        "name": "Can Cuiàs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17293278874895,
+          41.462638754172104
         ]
       }
     }

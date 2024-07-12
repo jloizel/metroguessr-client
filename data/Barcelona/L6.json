@@ -527,6 +527,118 @@
       "properties": {
         "name": " L6"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L6",
+        "name": "Catalunya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686306891088125,
+          41.38584648014988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L6",
+        "name": "Provença"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1575982600785086,
+          41.393332926471544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L6",
+        "name": "Gràcia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.152127969471468,
+          41.399755365585236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L6",
+        "name": "Sant Gervasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1472373128740707,
+          41.40120357579158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L6",
+        "name": "Muntaner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1421239555888416,
+          41.39846102794449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L6",
+        "name": "La Bonanova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1353514139973675,
+          41.397871056850725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L6",
+        "name": "Les Tres Torres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1314056034341378,
+          41.397858730186165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L6",
+        "name": "Sarrià"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.125758083545464,
+          41.398510419406264
+        ]
+      }
     }
   ]
 }

@@ -186,6 +186,383 @@
           [2.070209, 41.3575344]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Cornellà Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0702810739107904,
+          41.35746712134037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Gavarra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0789035448824595,
+          41.35794389611824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Sant Ildefons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0840372240410674,
+          41.36327367991995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Can Boixeres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.09056487496946,
+          41.36618033268451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Can Vidalet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0994750785123784,
+          41.37147426922161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Pubilla Cases"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.106531362985043,
+          41.373398213273425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Ernest Lluch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1114479655480807,
+          41.375865120623835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Collblanc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1180137754233592,
+          41.375782027010594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Badal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1272748505549437,
+          41.37560196556008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Plaça de Sants"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.135139555500836,
+          41.3754326787912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Sants Estació"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1419262358637643,
+          41.38091012645377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Entença"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.145084258468157,
+          41.3839964568456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Hospital Clínic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.151658994197634,
+          41.3891086744832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Diagonal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16023641677241,
+          41.39556926486795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Verdaguer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1684939149196145,
+          41.40012171985753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Sagrada Família"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1745961708535377,
+          41.404576901902814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sant Pau | Dos de Maig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1764567865471367,
+          41.41117319412532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Camp de l'Arpa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.181101908701196,
+          41.414939324849215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "La Sagrera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1868100123200542,
+          41.42035475290193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Congrés"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1813631814203185,
+          41.423471961051796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Maragall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1774842743714493,
+          41.424116448462215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Virrei Amat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1743895076282187,
+          41.430238727695595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Vilapicina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1675599662775977,
+          41.43041634381187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Horta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.158952574519278,
+          41.429688221141625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "El Carmel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1553379735562985,
+          41.42387527737463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "El Coll | La Teixonera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.147492140482497,
+          41.422749979074304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L5",
+        "name": "Vall d'Hebron"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.142396133866459,
+          41.42482951956657
+        ]
+      }
     }
   ]
 }

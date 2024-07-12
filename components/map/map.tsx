@@ -10,6 +10,7 @@ import LondonStyles from "./London.module.css"
 import ParisStyles from "./Paris.module.css"
 import NewYorkCityStyles from "./NYC.module.css"
 import MadridStyles from "./Madrid.module.css"
+import BarcelonaStyles from "./Madrid.module.css"
 import { tubeDataConfig } from '../../api/tubeDataConfig';
 
 interface Feature {
@@ -142,6 +143,8 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
       stations = require('../../data/NewYorkCity/NewYorkCityStations.json');
     } else if (selectedCity === 'Berlin') {
       stations = require('../../data/Berlin/BerlinStations.json');
+    } else if (selectedCity === 'Barcelona') {
+      stations = require('../../data/Barcelona/BarcelonaStations.json');
     }
   } catch (error) {
     console.error('Error loading station data:', error);

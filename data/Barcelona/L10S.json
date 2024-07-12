@@ -590,6 +590,160 @@
       "properties": {
         "name": "L10S"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10S",
+        "name": "ZAL | Riu Vell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1326901183027087,
+          41.323212890427484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10S",
+        "name": "Ecoparc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.137118870352565,
+          41.330366902284574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10S",
+        "name": "Port Comercial | La Factoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1403958122582787,
+          41.33576180246833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10S",
+        "name": "Zona Franca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.144969893341881,
+          41.34310626465282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10S",
+        "name": "Foc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1419470033715524,
+          41.356180204802484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10S",
+        "name": "Foneria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.138431157841735,
+          41.36082095998442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10S",
+        "name": "Ciutat de la Justícia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1322649823329765,
+          41.36319890168526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10S",
+        "name": "Provençana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.123994374100202,
+          41.36141675177607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10S",
+        "name": "Can Tries | Gornal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1180714513510734,
+          41.3609381608492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10S",
+        "name": "Torrassa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1157838345325892,
+          41.36838855344405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10S",
+        "name": "Collblanc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.118472707739048,
+          41.37586715227667
+        ]
+      }
     }
   ]
 }

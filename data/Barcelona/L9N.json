@@ -670,6 +670,132 @@
       "properties": {
         "name": "L9N"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9N",
+        "name": "La Sagrera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1871371924948653,
+          41.420345208395226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9N",
+        "name": "Onze de Setembre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1932814847589635,
+          41.42999454383913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9N",
+        "name": "Bon Pastor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.204683753979987,
+          41.43606546583819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9N",
+        "name": "Can Peixauet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2101583298685887,
+          41.44440915933028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9N",
+        "name": "Santa Rosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2154355061143955,
+          41.446710063954846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9N",
+        "name": "Fondo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2186869133544085,
+          41.45157913848785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9N",
+        "name": "Església Major"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.212611829898971,
+          41.454565823025824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9N",
+        "name": "Singuerlín"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2055068186266187,
+          41.45943760489336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L9N",
+        "name": "Can Zam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.198494438715718,
+          41.45814732602897
+        ]
+      }
     }
   ]
 }

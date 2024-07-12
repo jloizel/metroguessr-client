@@ -106,6 +106,426 @@
           [2.1055725, 41.34412]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Hospital de Bellvitge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1088913031291296,
+          41.3456995847592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Bellvitge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.110955392613747,
+          41.3512361894288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Av. Carrilet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1029338261527974,
+          41.35797755613627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Rambla Just Oliveras"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0999853759440223,
+          41.36380509825878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Can Serra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.103655190544348,
+          41.36752189852839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Florida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.109734641714723,
+          41.36832198475331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Torrassa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.115954861969872,
+          41.368281011462265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Santa Eulàlia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1309647416372366,
+          41.37039081651233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Mercat Nou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1345671404312454,
+          41.374336423838365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Plaça de Sants"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1370005211115943,
+          41.375389801040214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Hostafrancs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.143227296616112,
+          41.37531383553885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Espanya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1491081992142718,
+          41.37513652770883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Rocafort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.153914397814666,
+          41.37885827995081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Urgell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159210125818386,
+          41.38294080295212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Universitat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.164251534670765,
+          41.38591228638902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Catalunya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169937888674094,
+          41.38796472989791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Urquinaona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172366582022925,
+          41.38887785687113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Arc de Triomf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1802493325224757,
+          41.391696039871796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Marina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.186595322410658,
+          41.39538739094018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Glòries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.187240388143985,
+          41.403479297502926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Clot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.187063548153739,
+          41.41046696748381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Navas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.187025164413002,
+          41.41692794706508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "La Sagrera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.187024510570182,
+          41.42037496832356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Fabra i Puig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1832425850538213,
+          41.43017497293597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Sant Andreu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1912036625670517,
+          41.43667122005638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Torras i Bages"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1907955573315694,
+          41.443052555296546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Trinitat Vella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.193568197813818,
+          41.44913876884481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Baró de Viver"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.199836341214473,
+          41.44945647735058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Santa Coloma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2082137177432846,
+          41.45109526487446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L1",
+        "name": "Fondo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.218122851638159,
+          41.45141452569198
+        ]
+      }
     }
   ]
 }

@@ -210,6 +210,370 @@
           [2.1117042, 41.3843429]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Zona Universitària"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1120862594769463,
+          41.38435652889256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Palau Reial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1178867770048013,
+          41.385962478003016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Maria Cristina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1251850219961703,
+          41.38777121654087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Les Corts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1309067173657708,
+          41.384149727125084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Plaça del Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1357237596490184,
+          41.38194570470919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Sants Estació"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.141819968214272,
+          41.38085922741951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Tarragona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.14502245393903,
+          41.37861090225825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Espanya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1492479590775244,
+          41.375168230456886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Poble Sec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.160344815309865,
+          41.37503211360875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Paral·lel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1677618270434076,
+          41.375173390320825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Drassanes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175896321581776,
+          41.37677190491105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Liceu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1732865057167596,
+          41.381088281144045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Catalunya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1699716892198637,
+          41.38796757821241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Passeig de Gràcia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1682459368888556,
+          41.38947707810739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Diagonal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1604256977948086,
+          41.39569591480863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Fontana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1525235634456785,
+          41.40267192804296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Lesseps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1500402779759127,
+          41.406049006433676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Vallcarca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.145137431456153,
+          41.41180765657518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Penitents"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1410682629112148,
+          41.41745462148374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Vall d'Hebron"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.142359279737868,
+          41.42464946934381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Montbau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1451604068357373,
+          41.43052625490371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Mundet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.147582124228482,
+          41.435394734220715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Valldaura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.156493105155498,
+          41.4376551474321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Canyelles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1664379165077667,
+          41.441632831957534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Roquetes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.176777589497448,
+          41.448088793154895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L3",
+        "name": "Trinitat Nova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1831163372016134,
+          41.449638709337144
+        ]
+      }
     }
   ]
 }

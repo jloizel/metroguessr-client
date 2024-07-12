@@ -73,6 +73,258 @@
           [2.2450115, 41.4495237]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Paral·lel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167791334943761,
+          41.375260285593356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Sant Antoni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1632327431541847,
+          41.38038720404885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Universitat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1642004692050447,
+          41.38594009181615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Passeig de Gràcia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168314454709837,
+          41.38946170339329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Tetuan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174974436843863,
+          41.394481713456585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Monumental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1788389944426703,
+          41.400963591259426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Sagrada Família"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1746184989599167,
+          41.404524011357665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Encants"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.18227846707375,
+          41.40695067400563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Clot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1870587157618564,
+          41.41048070926521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Bac de Roda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1955145165869294,
+          41.41519905620667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Sant Martí"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.20055161597348,
+          41.418980098351625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "La Pau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.205926525094832,
+          41.42338576562045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Verneda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.209844267342106,
+          41.43002415807793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Artigues | Sant Adrià"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2172720363133287,
+          41.43321790727976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Sant Roc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2279706487975766,
+          41.43523753483024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Gorg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.233668173678958,
+          41.44048412891081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Pep Ventura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2380358493861077,
+          41.444207001592666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L2",
+        "name": "Badalona Pompeu Fabra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2442692952852217,
+          41.449025676641035
+        ]
+      }
     }
   ]
 }

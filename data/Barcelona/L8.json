@@ -847,6 +847,160 @@
       },
       "type": "Feature",
       "properties": {"name": "L8"}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L8",
+        "name": "Espanya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1485930399320035,
+          41.37476735284969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L8",
+        "name": "Magòria - La Campana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1395435422675906,
+          41.367844354971545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L8",
+        "name": "Ildefons Cerdà"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1301008287179664,
+          41.36088422981744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L8",
+        "name": "Europa | Fira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1256589634053125,
+          41.35762591837587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L8",
+        "name": "Gornal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.116976031332243,
+          41.35516501031179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L8",
+        "name": "Sant Josep"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.10957708389055,
+          41.360560277350125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L8",
+        "name": "Av. Carrilet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1028702376941593,
+          41.35797672127452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L8",
+        "name": "Almeda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.086610004559793,
+          41.353221977600576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L8",
+        "name": "Cornellà - Riera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.069613745028284,
+          41.35167724432764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L8",
+        "name": "Sant Boi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0430216936589733,
+          41.348643470838034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L8",
+        "name": "Molí Nou - Ciutat Cooperativa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0351814729123516,
+          41.35754168575977
+        ]
+      }
     }
   ]
 }

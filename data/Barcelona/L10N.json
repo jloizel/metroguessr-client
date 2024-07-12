@@ -440,6 +440,90 @@
       "properties": {
         "name": "L10N"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10N",
+        "name": "La Sagrera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1869961919494676,
+          41.42026172913334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10N",
+        "name": "Onze de Setembre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1935478282830525,
+          41.42999662769209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10N",
+        "name": "Bon Pastor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.204537445098902,
+          41.43599276598888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10N",
+        "name": "Llefià"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.217501771978698,
+          41.44154481332642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10N",
+        "name": "La Salut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2245336333106964,
+          41.44277516239397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "line": "L10N",
+        "name": "Gorg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2334891912603494,
+          41.44046418650361
+        ]
+      }
     }
   ]
 }
