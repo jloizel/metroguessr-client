@@ -87,33 +87,33 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
   // };
 
   useEffect(() => {
+    let timer: NodeJS.Timeout | null = null;
+
     const handleTimerExpired = async () => {
-      if (timeEnded && !scoreAdded) {
+      if (timeEnded && !scoreAdded && !scoresFetched) {
+        if (timer) {
+          clearTimeout(timer);
+          timer = null;
+        }
+
         try {
-          // Find if the user already has a score
-          const existingScore = scores.find((score) => score.username === username && score.city === city);
-          if (existingScore) {
-            if (points > existingScore.points) {
-              // Update existing score only if new score is higher
-              const updatedScore = await updateScore(existingScore._id, {
-                username: username,
-                points: points,
-                city: city,
-              });
-              setScores((prevScores) =>
-                prevScores.map((score) =>
-                  score._id === existingScore._id ? updatedScore : score
-                )
-              );
-            }
-          } else {
-            // Add new score if user does not have an existing score
-            const newScore = await createScore({
-              username: username,
-              points: points,
-              city: city,
-            });
+          let highestScoreInDB = 0;
+          let userScoreInDB = scores.find(score => score.username === username && score.city === city);
+          
+          if (userScoreInDB) {
+            highestScoreInDB = userScoreInDB.points;
+          }
+
+          if (!userScoreInDB) {
+            const newScore = await createScore({ username, points, city });
             setScores((prevScores) => [...prevScores, newScore]);
+          } else if (points > highestScoreInDB) {
+            const updatedScore = await updateScore(userScoreInDB._id, { username, points, city });
+            setScores((prevScores) =>
+              prevScores.map((score) =>
+                score._id === userScoreInDB._id ? updatedScore : score
+              )
+            );
           }
 
           updateHighestScorer();
@@ -121,11 +121,20 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
         } catch (error) {
           console.error('Error adding or updating score:', error);
         }
+
+        setScoresFetched(true);
       }
     };
 
     handleTimerExpired();
-  }, [timeEnded, scoreAdded, scores, username, points, city]);
+
+    return () => {
+      if (timer) {
+        clearTimeout(timer);
+        timer = null;
+      }
+    };
+  }, [timeEnded, scoreAdded, scoresFetched, username, points, city, scores]);
 
   const updateHighestScorer = () => {
     const cityScores = scores.filter((score) => score.city === city);
@@ -139,7 +148,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
           return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(); // Sort by time added if points are tied
         }
       });
-  
+
     if (sortedScores.length > 0) {
       const highestScoreObj = sortedScores[0];
       setHighestScorer(highestScoreObj.username);
@@ -182,48 +191,37 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
   };
 
   const handleShowTopScoresModal = async () => {
-  try {
-    // Fetch all scores
-    setScoreLoading(true)
-    const allScores = await getAllScores();
+    try {
+      setScoreLoading(true);
+      const allScores = await getAllScores();
 
-    const cityScores = allScores.filter((score) => score.city === city);
+      const cityScores = allScores.filter((score) => score.city === city);
+      const userHighestScore = Math.max(
+        ...cityScores.filter((score) => score.username === username).map((score) => score.points),
+        points
+      );
 
-    // Include the user's most recent score in the sorted scores array
-    const sortedScores = [...cityScores, { _id: '', username, points, city, createdAt: new Date().toISOString() }]
-      .filter((item): item is Score => '_id' in item && item._id !== '');
+      const sortedScores = [...cityScores, { _id: '', username, points: userHighestScore, city, createdAt: new Date().toISOString() }]
+        .filter((item): item is Score => '_id' in item && item._id !== '');
 
-    // Sort the scores
-    sortedScores.sort((a, b) => {
-      if (a.points !== b.points) {
-        return b.points - a.points; // Sort by points (higher to lower)
-      } else {
-        // If points are tied, sort by time added (more recent first)
-        return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
-      }
-    });
+      sortedScores.sort((a, b) => {
+        if (a.points !== b.points) {
+          return b.points - a.points; // Sort by points (higher to lower)
+        } else {
+          return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+        }
+      });
 
-    // Find user's score
-    // const userScore = sortedScores.find((score) => score.username === username)?.points;
-    const userScore = points
-
-    if (userScore !== undefined && userScore >= 0) {
+      const userScore = userHighestScore;
       const userRank = sortedScores.findIndex((score) => score.username === username && score.points === userScore) + 1;
-    
-      if (userScore === 0) {
-        const totalPlayersCount = sortedScores.length;
-        setUserRank(totalPlayersCount);
-        setTopScores(sortedScores.slice(0, 5));
-      } else {
-        setTopScores(sortedScores.slice(0, 5));
-        setUserRank(userRank);
-      }
+
+      setTopScores(sortedScores.slice(0, 5));
+      setUserRank(userRank);
+      setScoreLoading(false);
+    } catch (error) {
+      console.error('Error fetching top city scores:', error);
     }
-    setScoreLoading(false)
-  } catch (error) {
-    console.error('Error fetching top city scores:', error);
-  }
-};
+  };
 
   
   
