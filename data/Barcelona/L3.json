@@ -341,7 +341,7 @@
       "type": "Feature",
       "properties": {
         "line": "L3",
-        "name": "Paral·lel"
+        "name": "Parallel"
       },
       "geometry": {
         "type": "Point",

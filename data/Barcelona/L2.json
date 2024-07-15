@@ -78,7 +78,7 @@
       "type": "Feature",
       "properties": {
         "line": "L2",
-        "name": "Paral·lel"
+        "name": "Parallel"
       },
       "geometry": {
         "type": "Point",
