@@ -26,6 +26,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
   const [scoreLoading, setScoreLoading] = useState<boolean>(true)
   const [leaderboardLoading, setLeaderboardLoading] = useState<boolean>(true)
   const [scoresFetched, setScoresFetched] = useState<boolean>(false);
+  const [userScore, setUserScore] = useState<Score | null>(null);
 
   useEffect(() => {
     const fetchScores = async () => {
@@ -87,7 +88,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
 
   useEffect(() => {
     let timer: NodeJS.Timeout | null = null;
-
+  
     const handleTimerExpired = async () => {
       if (timeEnded && !scoreAdded && !scoresFetched) {
         // Clear any previous timer
@@ -95,28 +96,44 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
           clearTimeout(timer);
           timer = null;
         }
-
-        // Delay the execution of score addition logic by 300 milliseconds
-        timer = setTimeout(async () => {
-          try {
-            const newScore = await createScore({ username: username, points: points, city: city });
-            if (newScore) {
-              setScores((prevScores) => [...prevScores, newScore]);
-              updateHighestScorer();
-              setScoreAdded(true);
-            } else {
-              console.error('Failed to add score: received invalid response from server');
-            }
-          } catch (error) {
-            console.error('Error adding score:', error);
+  
+        try {
+          // Find if the user already has a score
+          if (userScore) {
+            // Update existing score
+            const updatedScore = await updateScore(userScore._id, {
+              username: username,
+              points: points,
+              city: city,
+            });
+            setScores((prevScores) =>
+              prevScores.map((score) =>
+                score._id === userScore._id ? updatedScore : score
+              )
+            );
+          } else {
+            // Add new score
+            const newScore = await createScore({
+              username: username,
+              points: points,
+              city: city,
+            });
+            setScores((prevScores) => [...prevScores, newScore]);
           }
-        }, 300); // Adjust the delay as needed
+  
+          // Update highest scorer
+          updateHighestScorer();
+          setScoreAdded(true);
+        } catch (error) {
+          console.error('Error adding or updating score:', error);
+        }
+  
         setScoresFetched(true);
       }
     };
-
+  
     handleTimerExpired();
-
+  
     return () => {
       // Cleanup function to clear timer if component unmounts or `timeEnded` changes
       if (timer) {
@@ -124,7 +141,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
         timer = null;
       }
     };
-  }, [timeEnded]);
+  }, [timeEnded, scoreAdded, scoresFetched, userScore, username, points, city]);
 
   const updateHighestScorer = () => {
     const cityScores = scores.filter((score) => score.city === city);
@@ -400,9 +417,9 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
           }}
         >
           {scoreLoading ? (
-          <div>
-            <Skeleton animation="wave" width={200} height={20} />
-            <Skeleton animation="wave" width={150} height={20} />
+          <div className={styles.skeletonContainer}>
+            {/* <Skeleton animation="wave" width={200} height={20} />
+            <Skeleton animation="wave" width={150} height={20} /> */}
           </div>
         ) : (
           <div className={styles.modal} style={{width: getModalWidth()}}>
