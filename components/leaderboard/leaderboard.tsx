@@ -88,7 +88,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
 
   useEffect(() => {
     let timer: NodeJS.Timeout | null = null;
-  
+
     const handleTimerExpired = async () => {
       if (timeEnded && !scoreAdded && !scoresFetched) {
         // Clear any previous timer
@@ -96,23 +96,32 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
           clearTimeout(timer);
           timer = null;
         }
-  
+
         try {
+          let updated = false;
+
           // Find if the user already has a score
           if (userScore) {
-            // Update existing score
-            const updatedScore = await updateScore(userScore._id, {
-              username: username,
-              points: points,
-              city: city,
-            });
-            setScores((prevScores) =>
-              prevScores.map((score) =>
-                score._id === userScore._id ? updatedScore : score
-              )
-            );
-          } else {
-            // Add new score
+            // Fetch the existing score from state or API (optional)
+            const existingScore = scores.find((score) => score._id === userScore._id);
+            if (existingScore && points > existingScore.points) {
+              // Update existing score only if new score is higher
+              const updatedScore = await updateScore(userScore._id, {
+                username: username,
+                points: points,
+                city: city,
+              });
+              setScores((prevScores) =>
+                prevScores.map((score) =>
+                  score._id === userScore._id ? updatedScore : score
+                )
+              );
+              updated = true;
+            }
+          }
+
+          if (!updated) {
+            // Add new score if not updated
             const newScore = await createScore({
               username: username,
               points: points,
@@ -120,20 +129,20 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
             });
             setScores((prevScores) => [...prevScores, newScore]);
           }
-  
+
           // Update highest scorer
           updateHighestScorer();
           setScoreAdded(true);
         } catch (error) {
           console.error('Error adding or updating score:', error);
         }
-  
+
         setScoresFetched(true);
       }
     };
-  
+
     handleTimerExpired();
-  
+
     return () => {
       // Cleanup function to clear timer if component unmounts or `timeEnded` changes
       if (timer) {
@@ -141,7 +150,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
         timer = null;
       }
     };
-  }, [timeEnded, scoreAdded, scoresFetched, userScore, username, points, city]);
+  }, [timeEnded, scoreAdded, scoresFetched, userScore, username, points, city, scores]);
 
   const updateHighestScorer = () => {
     const cityScores = scores.filter((score) => score.city === city);
