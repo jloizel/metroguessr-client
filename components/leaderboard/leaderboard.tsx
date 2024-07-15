@@ -111,7 +111,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
             const updatedScore = await updateScore(userScoreInDB._id, { username, points, city });
             setScores((prevScores) =>
               prevScores.map((score) =>
-                score._id === userScoreInDB._id ? updatedScore : score
+                score._id === userScoreInDB?._id ? updatedScore : score
               )
             );
           }
