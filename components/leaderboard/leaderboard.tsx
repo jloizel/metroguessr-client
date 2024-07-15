@@ -87,41 +87,27 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
   // };
 
   useEffect(() => {
-    let timer: NodeJS.Timeout | null = null;
-
     const handleTimerExpired = async () => {
-      if (timeEnded && !scoreAdded && !scoresFetched) {
-        // Clear any previous timer
-        if (timer) {
-          clearTimeout(timer);
-          timer = null;
-        }
-
+      if (timeEnded && !scoreAdded) {
         try {
-          let updated = false;
-
           // Find if the user already has a score
-          if (userScore) {
-            // Fetch the existing score from state or API (optional)
-            const existingScore = scores.find((score) => score._id === userScore._id);
-            if (existingScore && points > existingScore.points) {
+          const existingScore = scores.find((score) => score.username === username && score.city === city);
+          if (existingScore) {
+            if (points > existingScore.points) {
               // Update existing score only if new score is higher
-              const updatedScore = await updateScore(userScore._id, {
+              const updatedScore = await updateScore(existingScore._id, {
                 username: username,
                 points: points,
                 city: city,
               });
               setScores((prevScores) =>
                 prevScores.map((score) =>
-                  score._id === userScore._id ? updatedScore : score
+                  score._id === existingScore._id ? updatedScore : score
                 )
               );
-              updated = true;
             }
-          }
-
-          if (!updated) {
-            // Add new score if not updated
+          } else {
+            // Add new score if user does not have an existing score
             const newScore = await createScore({
               username: username,
               points: points,
@@ -130,27 +116,16 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
             setScores((prevScores) => [...prevScores, newScore]);
           }
 
-          // Update highest scorer
           updateHighestScorer();
           setScoreAdded(true);
         } catch (error) {
           console.error('Error adding or updating score:', error);
         }
-
-        setScoresFetched(true);
       }
     };
 
     handleTimerExpired();
-
-    return () => {
-      // Cleanup function to clear timer if component unmounts or `timeEnded` changes
-      if (timer) {
-        clearTimeout(timer);
-        timer = null;
-      }
-    };
-  }, [timeEnded, scoreAdded, scoresFetched, userScore, username, points, city, scores]);
+  }, [timeEnded, scoreAdded, scores, username, points, city]);
 
   const updateHighestScorer = () => {
     const cityScores = scores.filter((score) => score.city === city);
