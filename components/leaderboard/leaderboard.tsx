@@ -107,7 +107,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
           if (!userScoreInDB) {
             const newScore = await createScore({ username, points, city });
             setScores((prevScores) => [...prevScores, newScore]);
-          } else if (points > highestScoreInDB) {
+          } else if (userScoreInDB && points > userScoreInDB.points) {
             const updatedScore = await updateScore(userScoreInDB._id, { username, points, city });
             setScores((prevScores) =>
               prevScores.map((score) =>
