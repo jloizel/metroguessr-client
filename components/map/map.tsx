@@ -114,11 +114,13 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
     [mapCoords[0] + 0.5, mapCoords[1] + 0.5]
   ];
 
+  const map_api = process.env.MAP_API
+
   useEffect(() => {
-    if (!map.current) {
+    if (!map.current && map_api) {
       map.current = new maplibregl.Map({
         container: mapContainer.current!,
-        style: `https://api.maptiler.com/maps/b48e9bb0-7453-441a-b3df-e169205cbbdc/style.json?key=jJezVkEIcGqQ3VYB7BCF`,
+        style: "https://api.maptiler.com/maps/36d47c22-ba26-40a6-8391-46de9e42e858/style.json?key=n8F7h6F3j80GK3qCDE3B",
         center: mapCoords,
         minZoom: 11,
         maxZoom: 18,
