@@ -120,7 +120,8 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
     if (!map.current) {
       map.current = new maplibregl.Map({
         container: mapContainer.current!,
-        style: "https://metroguessr-client-testing.vercel.app/mapStyle.json",
+        // style: "https://metroguessr-client-testing.vercel.app/mapStyle.json",
+        style: "https://api.maptiler.com/maps/36d47c22-ba26-40a6-8391-46de9e42e858/style.json?key=n8F7h6F3j80GK3qCDE3B",
         center: mapCoords,
         minZoom: 11,
         maxZoom: 18,
