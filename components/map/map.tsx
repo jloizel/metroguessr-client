@@ -12,7 +12,6 @@ import NewYorkCityStyles from "./NYC.module.css"
 import MadridStyles from "./Madrid.module.css"
 import BarcelonaStyles from "./Madrid.module.css"
 import { tubeDataConfig } from '../../api/tubeDataConfig';
-import mapStyle from "../../public/style.json"
 
 interface Feature {
   type: string;
@@ -117,21 +116,11 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
 
   const map_api = process.env.MAP_API
 
-  const [mapStyle, setMapStyle] = useState("")
-
-  useEffect(() => {
-    async function initializeMap() {
-      const response = await fetch('/style.json'); // Fetch the JSON style file
-      setMapStyle(await response.json())
-    }
-    initializeMap();
-  })
-
   useEffect(() => {
     if (!map.current) {
       map.current = new maplibregl.Map({
         container: mapContainer.current!,
-        style: mapStyle,
+        style: "https://metroguessr-client-testing.vercel.app/style.json",
         center: mapCoords,
         minZoom: 11,
         maxZoom: 18,
