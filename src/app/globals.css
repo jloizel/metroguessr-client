@@ -43,8 +43,8 @@ body {
 
 .MuiAutocomplete-inputRoot.Mui-focused .MuiOutlinedInput-notchedOutline {
   border-radius: 5px;  
-  border: none; /* Remove border to avoid overlapping with the shadow effect */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  border: none; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
 }
 
 .MuiDrawer-paper {

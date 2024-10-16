@@ -1,6 +1,5 @@
 import React, { createContext, useState, useContext, ReactNode } from 'react';
 
-// Define a new context for managing the username state
 interface UsernameContextType {
   username: string;
   setUsername: (username: string) => void;
@@ -8,7 +7,6 @@ interface UsernameContextType {
 
 const UsernameContext = createContext<UsernameContextType | undefined>(undefined);
 
-// Custom hook to use the UsernameContext
 export const useUsernameContext = (): UsernameContextType => {
   const context = useContext(UsernameContext);
   if (!context) {
@@ -17,19 +15,17 @@ export const useUsernameContext = (): UsernameContextType => {
   return context;
 };
 
-// Define props for UsernameProvider component
 interface UsernameProviderProps {
-  children: ReactNode; // Define children prop as ReactNode
+  children: ReactNode; 
 }
 
-// Provider component to wrap the application and provide the UsernameContext
 export const UsernameProvider: React.FC<UsernameProviderProps> = ({ children }) => {
   const [username, setUsername] = useState<string>(() => {
     // Initialize username from localStorage, or use a default value
     if (typeof window !== "undefined") {
       return localStorage.getItem('username') || '';
     } else {
-      return ''; // Return default value if localStorage is not available
+      return ''; 
     }
   });
 

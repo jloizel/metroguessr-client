@@ -1,13 +1,13 @@
 "use client"
 
-import React, { useState, useEffect, useRef, useCallback } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./page.module.css";
 import Map from "../map/map";
 import { Timer } from "../timer/timer";
 import Counter from "../counter/counter";
 import Skip from "../skip/skip";
 import Menu from "../menu/menu";
-import { Box, createTheme, useMediaQuery } from "@mui/material";
+import { Box } from "@mui/material";
 import ReactGA from 'react-ga4';
 import { random } from "turf";
 
@@ -24,10 +24,10 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
   const [randomStation, setRandomStation] = useState<string>("");
   const [correctGuess, setCorrectGuess] = useState(false);
   const [correctlyGuessedStations, setCorrectlyGuessedStations] = useState<string[]>([]);
-  const [incorrectlyGuessedStations, setIncorrectlyGuessedStations] = useState<string[]>([]); // Array to store incorrectly guessed stations
+  const [incorrectlyGuessedStations, setIncorrectlyGuessedStations] = useState<string[]>([]); 
   const [gameStarted, setGameStarted] = useState(false);
   const [count, setCount] = useState(0); // Counter state
-  const [countChange, setCountChange] = useState<number | null>(null); // Track count change
+  const [countChange, setCountChange] = useState<number | null>(null); 
   const [stations, setStations] = useState<string[]>([]);
   const [skipClickCount, skipSetClickCount] = useState(0);
   const [showSkip, setShowSkip] = useState(true);
@@ -75,7 +75,6 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
     const fetchStations = async () => {
       if (selectedCity) {
         try {
-          // Dynamically import station data based on the selected city
           const cityStations = await import(
             `../../data/${selectedCity}/${selectedCity}Stations.json`
           );
@@ -89,7 +88,6 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
       }
     };
 
-    // Fetch stations when selectedCity changes
     fetchStations();
   }, [selectedCity]);
   
@@ -110,7 +108,6 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
       const cumulativeProbabilities: number[] = [];
       let totalProbability = 0;
     
-      // Calculate cumulative probabilities for zones
       Object.values(zoneProbabilities).forEach((probability) => {
         totalProbability += probability;
         cumulativeProbabilities.push(totalProbability);
@@ -119,7 +116,6 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
       const rand = Math.random();
       let selectedZone: string | undefined;
     
-      // Determine selected zone based on random value
       Object.entries(zoneProbabilities).some(([zone, probability], index) => {
         if (rand < cumulativeProbabilities[index]) {
           selectedZone = zone;
@@ -130,21 +126,17 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
     
       if (selectedZone && zoneJsonFiles[selectedZone]) {
         const jsonFilePath = zoneJsonFiles[selectedZone];
-        // Dynamically require the JSON file
         const jsonFile = require(`${jsonFilePath}`);
         const stationNames = jsonFile.features.map((feature: any) => feature.properties.name);
     
-        // Filter out stations that have been guessed before
         const availableStations = stationNames.filter(
           (station:any) => !correctlyGuessedStations.includes(station) && !incorrectlyGuessedStations.includes(station)
         );
     
         if (availableStations.length > 0) {
-          // Choose a random station from available stations
           const randomIndex = Math.floor(Math.random() * availableStations.length);
           const selectedStation = availableStations[randomIndex];
     
-          // Set the random station
           setRandomStation(selectedStation);
         }
       }
@@ -155,7 +147,6 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
       });
 
       const availableStations = stations.filter((station) => !correctlyGuessedStations.includes(station) && !incorrectlyGuessedStations.includes(station));
-      // Select a random station from the available stations
       const randomIndex = Math.floor(Math.random() * availableStations.length);
       const selectedStation = availableStations[randomIndex];
       setRandomStation(selectedStation);
@@ -170,7 +161,6 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
   };
 
   useEffect(() => {
-    // Effect to set the lastRandomStation when the timer reaches 0
     if (timeEnded && randomStation !== "") {
       setLastRandomStation(randomStation);
     }
@@ -190,9 +180,9 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
       setDisableZoom(true);
       setCorrectlyGuessedStations((prevStations) => [...prevStations, randomStation]); //stores correctlyGuessedStations in an array so styling doesn't reset on new guess
       setCorrectGuess(true);
-      setGuessedStation(''); // Reset the guessed station to an empty string
-      setCount(prevCount => prevCount + 5); // Increase count by 5 on correct guess
-      setCountChange(5); // Update count change
+      setGuessedStation(''); 
+      setCount(prevCount => prevCount + 5); 
+      setCountChange(5); 
       // setTimeout(() => {
       startNewRound();
       // }, 1000);
@@ -229,11 +219,10 @@ const Game: React.FC<GameProps> = ({selectedCity, cityChange, disableButtons, en
     setIncorrectlyGuessedStations(prevStations => [...prevStations, randomStation]); // Add incorrectly guessed station to the array
     setGuessedStation("");
     
-    // Decrement count by 1
     if (count > 0) {
       setCount(count - 1);
 
-      setCountChange(-1); // Update count change
+      setCountChange(-1); 
       fader.classList.remove(styles.hidden);
       fader.classList.add(styles.fade);
 
@@ -261,13 +250,12 @@ useEffect(() => {
 // }, [randomStation, correctGuess]);
 
 
-
   const resetGame = () => {
     setGuessedStation("");
     setRandomStation("");
     setCorrectGuess(false);
     setCorrectlyGuessedStations([]);
-    setIncorrectlyGuessedStations([]); // Reset the array for incorrectly guessed stations
+    setIncorrectlyGuessedStations([]);
     setGameStarted(false);
     setCount(0);
     setShowSkip(true)
@@ -290,62 +278,6 @@ useEffect(() => {
   const handleLineIDs = (lineIDs:any[]) => {
     setLineIDs(lineIDs)
   }
-
-  const theme = createTheme({
-    breakpoints: {
-      values: {
-        xs: 0,
-        sm: 767,
-        md: 1024,
-        lg: 1200,
-        xl: 1536,
-      },
-    },
-  });
-  
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const isTablet = useMediaQuery(theme.breakpoints.between('sm', 'md'));
-
-  const getTitleFontSize = () => {
-    if (isMobile) {
-      return '1rem';
-    } else if (isTablet) {
-      return '1.625rem';
-    } else {
-      return '2.25rem';
-    }
-  };
-
-  const getBoxMargin = () => {
-    if (isMobile) {
-      return '15px';
-    } else if (isTablet) {
-      return '25px';
-    } else {
-      return '35px';
-    }
-  };
-
-  const getTopMargin = () => {
-    if (isMobile) {
-      return '30px';
-    } else if (isTablet) {
-      return '30px';
-    } else {
-      return '20px';
-    }
-  };
-
-  const getBoxTopMargin = () => {
-    if (isMobile) {
-        return '10px';
-    } else if (isTablet) {
-        return '11px';
-    } else {
-        return '12px';
-    }
-  };
-
   
   return (
     <div>
@@ -365,31 +297,21 @@ useEffect(() => {
       </div>
       
       <div className={styles.container}>
-        <Box 
-          className={styles.box1}
-          sx={{ marginLeft: getBoxMargin() }}
-          >
-          <h1 
-            className={styles.title}
-            style={{ fontSize: getTitleFontSize(), fontWeight: 600}}
-            >metroguessr</h1>
+        <Box className={styles.box1}>
+          <div className={styles.title}>
+            metroguessr
+          </div>
           <Counter
             count={count}
             countChange={countChange}
           />
         </Box>
-        <Box 
-          className={styles.box2}
-          sx={{ marginRight: getBoxMargin(), marginTop: getBoxTopMargin() }}
-          >
+        <Box className={styles.box2}>
           <Menu cityChange={cityChange} resetGame={resetGame} disableButtons={disableButtons} enableButtons={enableButtons} isUsernameAllowed={isUsernameAllowed}/>
         </Box>
       </div>
       <div className={styles.box3Box4Container}>
-        <div 
-        className={styles.box3}
-        style={{ marginTop: getTopMargin() }}
-        >
+        <div className={styles.box3}>
           <Timer 
             guessedStation={guessedStation} 
             onChange={setGuessedStation} 

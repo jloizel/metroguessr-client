@@ -10,7 +10,7 @@ interface CounterProps {
 }
 
 const Counter: React.FC<CounterProps> = ({ count, countChange }) => {
-    const [marginLeft, setMarginLeft] = useState('0px'); // Initialize margin left to 0px
+    const [marginLeft, setMarginLeft] = useState('0px'); 
     const [countChangeColor, setCountChangeColor] = useState('black');
     
     useEffect(() => {

@@ -79,7 +79,7 @@ export const Timer: React.FC<TimerProps> = ({guessedStation, onChange, onClick, 
   100% { transform: translateX(0) }
 `;
  
-const initialTime = 60 * 1000; // Initial time set in seconds
+const initialTime = 200 * 1000; // Initial time set in seconds
 const [time, setTime] = useState(initialTime);
 
 // function addHiddenClassToLabels() {
@@ -124,23 +124,23 @@ useEffect(() => {
 
 const remainingTime = Math.max(initialTime - elapsedTime, 0);
 
-let stylesName:any = null; // Initialize with empty string
+let stylesName:any = null; 
 if (selectedCity === "Lyon") {
-  stylesName = LyonStyles; // Provide appropriate class name for Lyon
+  stylesName = LyonStyles; 
 } else if (selectedCity === "London") {
-  stylesName = LondonStyles; // Provide appropriate class name for London
+  stylesName = LondonStyles; 
 } else if (selectedCity === "Paris") {
-  stylesName = ParisStyles; // Provide appropriate class name for London
+  stylesName = ParisStyles; 
 } else if (selectedCity === "NewYorkCity") {
-  stylesName = NewYorkCityStyles; // Provide appropriate class name for London
+  stylesName = NewYorkCityStyles; 
 } else if (selectedCity === "Madrid") {
-  stylesName = MadridStyles; // Provide appropriate class name for London
+  stylesName = MadridStyles; 
 } else if (selectedCity === "Berlin") {
-  stylesName = BerlinStyles; // Provide appropriate class name for London
+  stylesName = BerlinStyles; 
 } else if (selectedCity === "Barcelona") {
-  stylesName = BarcelonaStyles; // Provide appropriate class name for London
+  stylesName = BarcelonaStyles; 
 } else if (selectedCity === "Rome") {
-  stylesName = RomeStyles; // Provide appropriate class name for London
+  stylesName = RomeStyles; 
 }
 
 if (typeof window !== "undefined") { 
@@ -167,20 +167,6 @@ function showGuessMarker() {
   }
 }
 
-// function showCorrectMarker() {
-//   if (typeof document !== "undefined") {
-//     const markerId = `marker_${randomStation}`
-//     const markerElement = document.getElementById(markerId)
-
-//     if (markerElement && stylesName) {
-//       const markerLineId = markerElement.dataset.lineProperty
-//       const markerStationName = markerElement.dataset.stationName
-//       markerElement.classList.remove(stylesName[markerLineId + "guess"]);
-//       markerElement.className = stylesName[markerLineId + "correct"]
-//     }
-//   }
-// }
-
 function showCorrectMarker(station: string): void {
   if (typeof document !== "undefined") {
     const markerId = `marker_${station}`;
@@ -191,20 +177,6 @@ function showCorrectMarker(station: string): void {
   }
 }}
 
-
-// function showSkipMarker() {
-//   if (typeof document !== "undefined") {
-//     const markerId = `marker_${randomStation}`
-//     const markerElement = document.getElementById(markerId)
-
-//     if (markerElement && stylesName) {
-//       const markerLineId = markerElement.dataset.lineProperty
-//       const markerStationName = markerElement.dataset.stationName
-//       markerElement.classList.remove(stylesName[markerLineId + "guess"]);
-//       markerElement.className = stylesName[markerLineId + "skip"]
-//     }
-//   }
-// }
 
 function showSkipMarker(station: string): void {
   if (typeof document !== "undefined") {
@@ -230,17 +202,6 @@ useEffect(() => {
   }
 })
 
-// useEffect(() => {
-//   if (randomStation === stationName) {
-//     showGuessMarker()
-//   } else if (guessedStation === randomStation && correctGuess) {
-//     showCorrectMarker()
-//   } else if (correctStations.includes(randomStation)) {
-//     showCorrectMarker()
-//   } else if (incorrectGuesses.includes(randomStation)) {
-//     showSkipMarker()
-//   }
-// }, [randomStation, guessedStation, correctGuess, incorrectGuesses])
 
 function addHiddenLabelClass() {
   if (typeof document !== "undefined") {
@@ -354,7 +315,7 @@ useEffect(() => {
   const handleStartClick = () => {
     setRunning(true);
     setInputVisible(true);
-    onClick(); // Invoke the onClick handler passed from the game component
+    onClick(); 
     inputRef.current?.focus(); // Focus on the Autocomplete input field
     setGuessMade(true)
     focusInputField();
@@ -480,10 +441,10 @@ useEffect(() => {
 
   const handleSkipFont = () => {
     if (isMobile) {
-      setResetHover(true); // Set resetHover state to true after click on mobile
+      setResetHover(true); 
       setTimeout(() => {
-          setResetHover(false); // Reset resetHover state after a short delay
-      }, 1000); // Adjust the delay as needed
+          setResetHover(false); 
+      }, 1000); 
   }
   }
 
@@ -496,7 +457,7 @@ useEffect(() => {
         const timeout = setTimeout(() => {
           setResetHover(false);
         }, 100);
-        // Clear the timeout if the component unmounts or the resetInputField state changes
+
         return () => clearTimeout(timeout);
     }
   }, [resetInputField]);
@@ -520,7 +481,7 @@ useEffect(() => {
       const timeout = setTimeout(() => {
         setResetInputField(false);
       }, 100);
-      // Clear the timeout if the component unmounts or the resetInputField state changes
+
       return () => clearTimeout(timeout);
     }
   }, [resetInputField, shakeAnimation]);
@@ -530,7 +491,6 @@ useEffect(() => {
     handleModalClose()
   };
 
-  // Function to remove accents and hyphens from a string
   function normalizeString(str: string): string {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/-/g, "");
   }
@@ -542,17 +502,17 @@ useEffect(() => {
       return []; // Return an empty array if the input length is less than 2
     }
     return options.filter(option => {
-      const normalizedOption = normalizeString(option).toLowerCase(); // Call the normalizeString function and convert it to lowercase
-      const inputWords = input.split(" ");  // Split the input string into individual words
-      const normalizedOptionWithSpace = normalizedOption.replace(/-/g, " "); // Replace hyphens with spaces in the normalized option string
-      return ( // Check if every word in the input matches any word in the normalized option string
-        inputWords.every(word =>  // Check for matches without considering hyphens
-          normalizedOption.includes(word) || // Check if the word is present as is
-          normalizedOption.includes(word.replace("-", "")) // Check if the word is present without hyphen
-        ) || // Check for matches after replacing hyphens with spaces
+      const normalizedOption = normalizeString(option).toLowerCase(); 
+      const inputWords = input.split(" ");  
+      const normalizedOptionWithSpace = normalizedOption.replace(/-/g, " "); 
+      return ( 
+        inputWords.every(word =>  
+          normalizedOption.includes(word) || 
+          normalizedOption.includes(word.replace("-", "")) 
+        ) || 
         inputWords.every(word => 
-          normalizedOptionWithSpace.includes(word) || // Check if the word is present as is
-          normalizedOptionWithSpace.includes(word.replace("-", "")) // Check if the word is present without hyphen
+          normalizedOptionWithSpace.includes(word) || 
+          normalizedOptionWithSpace.includes(word.replace("-", "")) 
         )
       );
     });
@@ -600,25 +560,15 @@ useEffect(() => {
   const isTablet = useMediaQuery(theme.breakpoints.between('sm', 'md'));
   
 
-  const getFormWidth = () => { // Default width for computer
+  const getFormWidth = () => { 
     if (isMobile) {
       return "200px";
     } else if (isTablet) {
-      return "350px"; // Adjust width for tablet
+      return "350px"; 
     } else {
       return "400px"
     }
   }
-
-  const getButtonFont = () => {
-    if (isMobile) {
-      return '1rem';
-    } else if (isTablet) {
-      return '1.625rem';
-    } else {
-      return '1.875rem';
-    }
-  };
 
   const getButtonHeight = () => {
     if (isMobile) {
@@ -630,191 +580,113 @@ useEffect(() => {
     }
   };
 
-  const getButtonWidth = () => {
-    if (isMobile) {
-      return '200px';
-    } else if (isTablet) {
-      return '350px';
-    } else {
-      return '400px';
-    }
-  };
-
-  const getFormTopMargin = () => {
-    if (isMobile) {
-      return '60px';
-    } else if (isTablet) {
-      return '60px';
-    } else {
-      return '80px';
-    }
-  };
-
-  const getTopMargin = () => {
-    if (isMobile) {
-      return '13px';
-    } else if (isTablet) {
-      return '7px';
-    } else {
-      return '7px';
-    }
-  };
-
-  const getSkipLeftMargin = () => {
-    if (isMobile) {
-      return '260px';
-    } else if (isTablet) {
-      return '410px';
-    } else {
-      return '480px';
-    }
-  };
-  
-  const getSkipBotMargin= () => {
-    if (isMobile) {
-      return "0px";
-    } else if (isTablet) {
-      return "16px";
-    } else {
-      return '18px';
-    }
-  };
-
-  const getTimerTopMargin= () => {
-    if (isMobile) {
-      return "25px";
-    } else if (isTablet) {
-      return "30px";
-    } else {
-      return '45px';
-    }
-  };
-
   let username = '';
   if (typeof window !== "undefined") {
     const storedUsername = localStorage.getItem('username');
     if (storedUsername !== null) {
-      username = storedUsername; // Assign the stored username if it's not null
+      username = storedUsername; 
     }
   }
 
   return (
-    <Box 
-  className={styles.mainContainer}
-  sx={{marginTop: getFormTopMargin() }}
->
-  {showResults ? (
-    <>
-      {showTryAgainButton ? (
-        <button 
-          onClick={handlePlayAgain} 
-          className={styles.startButton}
-          style={{fontSize: getButtonFont(), width: getButtonWidth(), height: getButtonHeight(), marginTop: getTopMargin()}}
-        >
-          TRY AGAIN
-        </button>
-      ) : null}
-      {showResults && (
-        <div>
-          <Result
-            time={remainingTime}
-            count={count}
-            reset={reset}
-            skipClickCount={skipClickCount}
-            numberCorrectGuesses={numberCorrectGuesses}
-            selectedCity={selectedCity}
-            incorrectGuesses={incorrectGuesses}
-            check={check}
-            handleTimeEnded={handleTimeEnded}
-            timeEnded={timeEnded}
-            username={username}
-          />
-        </div>
-      )}
-    </>
-  ) : (
-    <>
-      {!gameStarted && !playAgain && (
-        <button 
-          onClick={handleStartClick} 
-          id="startButton" 
-          className={styles.startButton}
-          style={{fontSize: getButtonFont(), width: getButtonWidth(), height: getButtonHeight(), marginTop: getTopMargin()}}
-        >
-          START
-        </button>
-      )}
-      {gameStarted && !playAgain && (
-        <Box className={styles.container}>
-          <form ref={formRef} className={styles.formContainer}>
-            <Box sx={{ animation: shakeAnimation ? `${shaker} 0.2s` : "none", "& .MuiInputBase-root": { height: getButtonHeight() } }}>
-              <Autocomplete
-                sx={{ width: getFormWidth(), backgroundColor: 'rgba(255, 255, 255, 1)', borderRadius: "5px" }} 
-                size={isMobile ? 'small' : 'medium'}
-                options={stations}
-                value={guessedStation}
-                onChange={handleSubmit}
-                key={resetInputField.toString()}
-                autoHighlight={true}
-                onKeyDown={(event) => {
-                  if (event.key === 'Enter') {
-                    if (!(guessedStation.trim().length > 0)) {
-                      event.preventDefault(); // Prevent the default behavior (form submission)
-                      handleSubmit(event, guessedStation); // Handle submission
-                    }
-                  }
-                }}
-                freeSolo
-                openOnFocus={false}
-                filterOptions={filterOptions}
-                renderOption={(props, option, { selected }) => {
-                  return (
-                    <li
-                      {...props}
-                      key={option}
-                      style={{
-                        backgroundColor: selected ? '#E4E5E7' : '',
-                        cursor: 'pointer',
-                      }}
-                    >
-                      {option}
-                    </li>
-                  );
-                }}
-                renderInput={(params) => (
-                  <TextField
-                    {...params}
-                    variant="outlined"
-                    autoComplete="new-off"
-                    inputRef={inputRef} // Assign inputRef to the Autocomplete input field
-                    // onKeyDown={handleKeyDown}
-                  />
-                )}
+    <Box className={styles.mainContainer}>
+      {showResults ? (
+        <>
+          {showTryAgainButton ? (
+            <button onClick={handlePlayAgain} className={styles.startButton}>
+              TRY AGAIN
+            </button>
+          ) : null}
+          {showResults && (
+            <div>
+              <Result
+                time={remainingTime}
+                count={count}
+                reset={reset}
+                skipClickCount={skipClickCount}
+                numberCorrectGuesses={numberCorrectGuesses}
+                selectedCity={selectedCity}
+                incorrectGuesses={incorrectGuesses}
+                check={check}
+                handleTimeEnded={handleTimeEnded}
+                timeEnded={timeEnded}
+                username={username}
               />
+            </div>
+          )}
+        </>
+      ) : (
+        <>
+          {!gameStarted && !playAgain && (
+            <button onClick={handleStartClick} id="startButton" className={styles.startButton}>
+              START
+            </button>
+          )}
+          {gameStarted && !playAgain && (
+            <Box className={styles.container}>
+              <form ref={formRef} className={styles.formContainer}>
+                <Box sx={{ animation: shakeAnimation ? `${shaker} 0.2s` : "none", "& .MuiInputBase-root": { height: getButtonHeight() } }}>
+                  <Autocomplete
+                    sx={{ width: getFormWidth(), backgroundColor: 'rgba(255, 255, 255, 1)', borderRadius: "5px" }} 
+                    size={isMobile ? 'small' : 'medium'}
+                    options={stations}
+                    value={guessedStation}
+                    onChange={handleSubmit}
+                    key={resetInputField.toString()}
+                    autoHighlight={true}
+                    onKeyDown={(event) => {
+                      if (event.key === 'Enter') {
+                        if (!(guessedStation.trim().length > 0)) {
+                          event.preventDefault(); 
+                          handleSubmit(event, guessedStation); 
+                        }
+                      }
+                    }}
+                    freeSolo
+                    openOnFocus={false}
+                    filterOptions={filterOptions}
+                    renderOption={(props, option, { selected }) => {
+                      return (
+                        <li
+                          {...props}
+                          key={option}
+                          style={{
+                            backgroundColor: selected ? '#E4E5E7' : '',
+                            cursor: 'pointer',
+                          }}
+                        >
+                          {option}
+                        </li>
+                      );
+                    }}
+                    renderInput={(params) => (
+                      <TextField
+                        {...params}
+                        variant="outlined"
+                        autoComplete="new-off"
+                        inputRef={inputRef} // Assign inputRef to the Autocomplete input field
+                        // onKeyDown={handleKeyDown}
+                      />
+                    )}
+                  />
+                </Box>
+                <button type="submit" hidden></button>
+              </form>
+              <div className={styles.skipContainer}>
+                <Skip onClick={handleSkip} handleSkipFont={handleSkipFont} resetHover={resetHover}/>
+              </div>
             </Box>
-            <button type="submit" hidden></button>
-          </form>
-          <div 
-            className={styles.skipContainer}
-            style={{marginLeft: getSkipLeftMargin(), marginBottom: getSkipBotMargin()}}
-          >
-            <Skip onClick={handleSkip} handleSkipFont={handleSkipFont} resetHover={resetHover}/>
-          </div>
-        </Box>
+          )}
+          {gameStarted && !playAgain && (
+            <div className={styles.timer}>
+              <span>{("0" + minutes).slice(-2)}:</span>
+              <span>{("0" + seconds).slice(-2)}:</span>
+              <span>{("0" + milliseconds).slice(-2)}</span>
+            </div>
+          )}
+        </>
       )}
-      {gameStarted && !playAgain && (
-        <div 
-          className={styles.timer}
-          style={{marginTop: getTimerTopMargin()}}
-        >
-          <span>{("0" + minutes).slice(-2)}:</span>
-          <span>{("0" + seconds).slice(-2)}:</span>
-          <span>{("0" + milliseconds).slice(-2)}</span>
-        </div>
-      )}
-    </>
-  )}
-</Box>
+    </Box>
   );
 }
   

@@ -1,38 +1,29 @@
 .button {
   margin: 20px;
-  background-color: #242424 !important;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important;
-  font-family: "Fredoka" !important;
-  font-weight: 600 !important;
-  color: white !important;
-  border-radius: 5px !important;
-  border: none !important;
-
-  @media (max-width: 767px) {
-    font-size: 17px !important;
-    /* padding-left: 40px !important;
-    padding-right: 40px !important; */
-    width: 150px;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-  }
+  background-color: #242424 ;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) ;
+  font-family: "Fredoka" ;
+  font-weight: 600 ;
+  color: white ;
+  border-radius: 5px ;
+  border: none ;
+  font-size: 18px ;
+  width: 150px;
+  padding-top: 10px ;
+  padding-bottom: 10px ;
 
   @media (min-width: 768px) and (max-width: 1023px) {
-    font-size: 22px;
+    font-size: 30px;
     width: 180px;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 
   @media (min-width: 1024px) {
     font-size: 30px;
     width: 230px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+  }
 }
 
 .button:hover {
-  background-color: #383838 !important;
+  background-color: #383838;
   cursor: pointer;
 }

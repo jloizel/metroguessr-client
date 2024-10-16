@@ -28,15 +28,14 @@ if (googleAnalyticsId) {
 }
 
 export default function App() {
-  // State variable to track whether the modal should be displayed
   const [openModal, setOpenModal] = useState(true);
-  const [selectedCity, setSelectedCity] = useState(""); // State to track selected city
+  const [selectedCity, setSelectedCity] = useState(""); 
   const [isUsernameAllowed, setIsUsernameAllowed] = useState(true);
   
-  // Function to handle user's choice of city
   const handleCitySelection = (city:string) => {
     setSelectedCity(city);
-    setOpenModal(false); // Close the modal after city selection
+    setOpenModal(false); 
+
     // Save the selected city in local storage
     localStorage.setItem("selectedCity", city);
     ReactGA.event({
@@ -55,10 +54,8 @@ export default function App() {
   }, []);
 
   const handleCityChange = (city:string) => {
-    // Temporarily set the selected city to a different value
     setSelectedCity("");
     
-    // Set the selected city to the desired value after a short delay
     setTimeout(() => {
       setSelectedCity(city);
     }, 10);
@@ -72,68 +69,6 @@ export default function App() {
     setIsUsernameAllowed(true)
   }
 
-  const theme = createTheme({
-    breakpoints: {
-      values: {
-        xs: 0,
-        sm: 767,
-        md: 1024,
-        lg: 1200,
-        xl: 1536,
-      },
-    },
-  });
-  
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const isTablet = useMediaQuery(theme.breakpoints.between('sm', 'md'));
-
-  const getTitleFontSize = () => {
-    if (isMobile) {
-      return '1.25rem';
-    } else if (isTablet) {
-      return '1.75rem';
-    } else {
-      return '2.25rem';
-    }
-  };
-
-  const getTextFontSize = () => {
-    if (isMobile) {
-      return '14px';
-    } else if (isTablet) {
-      return '16px';
-    } else {
-      return '18px';
-    }
-  };
-
-  const getHeader1FontSize = () => {
-    if (isMobile) {
-      return '16px';
-    } else if (isTablet) {
-      return '18px';
-    } else {
-      return '20px';
-    }
-  };
-
-  const getHeader2FontSize = () => {
-    if (isMobile) {
-      return '16px';
-    } else if (isTablet) {
-      return '18px';
-    } else {
-      return '20px';
-    }
-  };
-
-  const getContainerWidth  = () => {
-    if (isMobile) {
-      return '90%';
-    } else {
-      return '80%';
-    }
-  };
   
   return (
     <UsernameProvider>
@@ -142,81 +77,81 @@ export default function App() {
           <div className={styles.modalOverlay}>
             <Modal open={openModal} disableAutoFocus={true} className={styles.modal}>
               <Box className={styles.modalContent}>
-                <div style={{ fontSize: getTitleFontSize(), fontWeight: 600 }}>metroguessr</div>
-                <div style={{ fontSize: getHeader1FontSize(), fontWeight: 600 }}>
+                <div className={styles.title}>metroguessr</div>
+                <div className={styles.header1}>
                   Try to guess as many metro stations as possible within the time limit.
                 </div>
                 <div className={styles.container}>
                   <div className={styles.box}>
-                    <div style={{ fontSize: getTextFontSize(), fontWeight: 600 }}>+5</div>
-                    <div style={{ fontSize: getTextFontSize(), fontWeight: 400 }}>points for every correct guess</div>
+                    <div className={styles.text1}>+5</div>
+                    <div className={styles.text2}>points for every correct guess</div>
                   </div>
                   <div className={styles.box}>
-                    <div style={{ fontSize: getTextFontSize(), fontWeight: 600 }}>-1</div>
-                    <div style={{ fontSize: getTextFontSize(), fontWeight: 400 }}>point for every skip</div>
+                    <div className={styles.text1}>-1</div>
+                    <div className={styles.text2}>point for every skip</div>
                   </div>
                 </div>
                 <div className={styles.usernameContainer}>
-                  <div style={{ fontSize: getHeader2FontSize(), fontWeight: 600 }}>Username 👇</div>
+                  <div className={styles.header2}>Username 👇</div>
                   <div>
                     <Username disableButtons={disableButtons} enableButtons={enableButtons}/>
                   </div>
                 </div>
-                <div style={{ fontSize: getHeader2FontSize(), fontWeight: 600 }}>Select Your City 📍</div>
-                <div className={styles.buttonContainer} style={{width: getContainerWidth()}}>
+                <div className={styles.header2}>Select Your City 📍</div>
+                <div className={styles.buttonContainer}>
                   <Button
                     onClick={() => handleCitySelection("Barcelona")}
                     className={styles.button}
-                    disabled={!isUsernameAllowed} // Disable button if username is not allowed
+                    disabled={!isUsernameAllowed} 
                   >
                     Barcelona
                   </Button>
                   <Button
                     onClick={() => handleCitySelection("Berlin")}
                     className={styles.button}
-                    disabled={!isUsernameAllowed} // Disable button if username is not allowed
+                    disabled={!isUsernameAllowed} 
                   >
                     Berlin
                   </Button>
                   <Button
                     onClick={() => handleCitySelection("London")}
                     className={styles.button}
-                    disabled={!isUsernameAllowed} // Disable button if username is not allowed
+                    disabled={!isUsernameAllowed} 
                   >
                     London
                   </Button>
                   <Button
                     onClick={() => handleCitySelection("Lyon")}
                     className={styles.button}
-                    disabled={!isUsernameAllowed} // Disable button if username is not allowed
+                    disabled={!isUsernameAllowed} 
                   >
                     Lyon
                   </Button>
                   <Button
                     onClick={() => handleCitySelection("Madrid")}
                     className={styles.button}
-                    disabled={!isUsernameAllowed} // Disable button if username is not allowed
+                    disabled={!isUsernameAllowed} 
                   >
                     Madrid
                   </Button>
                   <Button
                     onClick={() => handleCitySelection("NewYorkCity")}
                     className={styles.button}
-                    disabled={!isUsernameAllowed} // Disable button if username is not allowed
+                    disabled={!isUsernameAllowed} 
                   >
                     New York City
                   </Button>
                   <Button
                     onClick={() => handleCitySelection("Paris")}
                     className={styles.button}
-                    disabled={!isUsernameAllowed} // Disable button if username is not allowed
+                    disabled={!isUsernameAllowed} 
                   >
                     Paris
                   </Button>
                   <Button
                     onClick={() => handleCitySelection("Rome")}
                     className={styles.button}
-                    disabled={!isUsernameAllowed} // Disable button if username is not allowed
+                    disabled={!isUsernameAllowed} 
                   >
                     Rome
                   </Button>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { getAllScores, createScore, updateScore, deleteScore, Score, getTopScoresByCity } from '../../src/app/API'; 
 import styles from "./page.module.css";
 import { Modal, IconButton, createTheme, useMediaQuery, Skeleton } from "@mui/material";
@@ -27,6 +27,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
   const [leaderboardLoading, setLeaderboardLoading] = useState<boolean>(true)
   const [scoresFetched, setScoresFetched] = useState<boolean>(false);
   const [userScore, setUserScore] = useState<Score | null>(null);
+  const timerExpiredRef = useRef(false);
 
   useEffect(() => {
     const fetchScores = async () => {
@@ -71,77 +72,54 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
     fetchScores();
   }, [scores]); // Empty dependency array means this effect runs once on component mount
 
-  // const handleAddScore = async () => {
-  //   try {
-  //     const newScore = await createScore({ username: username, points: points, city: city });
-  
-  //     if (newScore) {
-  //       // Update state with the new score (including _id)
-  //       setScores((prevScores) => [...prevScores, newScore]);
-  //     } else {
-  //       console.error('Failed to add score: received invalid response from server');
-  //     }
-  //   } catch (error) {
-  //     console.error('Error adding score:', error);
-  //   }
-  // };
-
   useEffect(() => {
-    let timer: NodeJS.Timeout | null = null;
-  
     const handleTimerExpired = async () => {
-      if (timeEnded && !scoreAdded && !scoresFetched) {
-        // Clear any previous timer
-        if (timer) {
-          clearTimeout(timer);
-          timer = null;
-        }
-  
+      if (timeEnded && !scoreAdded && !timerExpiredRef.current) {
         try {
-          // Find if the user already has a score
-          if (userScore) {
-            // Update existing score
-            const updatedScore = await updateScore(userScore._id, {
-              username: username,
-              points: points,
-              city: city,
-            });
-            setScores((prevScores) =>
-              prevScores.map((score) =>
-                score._id === userScore._id ? updatedScore : score
-              )
-            );
-          } else {
-            // Add new score
+          // Set the ref to true so it doesn't trigger again
+          timerExpiredRef.current = true;
+
+          let existingUserScore = scores.find(
+            (score) => score.username.toLowerCase() === username.toLowerCase() && score.city.toLowerCase() === city.toLowerCase()
+          );
+
+          if (existingUserScore) {
+            // Only update if the new score is higher
+            if (points > existingUserScore.points) {
+              const updatedScore = await updateScore(existingUserScore._id, {
+                username: username,
+                points: points,
+                city: city,
+              });
+
+              setScores((prevScores) =>
+                prevScores.map((score) =>
+                  score._id === existingUserScore._id ? updatedScore : score
+                )
+              );
+              setUserScore(updatedScore);
+            }
+          } else if (points > 0) { // Create a new score only if it's greater than 0
             const newScore = await createScore({
               username: username,
               points: points,
               city: city,
             });
             setScores((prevScores) => [...prevScores, newScore]);
+            setUserScore(newScore);
+            console.log('New score created:', newScore);
           }
-  
-          // Update highest scorer
-          updateHighestScorer();
+
           setScoreAdded(true);
+          updateHighestScorer();
         } catch (error) {
           console.error('Error adding or updating score:', error);
         }
-  
-        setScoresFetched(true);
       }
     };
-  
+
     handleTimerExpired();
-  
-    return () => {
-      // Cleanup function to clear timer if component unmounts or `timeEnded` changes
-      if (timer) {
-        clearTimeout(timer);
-        timer = null;
-      }
-    };
-  }, [timeEnded, scoreAdded, scoresFetched, userScore, username, points, city]);
+  }, [timeEnded, scoreAdded, scores, username, points, city]);
 
   const updateHighestScorer = () => {
     const cityScores = scores.filter((score) => score.city === city);
@@ -150,12 +128,12 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
       .concat({ _id: '', username, points, city, createdAt: new Date().toISOString() }) // Add the user's score
       .sort((a, b) => {
         if (a.points !== b.points) {
-          return b.points - a.points; // Sort by points (higher to lower)
+          return b.points - a.points;
         } else {
-          return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(); // Sort by time added if points are tied
+          return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
         }
       });
-  
+
     if (sortedScores.length > 0) {
       const highestScoreObj = sortedScores[0];
       setHighestScorer(highestScoreObj.username);
@@ -163,87 +141,47 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
     }
   };
 
-  const handleUpdateScore = async () => {
-    if (!selectedScoreId) return;
+  const handleShowTopScoresModal = async () => {
+    try {
+      setScoreLoading(true);
   
-    try {
-      const updatedScore = await updateScore(selectedScoreId, { username: username, points: points, city: city });
-      setScores((prevScores) =>
-        prevScores.map((score) => (score._id === selectedScoreId ? updatedScore : score))
-      ); // Update state using functional update
-      setSelectedScoreId(null); // Reset selected score ID
-    } catch (error) {
-      console.error('Error updating score:', error);
-    }
-  };
-
-  const handleDeleteScore = async (scoreId: string) => {
-    try {
-      await deleteScore(scoreId);
-      const updatedScores = scores.filter((score) => score._id !== scoreId);
-      setScores(updatedScores);
-    } catch (error) {
-      console.error('Error deleting score:', error);
-    }
-  };
-
-  const handleFetchTopCityScores = async () => {
-    try {
-      const cityScores = topScores.filter((score) => score.city === city);
-      const sortedCityScores = cityScores.sort((a, b) => b.points - a.points).slice(0, 5);
-      setFilteredTopScores(sortedCityScores);
+      const allScores = await getAllScores();
+      const cityScores = allScores.filter((score) => score.city === city);
+      
+      // Exclude scores of 0 when determining ranking
+      const filteredScores = cityScores.filter(score => score.points > 0);
+  
+      // Add the current user's score for ranking purposes
+      const userScoreObject = { _id: '', username, points, city, createdAt: new Date().toISOString() };
+  
+      const sortedScores = [...filteredScores, userScoreObject].sort((a, b) => {
+        if (a.points !== b.points) {
+          return b.points - a.points; // Sort by points (higher to lower)
+        } else {
+          return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(); // Sort by time added
+        }
+      });
+  
+      // Calculate the user's rank
+      const userRank = sortedScores.findIndex(score => score.username === username && score.points === points) + 1;
+  
+      // Adjust rank if user score is 0
+      if (points === 0) {
+        // Place user at the end if score is 0
+        setUserRank(sortedScores.length);
+      } else {
+        setUserRank(userRank);
+      }
+  
+      // Update top scores
+      setTopScores(sortedScores.slice(0, 5));
+      setScoreLoading(false);
     } catch (error) {
       console.error('Error fetching top city scores:', error);
     }
   };
-
-  const handleShowTopScoresModal = async () => {
-  try {
-    // Fetch all scores
-    setScoreLoading(true)
-    const allScores = await getAllScores();
-
-    const cityScores = allScores.filter((score) => score.city === city);
-
-    // Include the user's most recent score in the sorted scores array
-    const sortedScores = [...cityScores, { _id: '', username, points, city, createdAt: new Date().toISOString() }]
-      .filter((item): item is Score => '_id' in item && item._id !== '');
-
-    // Sort the scores
-    sortedScores.sort((a, b) => {
-      if (a.points !== b.points) {
-        return b.points - a.points; // Sort by points (higher to lower)
-      } else {
-        // If points are tied, sort by time added (more recent first)
-        return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
-      }
-    });
-
-    // Find user's score
-    // const userScore = sortedScores.find((score) => score.username === username)?.points;
-    const userScore = points
-
-    if (userScore !== undefined && userScore >= 0) {
-      const userRank = sortedScores.findIndex((score) => score.username === username && score.points === userScore) + 1;
-    
-      if (userScore === 0) {
-        const totalPlayersCount = sortedScores.length;
-        setUserRank(totalPlayersCount);
-        setTopScores(sortedScores.slice(0, 5));
-      } else {
-        setTopScores(sortedScores.slice(0, 5));
-        setUserRank(userRank);
-      }
-    }
-    setScoreLoading(false)
-  } catch (error) {
-    console.error('Error fetching top city scores:', error);
-  }
-};
-
   
-  
-  
+
   useEffect(() => {
     if (scoreAdded) {
       // Call the function to fetch and display the user's rank
@@ -265,124 +203,10 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
 
   const handleTryAgain = () => {
     reset();
-    setUserRank(null); // Reset userRank when starting a new game
+    setUserRank(null); 
     setScoreAdded(false)
   };
 
-  const theme = createTheme({
-    breakpoints: {
-      values: {
-        xs: 0,
-        sm: 767,
-        md: 1024,
-        lg: 1200,
-        xl: 1536,
-      },
-    },
-  });
-
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const isTablet = useMediaQuery(theme.breakpoints.between('sm', 'md'));
-
-  const getTextSize = () => { // Default width for computer
-    if (isMobile) {
-      return "14px";
-    } else if (isTablet) {
-      return "18px"; // Adjust width for tablet
-    } else {
-      return "22px"
-    }
-  }
-
-  const getTrophySize = () => { // Default width for computer
-    if (isMobile) {
-      return "14px";
-    } else if (isTablet) {
-      return "18px"; // Adjust width for tablet
-    } else {
-      return "22px"
-    }
-  }
-
-  const getModalWidth = () => { // Default width for computer
-    if (isMobile) {
-      return "80%";
-    } else if (isTablet) {
-      return "60%"; // Adjust width for tablet
-    } else {
-      return "60%"
-    }
-  }
-
-  const getHeaderSize= () => { // Default width for computer
-    if (isMobile) {
-      return "18px";
-    } else if (isTablet) {
-      return "20px"; // Adjust width for tablet
-    } else {
-      return "22px"
-    }
-  }
-
-  const getCitySize = () => { // Default width for computer
-    if (isMobile) {
-      return "16px";
-    } else if (isTablet) {
-      return "18px"; // Adjust width for tablet
-    } else {
-      return "20px"
-    }
-  }
-
-  const getScoresSize = () => { // Default width for computer
-    if (isMobile) {
-      return "14px";
-    } else if (isTablet) {
-      return "20px"; // Adjust width for tablet
-    } else {
-      return "26px"
-    }
-  }
-
-  const getButtonFontSize = () => { // Default width for computer
-    if (isMobile) {
-      return "14px";
-    } else if (isTablet) {
-      return "20px"; // Adjust width for tablet
-    } else {
-      return "25px"
-    }
-  }
-
-  const getButtonLRPadding = () => { // Default width for computer
-    if (isMobile) {
-      return "10px";
-    } else if (isTablet) {
-      return "15px"; // Adjust width for tablet
-    } else {
-      return "15px"
-    }
-  }
-
-  const getMedalsGap = () => { // Default width for computers
-    if (isMobile) {
-      return "2px";
-    } else if (isTablet) {
-      return "5px"; // Adjust width for tablet
-    } else {
-      return "6px"
-    }
-  }
-
-  const getMedalsMargin = () => { // Default width for computer
-    if (isMobile) {
-      return "-2px";
-    } else if (isTablet) {
-      return "0px"; // Adjust width for tablet
-    } else {
-      return "0px"
-    }
-  }
 
   return (
     <div>
@@ -393,13 +217,13 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
           </div>
         ) : (
           
-            <div className={styles.text2} style={{fontSize: getTextSize()}}>You ranked #{userRank}</div>
-          )}
-            <button 
-              className={styles.button}
-              onClick={handleClick}
-              style={{fontSize: getButtonFontSize(), paddingTop: "10px", paddingBottom: "10px", paddingLeft: getButtonLRPadding(), paddingRight: getButtonLRPadding()}}
-            >HIGH SCORES</button>
+          <div className={styles.text2}>
+            You ranked #{userRank}
+          </div>
+        )}
+          <button className={styles.button} onClick={handleClick}>
+            HIGH SCORES
+          </button>
       </div>
       
       {openModal && (
@@ -422,18 +246,18 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
             <Skeleton animation="wave" width={150} height={20} /> */}
           </div>
         ) : (
-          <div className={styles.modal} style={{width: getModalWidth()}}>
+          <div className={styles.modal}>
             <div className={styles.closeButton}>
               <IconButton aria-label="close" onClick={handleClose}>
                 <CloseIcon />
               </IconButton>
             </div>
             <div className={styles.modalContainer}>
-              <div className={styles.header} style={{fontSize: getHeaderSize()}}>HIGH SCORES</div>
-              <div className={styles.city} style={{fontSize: getCitySize()}}>🗺️ {city}</div>
-              <div className={styles.header} style={{fontSize: getHeaderSize()}}>YOU RANKED #{userRank}</div>
-              <div className={styles.scores} style={{fontSize: getScoresSize()}}>
-                <div className={styles.medals} style={{gap: getMedalsGap(), marginTop: getMedalsMargin()}}>
+              <div className={styles.header}>HIGH SCORES</div>
+              <div className={styles.city}>🗺️ {city}</div>
+              <div className={styles.header}>YOU RANKED #{userRank}</div>
+              <div className={styles.scores}>
+                <div className={styles.medals}>
                   <span className={styles.medal}>🥇</span>
                   <span className={styles.medal}>🥈</span>
                   <span className={styles.medal}>🥉</span>
@@ -455,11 +279,9 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
                 ))}
                 </div>
               </div>
-                <button 
-                  className={styles.button2}
-                  onClick={handleTryAgain}
-                  style={{fontSize: getButtonFontSize(), paddingTop: "10px", paddingBottom: "10px", paddingLeft: getButtonLRPadding(), paddingRight: getButtonLRPadding()}}
-                >TRY AGAIN</button>
+                <button className={styles.button2} onClick={handleTryAgain}>
+                  TRY AGAIN
+                </button>
               </div>
           </div>
         )}
