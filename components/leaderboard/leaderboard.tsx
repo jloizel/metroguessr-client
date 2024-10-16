@@ -70,13 +70,11 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
     };
   
     fetchScores();
-  }, [scores]); // Empty dependency array means this effect runs once on component mount
-
+  }, [scores]); 
   useEffect(() => {
     const handleTimerExpired = async () => {
       if (timeEnded && !scoreAdded && !timerExpiredRef.current) {
         try {
-          // Set the ref to true so it doesn't trigger again
           timerExpiredRef.current = true;
 
           let existingUserScore = scores.find(
@@ -91,15 +89,15 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ username, points, city, timeE
                 points: points,
                 city: city,
               });
-
+          
               setScores((prevScores) =>
                 prevScores.map((score) =>
-                  score._id === existingUserScore._id ? updatedScore : score
+                  score._id === existingUserScore?._id ? updatedScore : score 
                 )
               );
               setUserScore(updatedScore);
             }
-          } else if (points > 0) { // Create a new score only if it's greater than 0
+          } else if (points > 0) { 
             const newScore = await createScore({
               username: username,
               points: points,
