@@ -61,86 +61,62 @@
 
 .title {
   font-weight: 600;
-
-  @media (max-width: 767px) {
-      font-size: 20px;
-  }
+  font-size: 20px;
 
   @media (min-width: 768px) and (max-width: 1023px) {
-      font-size: 28px;
+    font-size: 28px;
   }
   
   @media (min-width: 1024px) {
-      font-size: 35px;
+    font-size: 36px;
   }
 }
 
 .header1 {
   font-weight: 600;
-
-  @media (max-width: 767px) {
-      font-size: 15px;
-  }
+  font-size: 16px;
 
   @media (min-width: 768px) and (max-width: 1023px) {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   @media (min-width: 1024px) {
-      font-size: 22px;
+    font-size: 20px;
   }
   
 }
 
 .header2 {
   font-weight: 600;
-  /* margin-top: 10px; */
-
-  @media (max-width: 767px) {
-      font-size: 15px;
-  }
+  font-size: 16px;
 
   @media (min-width: 768px) and (max-width: 1023px) {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   @media (min-width: 1024px) {
-      font-size: 20px;
+    font-size: 20px;
+  }
+}
+
+.text1, .text2 {
+  font-size: 14px;
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 16px ;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 18px;
   }
 }
 
 .text1 {
-  /* margin-bottom: auto; */
-  -webkit-text-size-adjust: 100%;
-
-  @media (max-width: 767px) {
-      font-size: 0.875rem !important;
-  }
-
-  @media (min-width: 768px) and (max-width: 1023px) {
-      font-size: 1.065rem !important;
-  }
-
-  @media (min-width: 1024px) {
-      font-size: 1.25rem !important;
-  }
+  font-weight: 600;
 }
 
 .text2 {
-  font-weight: 600;
-  -webkit-text-size-adjust: 100%;
-
-  @media (max-width: 767px) {
-      font-size: 0.875rem !important;
-  }
-
-  @media (min-width: 768px) and (max-width: 1023px) {
-      font-size: 1.065rem !important;
-  }
-
-  @media (min-width: 1024px) {
-      font-size: 1.25rem !important;
-  }
+  font-weight: 400;
 }
 
 .box {
@@ -161,26 +137,30 @@
   margin-top: 15px;
 
   @media (max-width: 767px) {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   @media (min-width: 768px) and (max-width: 1023px) {
-      font-size: 17px;
+    font-size: 17px;
   }
 
   @media (min-width: 1024px) {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 
 .buttonContainer {
-  /* width: 80%; */
   display: grid;
   grid-template-columns: 50% 50%;
   margin: 0 auto;
-  justify-content: center; /* Center the grid items horizontally */
+  justify-content: center; 
   column-gap: 25px;
   row-gap: 15px;
+  width: 90%;
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 80%;
+  }
 }
 
 .usernameContainer {

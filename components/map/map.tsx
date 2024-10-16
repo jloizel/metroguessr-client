@@ -4,13 +4,6 @@ import React, { useRef, useEffect, useState } from 'react';
 import maplibregl, { LngLatLike, Marker } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import styles from './page.module.css';
-import mapboxgl from 'mapbox-gl';
-import LyonStyles from "./Lyon.module.css"
-import LondonStyles from "./London.module.css"
-import ParisStyles from "./Paris.module.css"
-import NewYorkCityStyles from "./NYC.module.css"
-import MadridStyles from "./Madrid.module.css"
-import BarcelonaStyles from "./Madrid.module.css"
 import { tubeDataConfig } from '../../api/tubeDataConfig';
 
 interface Feature {
@@ -37,7 +30,6 @@ interface MapProps {
   handleLineIDs: (lineIDs: string[]) => void
   resetMap: boolean
 }
-
 
 
 const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disableZoom, guessedStation, correctGuess, correctlyGuessedStations, incorrectGuesses, handleLineIDs, resetMap}) => {
@@ -120,6 +112,7 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
     if (!map.current) {
       map.current = new maplibregl.Map({
         container: mapContainer.current!,
+        // style: "https://metroguessr-client-testing.vercel.app/mapStyle.json",
         style: "https://api.maptiler.com/maps/36d47c22-ba26-40a6-8391-46de9e42e858/style.json?key=n8F7h6F3j80GK3qCDE3B",
         center: mapCoords,
         minZoom: 11,
@@ -208,7 +201,6 @@ const Map: React.FC<MapProps> = ({selectedCity, gameStarted, randomStation, disa
       return;
     }
   
-    // Get all line IDs from cityData
     const lineIds = Object.keys(cityData);
   
     if (gameStarted) {

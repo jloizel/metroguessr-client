@@ -1,7 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
-  align-items: center; /* Center items vertically */
+  align-items: center; 
   gap: 5px;
   font-family: "Fredoka";
   font-weight: 500;

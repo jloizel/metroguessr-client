@@ -23,7 +23,7 @@ const Username: React.FC<UsernameProps> = ({disableButtons, enableButtons}) => {
  
 
   const generateRandomUsername = (): string => {
-    const randomNumber = Math.floor(Math.random() * 1000); // Generate a random number between 0 and 99
+    const randomNumber = Math.floor(Math.random() * 1000); 
     return `Random-Wagon-${randomNumber}`;
   };
 
@@ -70,7 +70,6 @@ const Username: React.FC<UsernameProps> = ({disableButtons, enableButtons}) => {
     
   };
 
-  // Function to handle form submission when Enter key is pressed
   const handleKeyPress = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === 'Enter') {
       event.preventDefault();
@@ -112,7 +111,7 @@ const Username: React.FC<UsernameProps> = ({disableButtons, enableButtons}) => {
     const isValidUsername = /^[a-zA-Z0-9-]*$/.test(trimmedUsername);
 
     if (!isValidUsername) {
-      disableButtons(); // Disable buttons if username is invalid
+      disableButtons(); 
       resetUsername()
       return;
     }
@@ -153,7 +152,6 @@ const Username: React.FC<UsernameProps> = ({disableButtons, enableButtons}) => {
       inputElement.addEventListener('keypress', handleKeyPress);
     }
 
-    // Cleanup event listeners when component unmounts
     return () => {
       if (inputElement) {
         inputElement.removeEventListener('blur', handleInputBlur);
@@ -162,63 +160,15 @@ const Username: React.FC<UsernameProps> = ({disableButtons, enableButtons}) => {
     };
   }, [savedUsername]);
 
-  // Function to handle form submission
-  const handleSubmit = (event:any) => {
-    event.preventDefault();
-    // Store the username in LocalStorage
-    localStorage.setItem('username', username);
-  };
-
-  // Function to retrieve the username from LocalStorage
-  const getStoredUsername = () => {
-    return localStorage.getItem('username');
-  };    
-
   // Function to handle double click event
   const handleDoubleClick = () => {
       if (inputRef.current) {
-        inputRef.current.select(); // Select the text in the input field
+        inputRef.current.select(); 
       }
     };
 
   const handleBlur = () => {
-    saveUsername(); // Save the username when input loses focus
-  };
-
-
-  const theme = createTheme({
-    breakpoints: {
-      values: {
-        xs: 0,
-        sm: 767,
-        md: 1024,
-        lg: 1200,
-        xl: 1536,
-      },
-    },
-  });
-
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const isTablet = useMediaQuery(theme.breakpoints.between('sm', 'md'));
-
-  const getHeader1FontSize = () => {
-    if (isMobile) {
-      return '1.125rem';
-    } else if (isTablet) {
-      return '1.125rem';
-    } else {
-      return '1.375rem';
-    }
-  };
-
-  const getErrorFontSize = () => {
-    if (isMobile) {
-      return '12px';
-    } else if (isTablet) {
-      return '14px';
-    } else {
-      return '14px';
-    }
+    saveUsername(); 
   };
 
   return (
@@ -237,10 +187,13 @@ const Username: React.FC<UsernameProps> = ({disableButtons, enableButtons}) => {
           className={styles.input}
           spellCheck={false}
           autoComplete='off'
-          style={{ fontSize: getHeader1FontSize(), fontWeight: 600, boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.4)" }}
           ref={inputRef}
         />
-        {errorMessage && <div className={styles.error} style={{ fontSize: getErrorFontSize() }}>{errorMessage}</div>}
+        {errorMessage && 
+          <div className={styles.error}>
+            {errorMessage}
+          </div>
+        }
       </form>
     </div>
   );

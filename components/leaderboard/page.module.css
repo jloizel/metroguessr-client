@@ -16,45 +16,46 @@
   font-family: "Fredoka" !important;
   font-weight: 400;
   color: black;
-  /* margin-bottom: 5px; */
+  font-size: 14px;
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 18px;
+  }
+  
+  @media (min-width: 1024px) {
+    font-size: 22px;
+  }
 }
 
 .button {
-  background-color: transparent !important;
-  font-family: "Fredoka" !important;
-  font-weight: 700 !important;
-  border: 2px solid black !important;
-  border-radius: 5px !important;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) !important;
-  width: auto !important;
-  margin: auto !important;
-  color: black !important;
-  margin-top: 5px !important;
+  background-color: transparent;
+  font-family: "Fredoka";
+  font-weight: 700;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: auto;
+  margin: auto;
+  color: black;
+  margin-top: 5px;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-  @media (max-width: 767px) {
-    font-size: 14px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-  }
   
   @media (min-width: 768px) and (max-width: 1023px) {
-    /* margin-top: 20px; */
-    font-size: 20px !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    font-size: 20px ;
+    padding-left: 15px ;
+    padding-right: 15px ;
   }
   
   @media (min-width: 1024px) {
     /* margin-top: 25px; */
-    font-size: 25px !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -81,6 +82,10 @@
   text-align: center;
   width: 80%;
   height: auto;
+
+  @media (min-width: 768px) {
+    width: 60%;
+  }
 }
 
 .closeButton {
@@ -99,6 +104,15 @@
   font-family: "Fredoka" !important;
   font-weight: 700;
   color: black;
+  font-size: 18px ;
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 20px ;
+  }
+  
+  @media (min-width: 1024px) {
+    font-size: 22px;
+  }
 }
 
 .city {
@@ -108,6 +122,15 @@
   margin-top: 5px;
   margin-bottom: 25px;
   text-transform: uppercase;
+  font-size: 16px ;
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 18px ;
+  }
+  
+  @media (min-width: 1024px) {
+    font-size: 20px;
+  }
 }
 
 .scores {
@@ -118,54 +141,44 @@
   gap: 10px !important;
   width: 100%;
   justify-content: center;
-  /* justify-content: center; */
-  /* margin-right: 10px;
-  margin-left: 10px; */
-}
+  font-size: 14px ;
 
-.button2 {
-  background-color: transparent !important;
-  font-family: "Fredoka" !important;
-  font-weight: 700 !important;
-  border: 1px solid black !important;
-  border-radius: 5px !important;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) !important;
-  /* width: auto !important; */
-  margin: auto !important;
-  color: black !important;
-  margin-bottom: 10px !important;
-
-  @media (max-width: 767px) {
-    font-size: 14px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  
   @media (min-width: 768px) and (max-width: 1023px) {
-    /* margin-top: 20px; */
-    font-size: 20px;
-    padding-left: 110px;
-    padding-right: 110px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 20px ;
   }
   
   @media (min-width: 1024px) {
-    /* margin-top: 25px; */
+    font-size: 26px;
+  }
+}
+
+.button2 {
+  background-color: transparent;
+  font-family: "Fredoka";
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  /* width: auto !important; */
+  color: black;
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding: 10px 10px;
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+  
+  @media (min-width: 1024px) {
     font-size: 25px;
-    /* padding-left: 150px;
-    padding-right: 150px; */
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 15px;
   }
 }
 
 .scoreItem {
   display: flex;
-  align-items: center; /* Align items vertically within each score item */
+  align-items: center; 
   margin-bottom: 10px;
   justify-content: space-between;
   width: 100%;
@@ -204,19 +217,15 @@
 .medals {
   display: flex;
   flex-direction: column;
-
-  /* @media (max-width: 767px) {
-    gap: 8px;
-  }
+  gap: 7px;
   
   @media (min-width: 768px) and (max-width: 1023px) {
-    gap: 7px;
+    gap: 5px;
   }
   
   @media (min-width: 1024px) {
     gap: 6px;
-  } */
-  
+  } 
 }
 
 

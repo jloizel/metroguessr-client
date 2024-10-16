@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./page.module.css";
 import { Box, Button, Fade, Modal, IconButton, createTheme, useMediaQuery } from "@mui/material";
-import CloseIcon from '@mui/icons-material/Close'; // Import CloseIcon
 import Share from "../share/share";
 import Leaderboard from "../leaderboard/leaderboard";
 
@@ -23,7 +22,6 @@ interface ResultProps {
 
 export const Result: React.FC<ResultProps> = ({ time, count, reset, selectedCity, check, handleTimeEnded, timeEnded, username }) => {
     const [open, setOpen] = useState(false);
-    const [scoreAdded, setScoreAdded] = useState(false);
 
     useEffect(() => {
       if (time === 0) {
@@ -43,48 +41,6 @@ export const Result: React.FC<ResultProps> = ({ time, count, reset, selectedCity
       setOpen(false); // Close the modal after resetting the game
   };
 
-//   useEffect(() => {
-//     if (open) {
-//        setScoreAdded(true)
-//     } else {
-//       setScoreAdded(false)
-//     }
-// }, []);
-
-  const theme = createTheme({
-    breakpoints: {
-      values: {
-        xs: 0,
-        sm: 767,
-        md: 1024,
-        lg: 1200,
-        xl: 1536,
-      },
-    },
-  });
-
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const isTablet = useMediaQuery(theme.breakpoints.between('sm', 'md'));
-
-  const getText1FontSize = () => { // Default width for computer
-    if (isMobile) {
-      return "1.125rem";
-    } else if (isTablet) {
-      return "1.625rem"; // Adjust width for tablet
-    } else {
-      return "1.875rem"
-    }
-  }
-
-  const getText2FontSize = () => { // Default width for computer
-    if (isMobile) {
-      return "1.875rem";
-    } else if (isTablet) {
-      return "2.25rem"; // Adjust width for tablet
-    } else {
-      return "3.125rem"
-    }
-  }
 
   return (
     <div>
@@ -110,16 +66,10 @@ export const Result: React.FC<ResultProps> = ({ time, count, reset, selectedCity
                 <CloseIcon />
               </IconButton>
             </div> */}
-            <div 
-              className={styles.text1}
-              style={{fontSize: getText1FontSize()}}
-            >
+            <div className={styles.text1}>
               YOU SCORED
             </div>
-            <div 
-              className={styles.text2}
-              style={{fontSize: getText2FontSize()}}
-            >
+            <div className={styles.text2}>
               {count} POINTS
             </div>
             <Share selectedCity={selectedCity} count={count}/>

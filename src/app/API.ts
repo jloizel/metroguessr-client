@@ -1,8 +1,7 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 
-const BASE_URL = 'https://metroguessr-server.vercel.app/'; // Update with your backend server URL
+const BASE_URL = 'https://metroguessr-server.vercel.app/'; 
 
-// Create an Axios instance with custom configurations
 const api: AxiosInstance = axios.create({
   baseURL: BASE_URL,
   headers: {
@@ -10,7 +9,6 @@ const api: AxiosInstance = axios.create({
   },
 });
 
-// Define types for request data and response data
 export interface Score {
   _id: string;
   username: string;
@@ -29,7 +27,7 @@ export const createScore = async (scoreData: { username: string, points: number,
     const response: AxiosResponse<Score> = await api.post('/scores/create', scoreData);
     return response.data;
   } catch (error) {
-    throw error; // Throw the error message from the server
+    throw error; 
   }
 };
 
@@ -39,9 +37,9 @@ export const getScoreById = async (scoreId: string): Promise<Score | null> => {
     return response.data.score;
   } catch (error) {
     if (error === 404) {
-      return null; // Return null if score is not found (HTTP 404)
+      return null; 
     }
-    throw error; // Throw other errors
+    throw error; 
   }
 };
 
@@ -83,7 +81,6 @@ export const deleteScore = async (scoreId: string): Promise<{ message: string }>
   }
 };
 
-// Function to check if a username exists in the database
 export const checkUsernameExists = async (username: string): Promise<boolean> => {
   try {
     const response: AxiosResponse<UsernameExistsResponse> = await api.get(`/users/check-username/${username}`);
@@ -101,5 +98,14 @@ export const getAllUsernames = async (): Promise<string[]> => {
     return usernames;
   } catch (error) {
     throw error;
+  }
+};
+
+export const createOrUpdateScore = async (scoreData: { username: string, points: number, city: string }): Promise<Score> => {
+  try {
+    const response: AxiosResponse<Score> = await api.post('/scores/createOrUpdate', scoreData);
+    return response.data;
+  } catch (error) {
+    throw error; // Re-throw the error to be handled by the caller
   }
 };
