@@ -50,7 +50,7 @@ Completing this project not only enhanced my skills in React and TypeScript but 
 1. Choose a city from the available options.
 2. You will be shown the location of a metro station on a map, along with the lines it serves.
 3. Guess the name of the station within the time limit.
-4. Earn points for a correct answer..
+4. Earn points for a correct answer.
 5. Try to achieve the highest score and compete with players worldwide!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
